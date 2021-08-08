@@ -1,0 +1,43 @@
+*{
+    background-color: #171717;
+}
+body{
+    background-color: #171717;
+}
+header{
+    background-color: #171717;
+}
+.content{
+    background-color: #171717;
+}    
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+.file{
+    background-color: #171717;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#page-title{
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+#image{
+    width: 450px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.page-control{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
