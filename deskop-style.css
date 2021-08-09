@@ -55,7 +55,7 @@
     background-color: #171717;
 }
 .copyright{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .footer-menu .btn{
     margin-bottom: 0px;
@@ -64,7 +64,10 @@
 
 .card{
     font-size: 1.3rem;
-    
+    padding-bottom: 10px;
+}
+.card-container{
+    margin: 0 auto ;
 }
 .text{
     text-align: left;
