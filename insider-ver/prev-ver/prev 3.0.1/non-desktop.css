@@ -1,0 +1,53 @@
+
+/*Desktop Style*/
+.Muhib{
+    display: none;
+    
+}
+.non-desk{
+    display: block;
+}
+
+.error{
+    background-color: #171717;
+}
+
+
+.component-title-a{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.component-title-a:hover{
+    transition: 0.3s;
+    color:#338DFF;
+}
+
+.error h3{
+    margin-top: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(238, 66, 66);
+}
+
+.error h4{
+    margin-top: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#hint{
+    margin-top: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}

@@ -1,0 +1,33 @@
+link : https://muhib68442.github.io/Muhib-Photography/
+
+
+ 
+Last Uploaded: 24/7/2021
+Date Created : 23/5/2021
+
+Images : 205
+
+Language Used : HTML 5, CSS 3, Bootstrap 4,5 , Java-Script; jQuery
+HTML : 29 Files; CSS : 13 Files; JS : 9 Files;
+Site Size : 466 MB
+
+
+Site Version
+Current Version : 3.0.1
+
+Updates : (3.0.1)
+> Changed Home Layout
+> Added 30+ More Images
+> Used Javascript
+> Caption disabled
+> 2 New Category
+> Cover Changed
+> More Responsive for Desktop Layout
+
+/***Featured [3.1.0]***/
+> Update Images
+> Loading Screen
+> Desktop Responsive (Try)
+> Page Control
+> Home Carousel
+> and more ++

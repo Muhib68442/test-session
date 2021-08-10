@@ -1,0 +1,156 @@
+
+#body{
+    background-color: #171717;
+}
+
+
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.border-hr{
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/*Header Start*/
+#page-title{
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+#insider-warning{
+    color: rgb(0, 0, 0);
+}
+/*Header End*/
+
+/*Sitemap Start*/
+.sitemap{
+    text-align: center;
+}
+.sitemap-img{
+    
+    width: 400px;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.sitemap-img:hover{
+    transition: 0.3s;
+    border: 1px solid white;
+}
+/*Sitemap End*/
+
+
+/*Site Information*/
+.site-info p{
+    color: white;
+    padding-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.site-info a{
+    margin-left: 20px;
+}
+
+/*Site Version*/
+.site-ver h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+.site-ver ul{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 40px;
+}
+
+/*Copyright*/
+.copyright p{
+    color: white;
+    text-align: center;
+    font-size: 1.0rem;
+
+} 
+#muhib{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#footer-text{
+    color: White;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/*font
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*Hidden Div*/
+.category-js{
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 10px;
+
+}
+#goto{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+.ul{
+
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #0f0f0f;
+    
+    
+}
+.category-js ul a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+
+}
+.category-js ul a:hover{
+    background-color: #171717;
+}
+.ul:hover{
+    
+}
+
+
+
+
+
+
+.page-control{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}

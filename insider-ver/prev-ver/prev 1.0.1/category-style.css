@@ -1,0 +1,78 @@
+/*786*/
+/*Category*//*Start*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+.category{
+/*full code div*/
+    background-color: #171717;
+}
+.category-title{
+/*text-aesthetic*/
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 20px;
+} 
+.dotted-hr{
+/*dotted hr*/    
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.page-num p{
+    text-align: right;
+    font-weight: bolder;
+    margin-right: 15px;
+    color: white;
+}
+/*serious part*/
+.cad{
+/*1 pic er jonno, er div e pic soho details*/
+border: 1px solid rgba(167, 167, 167, 0.11); /*apatoto*/
+margin-top: 5px;
+
+}
+.photo{
+/*photography*/
+width: px;
+transition: 0.3s;
+}
+.photo:hover{ /*hover korle*/
+    width: 100%;
+    transition: 0.3s;
+    
+}
+.caption{
+/*caption*//*px3*/    
+color: white;
+font-family: 'Baloo Da 2', cursive;
+overflow: hidden;
+}
+
+/*pagination*/
+.page{
+    padding: 20px;
+}
+.page h3{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+
+/*Category*//*End*/
+
+
+/*font
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Baloo Da 2', cursive;
+*/
