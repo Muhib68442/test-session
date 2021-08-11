@@ -3,6 +3,9 @@
     box-sizing: border-box;
     max-width: 100%;
 }
+#pc-carousel{
+    display:none;
+}
 .muhib{
     display:none;
 }
@@ -181,12 +184,12 @@ footer{
     margin: 0 auto;
 }
 .thumbnail:hover{
-    border: 1px solid #338DFF;
+    border: 1px solid white;
     transition: 0.2s;
     /* rgba(29,159,255,1) */
-    box-shadow: 0px 0px 20px 2px #338DFF;
-    -webkit-box-shadow: 0px 0px 20px 2px #338DFF;
-    -moz-box-shadow: 0px 0px 20px 2px #338DFF;
+    box-shadow: 0px 0px 15px 2px #338DFF;
+    -webkit-box-shadow: 0px 0px 15px 2px #338DFF;
+    -moz-box-shadow: 0px 0px 15px 2px #338DFF;
 }
 .button-div{
     text-align: center;

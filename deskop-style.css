@@ -10,6 +10,12 @@
 .desktop-cover{
     display: block;
 }
+#mobile-carousel{
+    display: none;
+}
+#pc-carousel{
+    display: block;
+}
 
 .cover-site h4{
     position: absolute;
@@ -77,4 +83,6 @@
 }
 
 
-
+.feedback-image{
+    width: 700px;
+}
