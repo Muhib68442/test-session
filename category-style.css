@@ -20,6 +20,9 @@ header{
     color: white;
     padding-top: 10px;
 }
+#page-ttle:hover{
+    color: red;
+}
 .page-num{
     color: white;
     font-family: 'Raleway', sans-serif;

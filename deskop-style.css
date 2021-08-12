@@ -4,9 +4,6 @@
     max-width: 100%;
     opacity: 90%;
 }
-.mobile-cover{
-    display: none;
-}
 .desktop-cover{
     display: block;
 }
@@ -15,6 +12,9 @@
 }
 #pc-carousel{
     display: block;
+}
+.cover-carousel{
+    display: none;
 }
 
 .cover-site h4{
@@ -86,3 +86,4 @@
 .feedback-image{
     width: 700px;
 }
+
