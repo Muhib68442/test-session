@@ -7,6 +7,9 @@
 .desktop-cover{
     display: block;
 }
+.mobile-cover{
+    display: none;
+}
 #mobile-carousel{
     display: none;
 }
