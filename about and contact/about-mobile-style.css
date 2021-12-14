@@ -43,6 +43,9 @@
     margin: 0;
     width: 50px;
 }
+
+
+
 /*Contact*//*START*/
 *{
     box-sizing: border-box;
@@ -61,6 +64,7 @@
     color: white;
     text-align: center;
 }
+
 .contact-links{
     display: grid;
 }
@@ -68,8 +72,17 @@
     color: white;
     font-size: 1.2rem;
     font-family: "Raleway", sans-serif;
+    transition: 0.2s;
+}
+.contact-text ul :hover{
+    color: #338DFF;
+    transition: 0.2s;
+    
+    font-weight: bolder;
 }
 /*Contact*//*END*/
+
+
 .image-me{
     text-align: center ;
 }
@@ -137,6 +150,8 @@
     border: 2px solid #338DFF;
     border-radius: 7px;
     resize: none;
+    color: white;
+    font-family: monospace;
 }
 .feedback input{
     margin: 22px 10px;
