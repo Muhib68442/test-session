@@ -61,6 +61,26 @@
     text-shadow: 0px 0px 10px #171717; 
     transition: 0.3s;
 }
+.cover-text{
+    position: absolute;  
+    top: 980px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    font-size: 1.85rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    color: black;
+    opacity: 100%;
+    transition: 0.2s;
+}
+.cover-text:hover{
+    color: #171717;
+    font-size: 2.0rem;
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px #171717; 
+    transition: 0.3s;
+}
+
 .cover-site i{
     position: absolute;
     top: 80%;
@@ -303,6 +323,56 @@ footer{
 }
 
 
+
+
+/**/
+
+.category-cover{
+    text-align: center;
+}
+
+.category-cover-image{
+    opacity: 60%;
+    transition: 0.2s;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.category-cover-image:hover{
+    opacity: 100%;
+    transition: 0.2s;
+}
+
+
+.category-cover-text{
+    position: relative;
+    top: 200px;
+    left: 0px;
+    font-size: 2.0rem;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+    font-weight: ;
+    color: white;
+    opacity: 100%;
+    transition: 0.2s;
+}
+.category-cover-text:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 2.0rem;
+    font-weight: ;
+    text-shadow: 0px 0px 10px #171717; 
+    transition: 0.3s;
+    
+}
+
+
+.category-interior-link{
+    text-decoration: none;
+}
+.category-interior-link:hover{
+    text-decoration: none;
+}
 
 
 
