@@ -7,11 +7,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Muhibbur Rahman">
+    <meta name="author" content="Md. Muhibbur Rahman">
     <meta name="description" content="Photography Gallery Website, created by Muhib">
     
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>  Muhib-Photography</title>
+    <title>Muhib-Photography</title>
 
     <!--Bootstrap CDN-->
     <!--4--> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -30,11 +30,12 @@
 
     <!--Style-->
     <!--Loading--> <link rel="stylesheet" href="loading/loading.css">
-    <!--Mobile--> <link rel="stylesheet" href="style.css">
+    <!--Mobile--> <link rel="stylesheet" href="style403.css">
     <!--Desktop--><link rel="stylesheet" href="deskop-style.css" media="screen and (min-width:992px)">  
-    <!--Anti-Desktop--> <link rel="stylesheet" href="non-desktop.css" media="screen and (min-width:992px)"> 
+    
     
 </head>
+
 <body class="body">
 
 <!--Loader-->
@@ -49,9 +50,11 @@
 
   <!--Intro START-->    
   <div class="cover-site" id="home">
-    <img class="mobile-cover" src="images-site/mobile-cover.jpg" alt="Cover Pic">
+    <img class="mobile-cover" src="images-site/two-cover.jpeg" alt="Cover Pic">
+    <img class="mobile-cover" src="images-site/one-cover.jpeg" alt="Cover Pic">
     <img class="desktop-cover" src="images-site/desktop-cover.jpeg" alt="Cover Pic">
     <h4 class="cover-title">Muhib Photography</h4>
+    <h4 class="cover-text">Photography Album</h4>
     <a href="#mobile-category"> <i id="" class="fa-2x fas fa-chevron-down"></i></a>
   </div>
   <!--Intro END-->   
@@ -194,42 +197,59 @@
     <h3 class="component-title"> <i class="fa fa-list-alt" aria-hidden="true"></i> Category</h3>
     <hr class="dotted-hr">
 
-  <div class="container-fluid">
-    <div class="row">
 
-      <div class="col-6 col-lg-4">
-        <a href="aesthetic/aesthetic-1.html"><img class="thumbnail" src="aesthetic/aes-img/aesthetic.jpeg" alt="Image-Category"></a>
-        <p class="thumb-p">Aesthetic Shots</p>
-      </div>
 
-      <div class="col-6 col-lg-4"> 
-        <a href="flower/flower-1.html"><img class="thumbnail" src="flower/flower-img/flower.jpeg" alt="Image-Category"></a>
-        <p class="thumb-p">Flower</p>
-      </div>
-
-      <div class="col-6 col-lg-4"> 
-        <a href="nature/nature-1.html"><img class="thumbnail" src="nature/nature-img/nature.jpeg" alt="Image-Category"></a>
-        <p class="thumb-p">Nature Shots</p>
-      </div>
-
-      <div class="col-6 col-lg-4"> 
-        <a href="city/city-1.html"><img class="thumbnail" src="city/city-img/city.jpeg" alt="Image-Category"></a>
-        <p class="thumb-p">Cityscapes</p>
-      </div>
-
-      <div class="col-6 col-lg-4"> 
-        <a href="gamegraphy/gamegraphy.html"><img class="thumbnail" src="gamegraphy/gtav-albums/gtav-album-1/gamegraphy.jpeg" alt="Image-Category"></a>
-        <p class="thumb-p">Game Shots</p>
-      </div>
-
-      <div class="col-6 col-lg-4"> 
-        <a href="video-stream/video-stream.html"><img class="thumbnail" src="video-stream/video-files/thumb/preview.jpg" alt="Image-Category"></a>
-        <p class="thumb-p">Videography</p>
-      </div>
-      
-      
+    <div class="category-cover">
+      <a href="city/city-1.html" class="category-interior-link">
+        <img src="city/city-img/city.jpeg" alt="city shots" class="category-cover-image">
+        <h4 class="category-cover-text" id="citytext">Cityscape Shots <i class="fas fa-angle-right"></i></h4>
+      </a>
     </div>
-  </div>
+
+    <div class="category-cover">
+      <a href="nature/nature-1.html" class="category-interior-link">
+        <img src="nature/nature-img/nature.jpeg" alt="nature shots" class="category-cover-image">
+        <h4 class="category-cover-text" id="naturetext">Nature Shots <i class="fas fa-angle-right"></i></h4>
+      </a>
+    </div>
+
+    <div class="category-cover">
+      <a href="aesthetic/aesthetic-1.html" class="category-interior-link">
+        <img src="aesthetic/aes-img/aesthetic.jpeg" alt="aesthetic shots" class="category-cover-image">
+        <h4 class="category-cover-text" id="aesthetictext">Aesthetic <i class="fas fa-angle-right"></i></h4>
+      </a>
+    </div>
+
+    <div class="category-cover">
+      <a href="flower/flower-1.html" class="category-interior-link">
+        <img src="flower/flower-img/flower.jpeg" alt="flower shots" class="category-cover-image">
+        <h4 class="category-cover-text" id="flowertext">Flower <i class="fas fa-angle-right"></i></h4>
+      </a>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <a href="gamegraphy/gamegraphy.html" class="category-interior-link">
+            <div class="category-image-center-div">
+              <img src="gamegraphy/gamegraphy.jpg" alt="game shots" class="category-cover-image">
+              <h4 class="category-cover-text" id="gametext">Game Shots <i class="fas fa-angle-right"></i></h4>
+            </div>
+            
+          </a>
+        </div>
+
+        <div class="col-6">
+          <a href="video-stream/video-stream.html" class="category-interior-link">
+            <div class="category-image-center-div">
+              <img src="video-stream/video-files/thumb/preview.jpg" alt="videos" class="category-cover-image">
+              <h4 class="category-cover-text" id="videotext">Videos <i class="fas fa-angle-right"></i></h4>
+            </div>
+            
+          </a>
+        </div>
+      </div>
+    </div>
 
 
   </div><!--category div end-->
@@ -307,4 +327,5 @@
 <script src="index.js"></script>
 
 </body>
+
 </html>

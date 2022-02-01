@@ -1,14 +1,13 @@
 /*Mobile Style*/
 *{
-    box-sizing: border-box;
-    max-width: 100%;
+    max-width: auto;
 }
 #pc-carousel{
     display:none;
 }
-.muhib{
-    display:none;
-}
+
+
+
 .mobile-cover{
     opacity: 80%;
     transition: 0.2s;
@@ -16,7 +15,6 @@
 .mobile-cover:hover{
     opacity: 90%;
     transition: 0.2s;
-    
 }
 
 .desktop-cover{
@@ -34,12 +32,11 @@
     width: 70px;
 }
 
-/* .cover-site img{
+.cover-site img{
     max-width:100%;
-    max-height: 100%;
     position: relative;
     opacity: 85%;
-} */
+} 
 
 /*Intro Start*/
 .cover-title{
@@ -91,7 +88,7 @@
 }
 
 
-/*font
+/*fonts used
 font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
@@ -164,9 +161,8 @@ font-family: 'Roboto' , sans-serif;
 
 /*Footer START*/
 footer{
-    background-color: #000000;
-    padding: 15px;
-    float: center;
+    background-color: #070707;
+    padding: 10px;
 }
 .copyright{
     color: white;
@@ -224,13 +220,13 @@ footer{
     padding-left: 15px;
     padding-right: 15px;
 }
-.card-container{
+.card-container-fluid{
     border: 1px solid rgb(59, 59, 59);
     background-color: #0f0f0f;
     border-radius: 10px;
     transition: 0.3s;
 }
-.card-container:hover{
+.card-container-fluid:hover{
     /* -webkit-box-shadow: 5px 5px 50px 10px #338DFF;
     box-shadow: 0px 0px 10px 10px #338DFF; */
     box-shadow: 0px 0px 20px 2px #338DFF;
@@ -239,18 +235,25 @@ footer{
     transition: 0.3s;
 }
 
-
+.cardimg{
+    padding: 0;
+    margin: 0;
+}
 #card-img{
-    width: 200px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    width: 100%;
+    border-radius: 15px;
     margin-bottom: 0px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .card-text{
     transition: 0.3s;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
+    margin-top: 10px;
+    margin-left: 10px;
     text-align:center;
 }
 .card-text:hover{

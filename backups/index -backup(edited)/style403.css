@@ -208,53 +208,11 @@ footer{
 }
 /*Sitemap END*/
 
-/*Category START*/
-.category{
-    background-color: #171717;
-    padding-left: 10px;
-}
-/* ".component-title" in carousel section */
-.thumbnail{
-    width: 250px;
-    transition: 0.2s;
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto;
-}
-.thumbnail:hover{
-    border: 1px solid white;
-    transition: 0.2s;
-    /* rgba(29,159,255,1) */
-    box-shadow: 0px 0px 15px 2px #338DFF;
-    -webkit-box-shadow: 0px 0px 15px 2px #338DFF;
-    -moz-box-shadow: 0px 0px 15px 2px #338DFF;
-}
-.button-div{
-    text-align: center;
-    margin-bottom: 10px;
-}
-.image-div{
-    text-align: center;
-}
-.thumb-p{
-    transition: 0.3s;
-    color: white;
-    font-family: 'Raleway' , sans-serif;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    padding-bottom: 5px;
-    margin-top: 5px;
-    cursor: default;
-}
-.thumb-p:hover{
-    text-shadow: 0px 0px 10px #338DFF; 
-    transition: 0.3s;
-    /* color: #FF3535; */
-    color: #338DFF;
-    font-weight: bolder;
-}
-/*Category END*/
+
+
+
+
+
 
 
 /*Card*/
@@ -325,11 +283,96 @@ footer{
 
 
 
+/**/
+.category{
+    background-color: #171717; 
+    padding-bottom: 20px; 
+}
+.category-cover{
+    text-align: center;
+}
+.category-cover-image{
+    text-align: center;
+    opacity: 40%;
+    transition: 0.2s;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+.category-cover-image:hover{
+    opacity: 80%;
+    transition: 0.2s;
+    box-shadow: 0px 0px 15px 2px #338DFF;
+    -webkit-box-shadow: 0px 0px 15px 2px #338DFF;
+    -moz-box-shadow: 0px 0px 15px 2px #338DFF;
+    
+}
+
+/* absolute : 2170/100*/
+.category-cover-text{
+    
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+    font-weight: ;
+    color: white;
+    opacity: 100%;
+    transition: 0.2s;
+}
+.category-cover-text:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 2.0rem;
+    font-weight: ;
+    text-shadow: 0px 0px 10px #000000; 
+    transition: 0.3s;
+    
+}
+/*text*/
+
+#citytext{
+    position: absolute;
+    top: 2170px;
+    left: 100px;
+}
+#naturetext{
+    position: absolute;
+    top: 2522px;
+    left: 100px;
+    
+}
+#aesthetictext{
+    position: absolute;
+    top: 2874px;
+    left: 100px;
+}
+#flowertext{
+    position: absolute;
+    top: 3226px;
+    left: 100px;
+}
+#gametext{
+    font-size: 25px;
+}
+#videotext{
+    font-size: 25px;
+}
+.category-image-center-div{
+    text-align: center;
+}
 
 
 
 
 
-
-
+/*category link*//*start*/
+.category-interior-link{
+    text-decoration: none;
+    
+}
+.category-interior-link:hover{
+    text-decoration: none;
+}
+/*///*/
 
