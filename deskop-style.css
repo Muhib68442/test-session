@@ -1,11 +1,21 @@
 
 /*...................................................................................*/
+*{
+    display: none;
+}
 .cover-site img {
     max-width: 100%;
     opacity: 90%;
 }
 .desktop-cover{
     display: block;
+    opacity: 30%;
+    transition: 0.2s;
+}
+.desktop-cover:hover{
+    opacity: 100%;
+    transition: 0.2s;
+
 }
 .mobile-cover{
     display: none;
@@ -19,7 +29,9 @@
 .cover-carousel{
     display: none;
 }
-
+.cover-text{
+    display: none;
+}
 .cover-site h4{
     position: absolute;
     top: 48%;
