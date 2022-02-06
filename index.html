@@ -32,6 +32,7 @@
     <!--Loading--> <link rel="stylesheet" href="loading/loading.css">
     <!--Mobile--> <link rel="stylesheet" href="style.css">
     <!--Desktop--><link rel="stylesheet" href="deskop-style.css" media="screen and (min-width:992px)">  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
     
 </head>
@@ -50,11 +51,28 @@
 
   <!--Intro START-->    
   <div class="cover-site" id="home">
-    <img class="mobile-cover" src="images-site/intro-cover.jpeg" alt="Cover Pic">
-    <img class="mobile-cover" src="images-site/one-cover.jpeg" alt="Cover Pic">
+    <!--Slide Starts-->
+  <div class="slide">
+    <div class="w3-content w3-display-container" style="max-width:800px">
+      <img class="mySlides" src="slide/m1.jpeg" style="width:100%">
+      <img class="mySlides" src="slide/m2.jpeg" style="width:100%">
+      <img class="mySlides" src="slide/m3.jpeg" style="width:100%">
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <!-- Dots - indicator
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      -->
+      </div>
+    </div>
+  </div>
+    <!--Slide Ends-->
+    <!--<img class="mobile-cover" src="images-site/one-cover.jpeg" alt="Cover Pic">-->
     <img class="desktop-cover" src="images-site/desktop-cover.jpeg" alt="Cover Pic">
     <h4 class="cover-title">Muhib Photography</h4>
-    <h4 class="cover-text">Photography Album</h4>
+    
     <a href="#category"> <i id="" class="fa-2x fas fa-chevron-down"></i></a>
   </div>
   <!--Intro END-->   
@@ -189,6 +207,9 @@
     </div>
   <!--Carousel END-->
 
+  
+
+  
 
 
   <!--Category STARTS -->
@@ -325,7 +346,9 @@
 <!--Loading-->
 <script src="loading/loading.js"></script>
 <!--Java-Script-->
-<script src="index.js"></script>
+<script src="index.js"></script> <!--index-->
+<script src="slide/slide.js"></script>
+
 
 </body>
 

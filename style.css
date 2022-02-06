@@ -2,6 +2,9 @@
 *{
     max-width: auto;
 }
+.muhib{
+    
+}
 #pc-carousel{
     display:none;
 }
@@ -58,25 +61,7 @@
     text-shadow: 0px 0px 10px #171717; 
     transition: 0.3s;
 }
-.cover-text{
-    position: absolute;  
-    top: 980px;
-    left: 200px;
-    transform: translate(-50%, -50%);
-    font-size: 1.85rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: bolder;
-    color: black;
-    opacity: 100%;
-    transition: 0.2s;
-}
-.cover-text:hover{
-    color: #171717;
-    font-size: 2.0rem;
-    font-weight: bolder;
-    text-shadow: 0px 0px 10px #171717; 
-    transition: 0.3s;
-}
+
 
 .cover-site i{
     position: absolute;
@@ -85,6 +70,28 @@
     transform: translate(-50%, -50%);
     color: black;
     opacity: 95%;
+}
+
+/***SLIDE***/
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+/*my edits*/
+.slide{
+    background-color: #171717;
+    opacity: 90%;
+    transition: 0.2s;
+}
+.slide:hover{
+    opacity: 100%;
+    transition: 0.2s;
+}
+
+.mySlides{
+    
+    
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 
@@ -106,6 +113,7 @@ font-family: 'Roboto' , sans-serif;
     color: white;
     transition: 0.3s;
     cursor: default;
+    margin: 0px 0px;
 }
 .component-title:hover{
     transition: 0.3s;
@@ -343,30 +351,34 @@ footer{
     
 }
 /*text*/
-
+/*
+position:relaative;
+top: -200px;
+left: 3,8,10,20;
+*/
 #citytext{
     position: relative;
-    top: -200px;
+    top: -170px;
     left: -3%;
     color: rgb(167, 112, 61);
     
 }
 #naturetext{
     position: relative;
-    top: -200px;
+    top: -170px;
     left: -10%;
     color: rgb(67, 165, 67);
     opacity: ;
 }
 #aesthetictext{
     position: relative;
-    top: -200px;
+    top: -170px;
     left: -8%;
     color: #525252;
 }
 #flowertext{
     position: relative;
-    top: -200px;
+    top: -170px;
     left: -20%;
     color: rgb(175, 173, 69);
     
