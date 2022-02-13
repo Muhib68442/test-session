@@ -2,9 +2,7 @@
 *{
     max-width: auto;
 }
-.muhib{
-    
-}
+
 #pc-carousel{
     display:none;
 }
@@ -77,12 +75,14 @@
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 /*my edits*/
-.slide{
+
+
+.slide-mobile{
     background-color: #171717;
     opacity: 90%;
     transition: 0.2s;
 }
-.slide:hover{
+.slide-mobile:hover{
     opacity: 100%;
     transition: 0.2s;
 }
@@ -181,7 +181,7 @@ footer{
     margin-right: 10px;
     margin-bottom: 5px;
     float: left;
-
+    font-family: Montserrat, sans-serif;
 }
 .copyright{
     text-align: center;
@@ -292,6 +292,9 @@ footer{
 .text h3 ul{
     margin-bottom: 0px;
     padding-left: 20px;
+}
+.card-about-me{
+    color: rgb(59, 84, 221);
 }
 .card-about-me a{
     text-decoration: none;
@@ -407,3 +410,16 @@ left: 3,8,10,20;
 /*///*/
 
 
+
+
+
+
+.non-desk{
+    display: none;
+}
+.muhib{
+    display: ;
+}
+.mobile{
+    display: block;
+}

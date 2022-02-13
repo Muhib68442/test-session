@@ -1,12 +1,18 @@
+.muhib{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+.non-desk{
+    display: block;
+}
+/*see in index.html, there is a link css named non-dekstop, that css contains non-desktop datas*/
+
+
 
 /*...................................................................................*/
-*{
-    
-}
-.cover-site img {
-    max-width: 100%;
-    opacity: 90%;
-}
+
 .desktop-cover{
     display: block;
     opacity: 30%;
@@ -17,9 +23,15 @@
     transition: 0.2s;
 
 }
+
 .mobile-cover{
     display: none;
 }
+
+.slide-mobile{
+    display: none;
+}
+
 #mobile-carousel{
     display: none;
 }

@@ -29,10 +29,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <!--Style-->
-    <!--Loading--> <link rel="stylesheet" href="loading/loading.css">
+    <!--Loader--> <link rel="stylesheet" href="loading/loading.css">
     <!--Mobile--> <link rel="stylesheet" href="style.css">
     <!--Desktop--><link rel="stylesheet" href="deskop-style.css" media="screen and (min-width:992px)">  
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--Non-Desktop--> <link rel="stylesheet" href="non-desktop.css" media="screen and (min-width:992px)">
+    <!--Slider--><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
     
 </head>
@@ -45,30 +46,48 @@
 </div>
 
 <!--Project Start-->
-<div class="Muhib">
+<div class="muhib">
 
-
-
-  <!--Intro START-->    
+  <div class="mobile">
+    <!--Intro START-->    
   <div class="cover-site" id="home">
     <!--Slide Starts-->
-  <div class="slide">
+    
+    <div class="slide-mobile">
+      <div class="w3-content w3-display-container" style="max-width:800px">
+        <img class="mySlides" src="slide/m1.jpeg" style="width:100%">
+        <img class="mySlides" src="slide/m2.jpeg" style="width:100%">
+        <img class="mySlides" src="slide/m3.jpeg" style="width:100%">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <!-- Dots - indicator
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        -->
+        </div>
+      </div>
+    </div><!--Slide Mobile-->
+
+    <!--desktop slide doesnt works
+
+  <div class="slide-desktop">
     <div class="w3-content w3-display-container" style="max-width:800px">
-      <img class="mySlides" src="slide/m1.jpeg" style="width:100%">
-      <img class="mySlides" src="slide/m2.jpeg" style="width:100%">
-      <img class="mySlides" src="slide/m3.jpeg" style="width:100%">
+      <img class="mySlides" src="slide/l1.jpeg" style="width:100%">
+      <img class="mySlides" src="slide/l2.jpeg" style="width:100%">
+      <img class="mySlides" src="slide/l3.jpeg" style="width:100%">
       <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
         <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
         <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-      <!-- Dots - indicator
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-      -->
+      
       </div>
     </div>
-  </div>
+  </div> 
+  -->
+
     <!--Slide Ends-->
+
     <!--<img class="mobile-cover" src="images-site/one-cover.jpeg" alt="Cover Pic">-->
     <img class="desktop-cover" src="images-site/desktop-cover.jpeg" alt="Cover Pic">
     <h4 class="cover-title">Muhib Photography</h4>
@@ -144,7 +163,7 @@
   </div>
   <!--Carousel END-->
 
-  <!--Carousel START--> <!--PC-->
+  <!--Carousel START PC [disabled]
     <div class="carousel" id="pc-carousel">
       <div class="container-fluid text-white " id="photography-slides">
   
@@ -157,7 +176,7 @@
     
           <div class="row">
               <div class="col-lg-12">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000" > <!--data-pause="hover"--> 
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000" > 
                       <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -168,7 +187,7 @@
                       <div class="carousel-inner">
                           <div class="carousel-item active">
                               <img class="feedback-image mb-3" src="carousel-image/pc/1.jpeg" alt="image">
-                              <h6></h6><!--caption-->
+                              <h6></h6>
                           </div>
     
                           <div class="carousel-item">
@@ -205,7 +224,7 @@
         </section>
       </div>
     </div>
-  <!--Carousel END-->
+  -->
 
   
 
@@ -307,8 +326,8 @@
         <div class="footer-menu col-6">
          
           <!-- <a href="#"><button class="btn btn-outline-primary"> <i class="fas fa-reply-all"></i>Button Title</button></a> -->
-          <a href="about and contact/about contact.html"><button class="btn btn-outline-danger"> <i class="far fa-address-card"></i> About Me </button></a>
-          <a href="insider-ver/insider.html"><button class="btn btn-outline-light"> <i class="fas fa-info-circle"></i>  Site Info </button></a>
+          <a href="about and contact/about contact.html"><button id="footer-btn" class="btn btn-outline-danger"> <i class="far fa-address-card"></i> About Me </button></a>
+          <a href="insider-ver/insider.html"><button id="footer-btn" class="btn btn-outline-light"> <i class="fas fa-info-circle"></i>  Site Info </button></a>
         </div>
 
         <div class="copyright col-6">
@@ -327,7 +346,61 @@
   </footer>
   <!--Footer End-->
 
+  </div>
+
 </div>
+
+
+
+
+<!--Desktop-->
+<div class="non-desk">
+    
+  <div class="cover-site" id="home">
+    <img class="desktop-cover" src="images-site/desktop-cover.jpeg" alt="Cover Pic">
+    <h4>Muhib Photography</h4>
+    <a href="#mobile-category"> <i id="" class="fa-2x fas fa-chevron-down"></i></a>
+  </div>
+
+  <div class="error">
+    <h2 class="component-title-a">Muhib-Photography </h2>
+    <h3><i class="fa fa-times" aria-hidden="true"></i> Sorry, This site is Designed for Smartphone Only</h3>
+    <h3 id="hint">Please Try to resize your browser to Smartphone Size or switch to your Smartphone for better experience <i class="fas fa-mobile"></i></h3>
+    <h3 id="hint1">(Desktop Design is in under development)</h3>
+  </div>
+  
+  <!--Footer Start--> 
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-menu col-6">
+         
+          <!-- <a href="#"><button class="btn btn-outline-primary"> <i class="fas fa-reply-all"></i>Button Title</button></a> -->
+          <a href="about and contact/about contact.html"><button id="footer-btn" class="btn btn-outline-danger"> <i class="far fa-address-card"></i> About Me </button></a>
+          <a href="insider-ver/insider.html"><button id="footer-btn" class="btn btn-outline-light"> <i class="fas fa-info-circle"></i>  Site Info </button></a>
+        </div>
+
+        <div class="copyright col-6">
+
+          <p>Created by <br> 
+            &copy;Muhibbur Rahman</p>
+            <p class="m-p"><i class="fas fa-camera"></i> Muhib-Photography</p>
+            
+            <div class="dev" onclick="sitemapalert()">
+              <a href="insider-ver/insider.html" target="blank" id="dev"><i class="fas fa-info-circle"></i></a>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!--Footer End-->
+  
+</div>
+
+
+
+
 <!--Project END-->
 
 <!--Muhibbur Rahman-->
