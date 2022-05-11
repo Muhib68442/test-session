@@ -219,6 +219,10 @@ footer{
 
 
 /*Card*/
+.card-pc{
+    display: none;
+}
+
 .card{
     background-color: #171717;
     border-radius: 0px;
@@ -306,7 +310,9 @@ footer{
 
 
 /**************CATEGORY**************/
-
+.category-pc{
+    display: none;
+}
 .category{
     background-color: #171717; 
     padding-bottom: 20px; 

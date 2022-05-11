@@ -1,4 +1,4 @@
 $(window).on('load',function(){
-    $(".loader").fadeOut(1000);
-    $(".muhib").fadeIn(3000);
+    $(".loader").fadeOut(100000);
+    $(".muhib").fadeIn(300000);
 });

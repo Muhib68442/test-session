@@ -9,7 +9,7 @@
     position: absolute;
 }
 
-.loader>div{
+.loader>.spinner{
     height: 50px;
     width: 50px;
     border: 10px solid #45474b;
@@ -27,4 +27,21 @@
     100%{
         transform: rotate(360deg);
     }
+}
+.loader>.message{
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    top: 160px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    background-color:;
+    
+}
+.loader>.message>h4{
+    color: white;
+    text-align: center;
+
 }
