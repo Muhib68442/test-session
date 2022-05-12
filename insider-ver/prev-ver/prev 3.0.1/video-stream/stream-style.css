@@ -1,0 +1,61 @@
+
+/*font
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*Mobile STYLE*/
+*{
+    background-color: #171717;
+}
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.content{
+    background-color: #171717;
+}
+header{
+    background-color: #171717;
+}
+.page-num p{
+    text-align: right;
+    font-weight: bolder;
+    margin-right: 15px;
+    color: white;
+}
+
+#page-title{
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+#video-thumb{
+    width: 390px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+#video-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+#video-play{
+    margin-bottom: 20px;
+}
+
+.file{
+    text-align: center ;
+}
+.page-control{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

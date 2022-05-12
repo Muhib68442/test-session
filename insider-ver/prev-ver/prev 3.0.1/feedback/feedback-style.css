@@ -1,0 +1,75 @@
+/*Feedback*//*Start*/
+.feedback-body{
+    background-color: #171717;
+}
+.feedback{
+    background-color: #171717;
+}
+.feedback h4{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+}
+.feedback textarea{
+    margin: 22px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    resize: none;
+}
+.feedback input{
+    margin: 22px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+}
+.feedback button{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.feedback h5  {
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    float: left;
+    padding: 1px;
+}
+.feedback p{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+.feedback a{
+    margin: 0 auto;
+}
+.messenger button{
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+.thanks p{
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 30px 10px;
+}
+.credit p{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 1.0rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+/*Feedback*//*END*/

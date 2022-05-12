@@ -1,0 +1,9 @@
+.photo{
+    width:440px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+    
+}
+.photo:hover{ /*hover korle*/
+    width: 640px;
+}

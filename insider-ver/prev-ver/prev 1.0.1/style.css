@@ -1,0 +1,242 @@
+/*Mobile Style*/
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.page-control{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+.cover-site img{
+    max-width:100%;
+    max-height: 100%;
+    position: relative;
+}
+.mobile-cover{
+    opacity: 70%;
+}
+.desktop-cover{
+    display: none;
+    
+}
+.cover-site h4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.85rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.cover-site i{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    opacity: 95%;
+    
+}
+.black{
+    background-color: #171717;
+    height: 200px;
+}
+
+
+/*gallery start*/
+/*gallery end*/
+
+/*category start*/
+.cat{
+    background-color: #171717;
+    padding-bottom: 30px;
+}
+.cat h4{
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 20px;
+}
+.ctg  h5{ 
+    /*aesthetic, cit, misc font*/
+    text-align: center;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 1.3rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ctg img{
+    width: 140px;
+    border: 2px solid rgba(255, 255, 255, 0.397);
+    border-radius: 5px;
+}
+.ctg .row{
+   margin: 0 auto;
+}
+.ctg-button{
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.cat::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*category end*/
+
+
+/*footer start*/
+.footer{
+    background-color: #000000;
+    padding: 20px;
+}
+.row .copyr{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer button{
+    margin: 3px 3px;
+}
+
+/*footer end*/
+
+/*font
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+
+
+
+
+/*Other Files*/
+
+
+
+
+
+
+
+/*Feedback*//*Start*/
+.feedback-body{
+    background-color: #171717;
+}
+.feedback{
+    background-color: #171717;
+}
+.feedback h4{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+}
+.feedback textarea{
+    margin: 22px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    resize: none;
+}
+.feedback input{
+    margin: 22px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+}
+.feedback button{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.feedback h5  {
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    float: left;
+    padding: 1px;
+}
+.feedback p{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+.feedback a{
+    margin: 0 auto;
+}
+.messenger button{
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+.thanks p{
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 30px 10px;
+}
+.credit p{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 1.0rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+/*Feedback*//*END*/
+
+/*Carousel*//*Start*/
+
+.contain #feedback{
+    background: #171717;
+    padding-top: 50px;
+    padding-bottom: 30px; 
+}
+
+.section-title .hr-style{
+    border: 3px dotted white;
+    border-bottom: none;
+    width: 90px;
+    margin: 0 auto;
+}
+.feedback-image{
+    width: 340px;
+    height: auto;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 5% 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+/*Carousel*//*END*/
+

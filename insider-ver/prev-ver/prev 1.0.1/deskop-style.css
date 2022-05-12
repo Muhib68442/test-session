@@ -1,0 +1,135 @@
+/*Desktop Style*/
+.cover-site img {
+    max-width: 100%;
+    opacity: 90%;
+}
+.mobile-cover{
+    display: none;
+}
+.desktop-cover{
+    display: initial;
+    
+}
+.cover-site h4{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.918);
+}
+.cover-site i{
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    opacity: 95%;
+    
+}
+
+
+
+/*category start*/
+
+.ctg h5{ 
+    /*aesthetic, cit, misc font*/
+    font-size: 2.0rem;
+    padding-top: 5px;
+}
+
+.ctg  img{
+    width: 280px;
+    border: 2px solid rgba(255, 255, 255, 0.068)
+}
+.ctg .cardi-pic {
+   padding-left:  170px;
+   padding-right: 30px;
+}
+.ctg-button{
+    padding-left: 50px; /*was 110*/
+}
+
+/*category end*/
+
+
+
+/*footer start*/
+.footer button{
+    float: left;
+    margin: 5px 5px;
+}
+.buton{
+    padding-left: 30px;
+}
+/*footer end*/
+
+
+
+/*OTHER FILES*/
+
+/*FEEDBACK*//*START*/
+.feedback-body{
+    background-color: #171717;
+}
+.feedback{
+    background-color: #171717;
+}
+.feedback h4{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+}
+.feedback textarea{
+    margin: 20px 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 40%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    resize: none;
+}
+.feedback input{
+    margin: 22px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 29%;
+    float: left;
+}
+.feedback button{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.messenger button{
+    margin-bottom: 10px;
+    margin-left: 530px;
+}
+.feedback h5  {
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: unset;
+    float: left;
+    padding: 1px;
+}
+.feedback p{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+/*FEEDBACK*//*END*/
