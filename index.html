@@ -8,12 +8,17 @@
     <!--icon-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <title>Broken Heart <i class="fas fa-heart-broken"></i> </title>
+    <title>Broken Heart 💔</title>
 
     <!--CSS Mobile-->
     <link rel="stylesheet" href="style.css">
     <!--CSS Desktop-->
     <link rel="stylesheet" href="desktop-style.css">
+    <!--Loader CSS-->
+    <link rel="stylesheet" href="loader/loader.css">
+
+    <!--W3 CSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!--Bootstrap CDN-->
     <!--4--> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,27 +32,45 @@
 
 </head>
 <body>
-    <div class="site"><!--Site Start-->
 
-        <header class="header">
-            <div class="logo-div">
-                <img src="" alt="logo" class="logo">
-            </div>
+    <div class="loader">
+        <div class="spinner w3-animate-top">
+            
+        </div>
+        <div class="message">
+          <h4>Broken Heart</h4>
+        </div>
+    </div>
 
-            <div class="title-div">
-                <p class="title-p">Broken Heart</p>
-            </div>
+    <header>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-3"><!--logo-->
+                    <img src="res/icon.jpeg" alt="logo" class="header-logo">
+                </div>
+                <div class="col-5"><!--title-->
+                    <p class="header-title">Broken Heart</p>
+                    <p class="header-desc">A Story about Broken Heart</p>
+                </div>
+                <div class="col-4"><!--links-->
+                    <button class="header-btn"><a href="page/aboutme.html" class="header-btn-link">About Me</a></button>
+                    <button class="header-btn"><a href="page/contact.html" class="header-btn-link">Contact Me</a></button>
+                </div>
+            </div><!--row ends-->
             
 
+        </div>
+    </header>
 
-        </header>
+    <div class="site"><!--Site Start-->
 
+        
 
 
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3"><!--Table of Contents-->
+                <div class="col-lg-3 "><!--Table of Contents-->
                     <div class="table-of-contents">
                         <p class="text-tableofcontents">Table of Contents</p>
             
@@ -98,7 +121,7 @@
 
 
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 w3-animate-top	"> <!--WRITING PART STARTS FROM HERE-->
                    <div class="writings">
                     <p class="main-title">Broken Heart</p>
                     <p class="writer">Written by Emon</p>
@@ -139,7 +162,7 @@
 
 
                    </div>
-                </div>
+                </div><!--WRITING PART ENDS HERE-->
 
 
 
@@ -195,6 +218,14 @@
 
 
     </div><!--Site END-->
-    
+
+
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Java-Script-->
+    <script src="loader/loader.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
