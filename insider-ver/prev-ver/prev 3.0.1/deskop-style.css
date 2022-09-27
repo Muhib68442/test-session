@@ -1,0 +1,74 @@
+
+/*...................................................................................*/
+.cover-site img {
+    max-width: 100%;
+    opacity: 90%;
+}
+.mobile-cover{
+    display: none;
+}
+.desktop-cover{
+    display: block;
+}
+
+.cover-site h4{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.918);
+}
+.cover-site i{
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    opacity: 95%;
+    
+}
+
+
+
+.category{
+    text-align: center;
+
+}
+
+#mobile-category{
+    display: none;
+}
+#pc-category{
+    display: block;
+    background-color: #171717;
+}
+.thumbnail{
+    width: 380px;
+}
+
+#photography-slides{
+    background-color: #171717;
+}
+.copyright{
+    font-size: 1.4rem;
+}
+.footer-menu .btn{
+    margin-bottom: 0px;
+}
+
+
+.card{
+    font-size: 1.3rem;
+    
+}
+.text{
+    text-align: left;
+}
+.img{
+    text-align : right;
+}
+
+
+

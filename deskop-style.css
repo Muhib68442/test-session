@@ -1,0 +1,332 @@
+.muhib{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+.non-desk{
+    display: none; /* use 'block' to disable desktop*/ /* for block css, use and apply 'non-desktop.css' in index.html */  
+}
+/*see in index.html, there is a link css named non-dekstop, that css contains non-desktop datas*/
+
+
+
+/*...................................................................................*/
+
+.desktop-cover{
+    display: block;
+    opacity: 30%;
+    transition: 0.2s;
+}
+.desktop-cover:hover{
+    opacity: 100%;
+    transition: 0.2s;
+
+}
+
+.mobile-cover{
+    display: none;
+}
+
+.slide-mobile{
+    display: none;
+}
+
+#mobile-carousel{
+    display: none;
+}
+#pc-carousel{
+    display: block;
+}
+.cover-carousel{
+    display: none;
+}
+.cover-text{
+    display: none;
+}
+.cover-site h4{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.918);
+}
+.cover-site i{
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    opacity: 95%;
+    
+}
+
+
+.category-pc{
+    display: block;
+}
+.category-mobile{
+    display: none;
+}
+
+.category{
+    text-align: center;
+
+}
+
+
+#mobile-category{
+    display: ;
+}
+#pc-category{
+    display: block;
+    background-color: #171717;
+}
+.thumbnail{
+    width: 300px;
+}
+.thumb-p{
+    font-size: 1.4rem;
+}
+
+#photography-slides{
+    background-color: #171717;
+}
+.copyright{
+    font-size: 1.2rem;
+}
+.footer-menu .btn{
+    margin-bottom: 0px;
+}
+
+
+.card{
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+.card-container{
+    margin: 0 auto ;
+}
+.text{
+    text-align: left;
+}
+.img{
+    text-align : right;
+}
+
+
+.feedback-image{
+    width: 700px;
+}
+
+
+
+
+
+
+/**************CATEGORY**************/
+
+.category{
+    background-color: #171717; 
+    padding-bottom: 20px; 
+}
+.category-cover{
+    text-align: center;
+}
+.category-cover-image{
+    text-align: center;
+    opacity: 40%;
+    transition: 0.2s;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+.category-cover-image:hover{
+    opacity: 80%;
+    transition: 0.2s;
+    box-shadow: 0px 0px 15px 2px #338DFF;
+    -webkit-box-shadow: 0px 0px 15px 2px #338DFF;
+    -moz-box-shadow: 0px 0px 15px 2px #338DFF;
+    
+}
+#category-pc{
+    padding-top: 20px;
+}
+/* absolute : 2170/100*/
+.category-cover-text{
+    
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+    font-weight: ;
+    color: whitesmoke;
+    opacity: 80%;
+    transition: 0.2s;
+}
+.category-cover-text:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 2.0rem;
+    font-weight: ;
+    text-shadow: 0px 0px 10px #000000; 
+    transition: 0.3s;
+    
+}
+/*text*/
+/*
+position:relaative;
+top: -200px;
+left: 3,8,10,20;
+*/
+#citytext{
+    position: relative;
+    top: -170px;
+    left: -3%;
+    color: rgb(167, 112, 61);
+    
+}
+#naturetext{
+    position: relative;
+    top: -170px;
+    left: -10%;
+    color: rgb(67, 165, 67);
+    opacity: ;
+}
+#aesthetictext{
+    position: relative;
+    top: -170px;
+    left: -8%;
+    color: #525252;
+}
+#flowertext{
+    position: relative;
+    top: -170px;
+    left: -10%;
+    color: rgb(175, 173, 69);
+    
+}
+#gametext{
+    position: relative;
+    top: -90px;
+    left: -0%;
+    color: rgb(255, 255, 255);
+}
+#videotext{
+    position: relative;
+    top: -90px;
+    left: -0%;
+    color: rgb(255, 255, 255);
+}
+.category-image-center-div{
+    text-align: center;
+}
+
+
+
+
+
+/*category link*//*start*/
+.category-interior-link{
+    text-decoration: none;
+    
+}
+.category-interior-link:hover{
+    text-decoration: none;
+}
+/*///*/
+
+
+
+
+
+.card{
+    display: none;
+}
+.card-pc{
+    display: block;
+}.card{
+    background-color: #171717;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card-container-fluid{
+    
+    border: 1px solid rgb(59, 59, 59);
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.card-container-fluid:hover{
+    /* -webkit-box-shadow: 5px 5px 50px 10px #338DFF;
+    box-shadow: 0px 0px 10px 10px #338DFF; */
+    box-shadow: 0px 0px 20px 2px #338DFF;
+    -webkit-box-shadow: 0px 0px 20px 2px #338DFF;
+    -moz-box-shadow: 0px 0px 20px 2px #338DFF;
+    transition: 0.3s;
+}
+
+.cardimg{
+    padding: 0;
+    margin: 0;
+}
+#card-img{
+    width: 60%;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.card-my-picture{
+    transition: 0.3s;
+}
+.card-my-picture:hover{
+    box-shadow: 0px 0px 10px 2px #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 2px #ffffff;
+    -moz-box-shadow: 0px 0px 10px 2px #ffffff;
+    transition: 0.3s;
+}
+.card-text{
+    transition: 0.3s;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align:center;
+}
+.card-text:hover{
+    transition: 0.3s;
+    color: #338DFF;
+    text-shadow: 0px 0px 10px #338DFF; 
+}
+.card-details{
+    color: #888888;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+.card-details:hover{
+    color: white;
+    text-shadow: 0px 0px 10px #338DFF; 
+    transition: 0.2s;
+    opacity: 100%;
+}
+.text h3 ul{
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.card-about-me{
+    color: rgb(59, 84, 221);
+}
+.card-about-me a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}

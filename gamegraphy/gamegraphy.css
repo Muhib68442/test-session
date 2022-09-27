@@ -1,0 +1,52 @@
+*{
+    background-color: #171717;
+   
+}
+
+
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+header{
+    background-color: #171717;
+}
+body{
+    background-color: #171717;
+}
+#page-title{
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+.file{
+    text-align: center;
+    background-color: #171717;
+    margin-bottom: 10px;
+}
+#album-thumb{
+    width: 390px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+#album-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.page-control{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
