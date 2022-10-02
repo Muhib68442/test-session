@@ -1,5 +1,5 @@
 
-// Disabled Because didn't find beauty in caption :! // {disabled from index.html}
+
 
 //Page : 1/6 Image 1-10 
 function natureimg1(){
@@ -186,4 +186,88 @@ function natureimg59(){
 }
 function natureimg60(){
     $(".natureimg50").slideToggle(300);
+}
+
+function natureimg61(){
+    $(".natureimg61").slideToggle(300);
+}
+function natureimg62(){
+    $(".natureimg62").slideToggle(300);
+}
+function natureimg63(){
+    $(".natureimg63").slideToggle(300);
+}
+function natureimg64(){
+    $(".natureimg64").slideToggle(300);
+}
+function natureimg65(){
+    $(".natureimg65").slideToggle(300);
+}
+function natureimg66(){
+    $(".natureimg66").slideToggle(300);
+}
+function natureimg67(){
+    $(".natureimg67").slideToggle(300);
+}
+function natureimg68(){
+    $(".natureimg68").slideToggle(300);
+}
+function natureimg69(){
+    $(".natureimg69").slideToggle(300);
+}
+
+function natureimg71(){
+    $(".natureimg71").slideToggle(300);
+}
+function natureimg72(){
+    $(".natureimg72").slideToggle(300);
+}
+function natureimg73(){
+    $(".natureimg73").slideToggle(300);
+}
+function natureimg74(){
+    $(".natureimg74").slideToggle(300);
+}
+function natureimg75(){
+    $(".natureimg75").slideToggle(300);
+}
+function natureimg76(){
+    $(".natureimg76").slideToggle(300);
+}
+function natureimg77(){
+    $(".natureimg77").slideToggle(300);
+}
+function natureimg78(){
+    $(".natureimg78").slideToggle(300);
+}
+function natureimg79(){
+    $(".natureimg79").slideToggle(300);
+}
+
+function natureimg81(){
+    $(".natureimg81").slideToggle(300);
+}
+function natureimg82(){
+    $(".natureimg82").slideToggle(300);
+}
+function natureimg83(){
+    $(".natureimg83").slideToggle(300);
+}
+function natureimg84(){
+    $(".natureimg84").slideToggle(300);
+}
+function natureimg85(){
+    $(".natureimg85").slideToggle(300);
+}
+function natureimg86(){
+    $(".natureimg86").slideToggle(300);
+}
+function natureimg87(){
+    $(".natureimg87").slideToggle(300);
+}
+function natureimg88(){
+    $(".natureimg88").slideToggle(300);
+}
+function natureimg89(){
+    $(".natureimg89").slideToggle(300);
 }

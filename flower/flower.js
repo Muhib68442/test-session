@@ -1,5 +1,4 @@
 
-// Disabled Because didn't find beauty in caption :! // {disabled from index.html}
 
 //Page : 1/4 Image 1-10 
 function flowerimg1(){
@@ -122,6 +121,115 @@ function flowerimg38(){
 function flowerimg39(){
     $(".flowerimg39").slideToggle(300);
 }
-function flowerimg30(){
-    $(".flowerimg30").slideToggle(300);
+
+function flowerimg41(){
+    $(".flowerimg41").slideToggle(300);
+}
+function flowerimg42(){
+    $(".flowerimg42").slideToggle(300);
+}
+function flowerimg43(){
+    $(".flowerimg43").slideToggle(300);
+}
+function flowerimg44(){
+    $(".flowerimg44").slideToggle(300);
+}
+function flowerimg45(){
+    $(".flowerimg45").slideToggle(300);
+}
+function flowerimg46(){
+    $(".flowerimg46").slideToggle(300);
+}
+function flowerimg47(){
+    $(".flowerimg47").slideToggle(300);
+}
+function flowerimg48(){
+    $(".flowerimg48").slideToggle(300);
+}
+function flowerimg49(){
+    $(".flowerimg49").slideToggle(300);
+}
+
+function flowerimg51(){
+    $(".flowerimg51").slideToggle(300);
+}
+function flowerimg52(){
+    $(".flowerimg52").slideToggle(300);
+}
+function flowerimg53(){
+    $(".flowerimg53").slideToggle(300);
+}
+function flowerimg54(){
+    $(".flowerimg54").slideToggle(300);
+}
+function flowerimg55(){
+    $(".flowerimg55").slideToggle(300);
+}
+function flowerimg56(){
+    $(".flowerimg56").slideToggle(300);
+}
+function flowerimg57(){
+    $(".flowerimg57").slideToggle(300);
+}
+function flowerimg58(){
+    $(".flowerimg58").slideToggle(300);
+}
+function flowerimg59(){
+    $(".flowerimg59").slideToggle(300);
+}
+
+function flowerimg61(){
+    $(".flowerimg61").slideToggle(300);
+}
+function flowerimg62(){
+    $(".flowerimg62").slideToggle(300);
+}
+function flowerimg63(){
+    $(".flowerimg63").slideToggle(300);
+}
+function flowerimg64(){
+    $(".flowerimg64").slideToggle(300);
+}
+function flowerimg65(){
+    $(".flowerimg65").slideToggle(300);
+}
+function flowerimg66(){
+    $(".flowerimg66").slideToggle(300);
+}
+function flowerimg67(){
+    $(".flowerimg67").slideToggle(300);
+}
+function flowerimg68(){
+    $(".flowerimg68").slideToggle(300);
+}
+function flowerimg69(){
+    $(".flowerimg69").slideToggle(300);
+}
+
+function flowerimg71(){
+    $(".flowerimg71").slideToggle(300);
+}
+function flowerimg72(){
+    $(".flowerimg72").slideToggle(300);
+}
+function flowerimg73(){
+    $(".flowerimg73").slideToggle(300);
+}
+function flowerimg74(){
+    $(".flowerimg74").slideToggle(300);
+}
+function flowerimg75(){
+    $(".flowerimg75").slideToggle(300);
+}
+function flowerimg76(){
+    $(".flowerimg76").slideToggle(300);
+}
+function flowerimg77(){
+    $(".flowerimg77").slideToggle(300);
+}
+function flowerimg78(){
+    $(".flowerimg78").slideToggle(300);
+}
+function flowerimg79(){
+    $(".flowerimg79").slideToggle(300);
 }

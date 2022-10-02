@@ -1,5 +1,4 @@
 
-// Disabled Because didn't find beauty in caption :! // {disabled from index.html}
 
 //Page : 1/3 Image 1-10 
 function cityimg1(){
@@ -91,6 +90,59 @@ function cityimg28(){
 function cityimg29(){
     $(".cityimg29").slideToggle(300);
 }
-function cityimg30(){
-    $(".cityimg30").slideToggle(300);
+//31-39
+function cityimg31(){
+    $(".cityimg31").slideToggle(300);
+}
+function cityimg32(){
+    $(".cityimg32").slideToggle(300);
+}
+function cityimg33(){
+    $(".cityimg33").slideToggle(300);
+}
+function cityimg34(){
+    $(".cityimg34").slideToggle(300);
+}
+function cityimg35(){
+    $(".cityimg35").slideToggle(300);
+}
+function cityimg36(){
+    $(".cityimg36").slideToggle(300);
+}
+function cityimg37(){
+    $(".cityimg37").slideToggle(300);
+}
+function cityimg38(){
+    $(".cityimg38").slideToggle(300);
+}
+function cityimg39(){
+    $(".cityimg39").slideToggle(300);
+}
+// 41-49
+function cityimg41(){
+    $(".cityimg41").slideToggle(300);
+}
+function cityimg42(){
+    $(".cityimg42").slideToggle(300);
+}
+function cityimg43(){
+    $(".cityimg43").slideToggle(300);
+}
+function cityimg44(){
+    $(".cityimg44").slideToggle(300);
+}
+function cityimg45(){
+    $(".cityimg45").slideToggle(300);
+}
+function cityimg46(){
+    $(".cityimg46").slideToggle(300);
+}
+function cityimg47(){
+    $(".cityimg47").slideToggle(300);
+}
+function cityimg48(){
+    $(".cityimg48").slideToggle(300);
+}
+function cityimg49(){
+    $(".cityimg49").slideToggle(300);
 }
