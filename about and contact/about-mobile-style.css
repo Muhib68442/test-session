@@ -63,10 +63,11 @@
 .contact h3{
     color: white;
     text-align: center;
-}
 
+}
 .contact-links{
     display: grid;
+    
 }
 .contact-text{
     color: white;
@@ -79,6 +80,18 @@
     transition: 0.2s;
     
     font-weight: bolder;
+}
+
+.contact-links a button{
+    border: none;
+    border-bottom: 1px solid;
+    transition: 0.2s;
+}
+.contact-links a button:hover{
+    
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: 0.2s;
 }
 /*Contact*//*END*/
 

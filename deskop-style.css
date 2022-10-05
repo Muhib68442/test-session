@@ -13,32 +13,16 @@
 
 /*...................................................................................*/
 
-.desktop-cover{
-    display: block;
-    opacity: 30%;
-    transition: 0.2s;
-}
-.desktop-cover:hover{
-    opacity: 100%;
-    transition: 0.2s;
-
-}
 
 .mobile-cover{
     display: none;
 }
-
-.slide-mobile{
-    display: none;
-}
-
-#mobile-carousel{
-    display: none;
-}
-#pc-carousel{
+.desktop-cover{
     display: block;
 }
-.cover-carousel{
+
+
+#mobile-carousel{
     display: none;
 }
 .cover-text{
@@ -64,66 +48,20 @@
 }
 
 
-.category-pc{
-    display: block;
-}
-.category-mobile{
-    display: none;
-}
-
-.category{
-    text-align: center;
-
-}
 
 
-#mobile-category{
-    display: ;
-}
-#pc-category{
-    display: block;
-    background-color: #171717;
-}
 .thumbnail{
     width: 300px;
-}
-.thumb-p{
-    font-size: 1.4rem;
-}
-
-#photography-slides{
-    background-color: #171717;
 }
 .copyright{
     font-size: 1.2rem;
 }
+.footer-menu{
+    margin-top: 40px;
+}
 .footer-menu .btn{
     margin-bottom: 0px;
 }
-
-
-.card{
-    font-size: 1.3rem;
-    padding-bottom: 10px;
-}
-.card-container{
-    margin: 0 auto ;
-}
-.text{
-    text-align: left;
-}
-.img{
-    text-align : right;
-}
-
-
-.feedback-image{
-    width: 700px;
-}
-
-
-
-
 
 
 /**************CATEGORY**************/
@@ -131,6 +69,10 @@
 .category{
     background-color: #171717; 
     padding-bottom: 20px; 
+    padding-right: 0px;
+    padding-top: 10px;
+    text-align: center;
+    
 }
 .category-cover{
     text-align: center;
@@ -152,16 +94,14 @@
     -moz-box-shadow: 0px 0px 15px 2px #338DFF;
     
 }
-#category-pc{
-    padding-top: 20px;
-}
+
 /* absolute : 2170/100*/
 .category-cover-text{
     
     font-size: 2.0rem;
     font-family: 'Roboto', sans-serif;
     cursor: default;
-    font-weight: ;
+    
     color: whitesmoke;
     opacity: 80%;
     transition: 0.2s;
@@ -170,7 +110,7 @@
     text-decoration: none;
     color: white;
     font-size: 2.0rem;
-    font-weight: ;
+    
     text-shadow: 0px 0px 10px #000000; 
     transition: 0.3s;
     
@@ -181,45 +121,7 @@ position:relaative;
 top: -200px;
 left: 3,8,10,20;
 */
-#citytext{
-    position: relative;
-    top: -170px;
-    left: -3%;
-    color: rgb(167, 112, 61);
-    
-}
-#naturetext{
-    position: relative;
-    top: -170px;
-    left: -10%;
-    color: rgb(67, 165, 67);
-    opacity: ;
-}
-#aesthetictext{
-    position: relative;
-    top: -170px;
-    left: -8%;
-    color: #525252;
-}
-#flowertext{
-    position: relative;
-    top: -170px;
-    left: -10%;
-    color: rgb(175, 173, 69);
-    
-}
-#gametext{
-    position: relative;
-    top: -90px;
-    left: -0%;
-    color: rgb(255, 255, 255);
-}
-#videotext{
-    position: relative;
-    top: -90px;
-    left: -0%;
-    color: rgb(255, 255, 255);
-}
+
 .category-image-center-div{
     text-align: center;
 }
@@ -242,12 +144,8 @@ left: 3,8,10,20;
 
 
 
+
 .card{
-    display: none;
-}
-.card-pc{
-    display: block;
-}.card{
     background-color: #171717;
     border-radius: 0px;
     padding-top: 10px;
@@ -255,12 +153,16 @@ left: 3,8,10,20;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .card-container-fluid{
     
     border: 1px solid rgb(59, 59, 59);
     background-color: #0f0f0f;
     border-radius: 10px;
     transition: 0.3s;
+    margin: 0 auto;
+    width: 45%;
+    text-align: center;
 }
 .card-container-fluid:hover{
     /* -webkit-box-shadow: 5px 5px 50px 10px #338DFF;
@@ -330,3 +232,7 @@ left: 3,8,10,20;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
+
+
+/* Intro */
+
