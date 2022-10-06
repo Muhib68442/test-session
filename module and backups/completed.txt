@@ -1,0 +1,4 @@
+aes > every image linked
+aes > all img compressed and applied
+aes > details > 1,2,3,4,5
+***aes complete***

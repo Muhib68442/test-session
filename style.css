@@ -114,6 +114,20 @@ font-family: 'Roboto' , sans-serif;
 
 
 /*Carousel*//*Start*/
+#carousel-image-pc{
+    display: none;
+}
+#carousel-image-mobile{
+    display: ;
+    margin: 0 auto;
+    width: 100%;
+}
+.carousel-slide > .carousel-control-prev{
+    padding: 0px;
+}
+.carousel-slide > .carousel-control-next{
+    padding: 0px;
+}
 .component-title{
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -331,7 +345,7 @@ footer{
     text-align: center;
     opacity: 40%;
     transition: 0.2s;
-    width: 90%;
+    width: 95%;
     border-radius: 8px;
     border: 1px solid black;
     margin-bottom: 10px;
@@ -348,7 +362,7 @@ footer{
 
 /* absolute : 2170/100*/
 .category-cover-text{
-    font-size: 1.9rem;
+    font-size: 200%;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     color: whitesmoke;
@@ -396,7 +410,7 @@ left: 3,8,10,20;
 #gametext{
     position: relative;
     top: -50%;;
-    left: -20%;
+    left: -15%;
     color: rgb(94, 111, 207);
 }
 #videotext{
@@ -416,6 +430,12 @@ left: 3,8,10,20;
 }
 .category-interior-link:hover{
     text-decoration: none;
+}
+
+.category > .category > .row{
+    display: ;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 /*///*/
 
