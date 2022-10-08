@@ -35,7 +35,7 @@
 
 /*Sitemap Start*/
 .sitemap{
-    text-align: center;
+    text-align: ;
 }
 .sitemap-img{
     
@@ -47,6 +47,45 @@
     transition: 0.3s;
     border: 1px solid white;
 }
+.sitemap-map{
+    text-align: center;
+}
+.fullmap{
+    margin-top: 10px;
+}
+#goto{
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+.goto{
+    border: 1px solid black;
+    margin: 7px;
+    width: 50%;
+    transition: 0.1s;
+    margin: 10px auto;
+}
+.goto:hover{
+    transition: 0.1s;
+    border: 2px solid rgb(67, 67, 223);
+}
+.goto ul li{
+    padding: 5px;
+    color: rgb(51, 84, 233);
+}
+.goto ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    
+}
+.goto ul li a:hover{
+    color: blue;
+    transition: 0.1s;
+    text-decoration: dotted;
+}
+
 /*Sitemap End*/
 
 
@@ -115,11 +154,7 @@ font-family: 'Raleway', sans-serif;
     margin-top: 10px;
 
 }
-#goto{
-    text-align: center;
-    color: aliceblue;
-    font-family: 'Raleway', sans-serif;
-}
+
 .ul{
 
     border: 1px solid white;
