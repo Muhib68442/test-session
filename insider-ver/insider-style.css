@@ -34,12 +34,10 @@
 /*Header End*/
 
 /*Sitemap Start*/
-.sitemap{
-    text-align: ;
-}
+
 .sitemap-img{
     
-    width: 400px;
+    width: 90%;
     transition: 0.3s;
     border-radius: 8px;
 }
@@ -174,18 +172,24 @@ font-family: 'Raleway', sans-serif;
 .category-js ul a:hover{
     background-color: #171717;
 }
-.ul:hover{
-    
-}
 
 
 
 
 
 
-.page-control{
+.page-control a button{
     position: absolute;
     top: 20px;
     left: 20px;
-    
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: #171717;
+    transition: 0.1s;
+}
+.page-control a button:hover{
+    transition: 0.1s;
+    border: 3px solid white;
+    background-color: white;
+    color: black;
 }

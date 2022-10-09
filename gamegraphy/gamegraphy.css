@@ -30,7 +30,7 @@ body{
     margin-bottom: 10px;
 }
 #album-thumb{
-    width: 390px;
+    width: 90%;
     border: 1px solid white;
     border-radius: 8px;
     margin-left: 5px;
