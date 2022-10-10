@@ -12,9 +12,6 @@
     border-radius: 7px;
     border: 1px solid black;
 }
-.video-iframe-div{
-    text-align: center;
-}
 #video-title{
     margin-left: 12px;
     margin-top: 5px;
@@ -23,6 +20,8 @@
 }
 .video-iframe-div{
     width: 100%;
+    height: ;
+    text-align: center;
 }
 .video-iframe-div iframe{
     width: 100%;
