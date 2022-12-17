@@ -1,0 +1,18 @@
+<div class="content">
+    <img src="#" alt="app_icon" class="app-icon">
+    <p class="app-name">app name</p>
+    <p class="app-info">app info</p>
+    <button class="app-download"><a href="#">Download</a></button>
+</div>
+
+
+
+
+
+        <div class="container">
+            <a href="#" class="content-page-link">
+                <img src="" alt="icon">
+                <p class="content-title"></p>
+                <p class="content-desc"></p>
+            </a>
+        </div>
