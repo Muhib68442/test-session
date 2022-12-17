@@ -85,7 +85,7 @@
 }
 .ss{
     margin: 10px;
-    border: 1px solid white;
+   
 }
 .ss-img{
     width: 40%;
@@ -93,7 +93,7 @@
 }
 .ss-img:hover{
     width: 80%;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 
