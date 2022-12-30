@@ -1,0 +1,74 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main_title{
+    font-weight: bolder;
+    text-align: center;
+    padding: px;
+    font-size: 40px;
+}
+.inst_name{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+.dept_name{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+.session{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+.table_main{
+   border: 2px solid black;
+   padding: 1px;
+   border-radius: px;
+   margin: 0px auto;
+}
+.table{
+ 
+}
+
+
+
+.table_main > thead tr td{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    transition: 0.1s
+}
+.table_main > thead tr td:hover{
+    transition: 0.1s;
+    border: 2px solid black
+}
+
+.table_main > tbody tr td{
+    color: ;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid black;
+    transition: 0.1s;
+}
+.table_main > tbody tr td:hover{
+    transition: 0.1s;
+    border: 2px solid black;
+    padding: 20px;
+}

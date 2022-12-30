@@ -1,134 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utility Box</title>
-    <!--ICON-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!--CSS-->
-    <link rel="stylesheet" href="style-main.css" media="screen and (min-width : 992px)">
-    <link rel="stylesheet" href="style-mobile.css" media="screen and (max-width : 992px)">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sylhet Polytechnic Institute</title>
+      <!--CSS-->
+      <link rel="stylesheet" href="style-main.css">
+      <!--Bootstrap (Offline)-->
+      <link rel="stylesheet" href="bootstrap.css">
+      <!--Slide CSS W3-->
+      <link rel="stylesheet" href="w3-slide.css">
+      <!--Google Fonts CDN-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap.css"><!-- Bootstrap Offline -->
+      <!--Fontawesome CDN-->
 
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
     
-    <!--Fontawesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="body">
+    <header>
+      <h1 class="inst-name"> <img src="res/logo.jpg" alt="Site Logo" class="logo">Sylhet Polytechnic Institute</h1>
+      
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="li-dept"><a href="#" >Department</a>
+            <div class="submenu-dept">
+              <ul>
+                <li><a href="#">Computer Technology</a></li>
+                <li><a href="#">Mechanical Technology</a></li>
+                <li><a href="#">Power Technology</a></li>
+                <li><a href="#">Electrical Technology</a></li>
+                <li><a href="#">Electronics Technology</a></li>
+                <li><a href="#">Electromedical Technology</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Teachers</a></li>
+          <li class="li-result"><a href="#">Results</a>
+            <div class="submenu-result">
+              <ul>
+                <li><a href="#">Admission Test</a></li>
+                <li><a href="#">Class Test</a></li>
+                <li><a href="#">Mid-Term</a></li>
+                <li><a href="#">Pre-Test</a></li>
+                <li><a href="#">Semester Final</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Notice</a></li>
+        </ul>
+      </div>
+    </header>
 
-<!--
-    <div class="header">
-        <p class="header-text">Utility Box</p>
-        <hr class="hr-full">
+    <hr class="hr-line">
+
+    <div class="main">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-3"><!--stdcorner col-->
+                      <p class="text-stdcorner">Student Corner</p>
+                      <ul class="student-corner-ul">
+                          <li><a href="#">Notice</a></li>
+                          <li><a href="#">Result</a></li>
+                          <li><a href="files/routine/index.html" target="_blank">Routine</a></li>
+                          <li><a href="#">Classrooms</a></li>
+                          <li><a href="files/std-list/index.html" target="_blank">Student Information</a></li>
+                          <li><a href="#">Helpline</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-9"><!--Slide col-->
+                      <!--SLIDE HERE-->
+                      <div class="w3-content w3-display-container">
+
+                          <div class="w3-display-container mySlides">
+                            <img src="res/slide/1.jpg" >
+                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                            Img Details Here 1
+                            </div>
+                          </div>
+                          
+                          <div class="w3-display-container mySlides">
+                            <img src="res/slide/2.jpg" >
+                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                              Img Details Here 2
+                            </div>
+                          </div>
+                          
+                          <div class="w3-display-container mySlides">
+                            <img src="res/slide/3.jpg" >
+                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                              Img Details Here 3
+                            </div>
+                          </div>
+                          
+                          <div class="w3-display-container mySlides">
+                            <img src="res/slide/4.jpg" >
+                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                              Img Details Here 4
+                            </div>
+                          </div>
+                          
+                          <div class="w3-display-container mySlides">
+                            <img src="res/slide/5.jpg">
+                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                              Img Details Here 5
+                            </div>
+                          </div>
+                          
+                          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                          
+                      </div>
+                      <!--SLIDE ENDS-->
+                  </div>
+              </div>
+          </div>
+
+          <div class="section">
+            <div class="container">
+              <div class="section-row row">
+                <div class="section-content col-lg-6">
+                  <img src="res/apatotores.jpg" alt="lab" class="section-content-img">
+                </div>
+                <div class="section-content col-lg-6">
+                  <p class="section-content-title">Software Lab</p>
+                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
+                </div>
+              </div>
+
+              <div class="section-row row">
+                <div class="section-content col-lg-6">
+                  <p class="section-content-title">Network Lab</p>
+                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
+                </div>
+                <div class="section-content col-lg-6">
+                  <img src="res/apatotores.jpg" alt="" class="section-content-img">
+                </div>
+              </div>
+
+              <div class="section-row row">
+                <div class="section-content col-lg-6">
+                  <img src="res/apatotores.jpg" alt="lab" class="section-content-img">
+                </div>
+                <div class="section-content col-lg-6">
+                  <p class="section-content-title">Hardware Lab</p>
+                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
+                </div>
+              </div>
+
+              <div class="section-row row">
+                <div class="section-content col-lg-6">
+                  <p class="section-content-title">ICT Lab</p>
+                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
+                </div>
+                <div class="section-content col-lg-6">
+                  <img src="res/apatotores.jpg" alt="" class="section-content-img">
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <hr class="hr-line-s1">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="notice-section">
+                  <div class="container">
+                    <p class="content-title">Notice Board</p>
+                    <ul class="notice-list">
+                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+                    </ul>
+                    <button class="notice-all-btn"><p>View All</p></button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="student-login">
+                  <p class="student-login-title">Student Login</p>
+                  <div class="student-login-imgdiv">
+                    <img src="res/student-profile.jpg" alt="Student-Profile" class="student-login-img">
+                  </div>
+                  <div class="student-login-field">
+                    <label for="Phone" class="roll-label">Roll : </label>
+                    <input type="text" placeholder="Roll" name="roll" class="roll-input">
+                    <br>
+                    <label for="Pass" class="pass-label">Pass : </label>
+                    <input type="password" placeholder="********" name="pass" class="pass-input">
+                  </div>
+                  <div class="student-login-button">
+                    <button class="login-btn">Login</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4"></div>
+            </div>
+          </div>
+          
+
+          <footer>
+            <p>FOOTER</p>
+          </footer>
     </div>
--->
 
-    <div class="intro">
-        <div class="intro-img-div">
-            <img class="intro-img" src="res/intro-main.jpg" alt="intro image">
-        </div>
-        <p class="intro-text"> All Important tools in one place </p>
-        
-    </div>
+    <script src="script.js"></script>
+  </body>
 
-    <div class="container-fluid">
-
-        <div class="row">
-            <div class="col-lg-3 col-sm-12">
-
-                <div class="content">
-                    <a href="essential softwares/essential-softwares.html" class="content-page-link">
-                        <div class="content-image-div">
-                            <img class="content-icon" src="essential softwares/esoft-ico.png" alt="icon">
-                        </div>
-                        
-                        <p class="content-title">Essential Softwares</p>
-                        <p class="content-desc">All Essential Apps that you might need</p>
-                    </a>
-                </div>
-
-
-            </div>
-
-            <div class="col-lg-3 col-sm-1">
-
-                <div class="content">
-                    <a href="tools/tools.html" class="content-page-link">
-                        <div class="content-image-div">
-                            <img class="content-icon" src="tools/tools.png" alt="icon">   
-                        </div>
-                        <p class="content-title">Tools</p>
-                        <p class="content-desc">Tools for Optimize your PC</p>
-                    </a>
-                </div>
-
-
-            </div>
-
-            <div class="col-lg-3 col-sm-1">
-
-                <div class="content">
-                    <a href="os/os.html" class="content-page-link">
-                        <div class="content-image-div">
-                            <img class="content-icon" src="os/windows.png" alt="icon">
-                        </div>
-                        
-                        <p class="content-title">OS Installation</p>
-                        <p class="content-desc">Install a fresh copy of Windows</p>
-                    </a>
-                </div>
-
-
-            </div>
-
-            <div class="col-lg-3 col-sm-1">
-
-                <div class="content">
-                    <a href="utility/utility.html" class="content-page-link">
-                        <div class="content-image-div">
-                            <img class="content-icon" src="utility/WHITE Utility Toolbox icon.png" alt="icon">
-                        </div>
-                        <p class="content-title">Utility Toolkit</p>
-                        <p class="content-desc">Download Utility Toolkit Package</p>
-                    </a>
-                </div>
-
-
-            </div>
-        </div>
-        
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-</body>
 </html>

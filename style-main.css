@@ -1,34 +1,118 @@
-.body{
-    background-color: #171717;
-}
-.header-text{
-    color: #76b900;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 30px;
-}
-.hr-full{
-    color: rgb(107, 188, 107);
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-.intro-text{
-    color: white;
-    font-family: ;
-    font-size: 35px;
-    position: absolute;
-    top: 250px;
-    left: 530px ;
-    text-align: center;
-    margin: 0 auto;    
-}
-.intro-img-div
-.intro-img{
-    width: 100%;
-    height: px;
-    display: ;
-    opacity: 60%;
-}
+@media screen and (min-width : 992px){
+    *{
+        
+        background-color: ;
+    }
+    header{
+        background-color: #34e03f61;
+    }
+    .hr-line{
+        margin: 0px
+    }
+    /*NAVBAR*/ 
+
+    .navbar{
+        text-align:;
+        padding-top: 10px;
+        padding-right: 18px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .navbar ul{
+        display: inline-flex;
+        list-style: none;
+        display: ;
+        float: right;
+        text-align: right;
+        position: absolute;
+        right: 0px;
+        top: -90px;
+    }
+    .navbar ul li {   
+        padding: 25px;
+        transition: 0.2s;
+    }
+    .navbar ul li:hover{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #2cf4395f;
+        transition: 0.2s;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .submenu-dept{
+        
+        display: none;
+        background-color: red;
+        position: absolute;
+        top: 170px;
+        right: 240px;
+        z-index: 99;
+    }
+    .submenu-dept ul{
+        display: block;
+        border: 1px solid green;
+        background-color: #77ef7f;
+        padding-left: 0px;
+        padding: 5px;
+        width : 300px;
+        transition: 0.2s;
+        text-align: left;
+    }
+    .submenu-dept ul li{
+        padding: 10px;
+    }
+    .submenu-dept ul li a{
+        font-size: 20px;
+        transition: 0.2s;
+        padding: 0px;
+        margin: 0px;
+    }
+    .submenu-dept ul li:hover{
+        background-color: #87cb8c;
+        transition: 0.2s;
+    }
+    .li-dept:hover .submenu-dept{
+        display: block;
+    }
+
+    
+    .submenu-result{
+        transition: 0.2s;
+        display: none;
+        background-color: red;
+        position: absolute;
+        top: 170px;
+        right: 20px;
+        z-index: 99;
+    }
+    .submenu-result ul{
+        display: block;
+        border: 1px solid green;
+        background-color: #77ef7f;
+        padding-left: 0px;
+        padding: 5px;
+        width : 200px;
+        text-align: left;
+    }
+    .submenu-result ul li{
+        padding: 10px;
+    }
+    .submenu-result ul li a{
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .submenu-result ul li:hover{
+        background-color: #87cb8c;
+    }
+    .li-result:hover .submenu-result{
+        display: block;
+    }
 
 
 
@@ -36,47 +120,238 @@
 
 
 
-.col-3{
-   padding: 12px;
-}
-.content{
-    border: 2.5px solid #76b900;
-    background-color: ;
-    width: 90%;
-    margin: 0px 20px;
-    padding-top: 30px;
-}
+    .logo{
+        width: 6%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+    .inst-name{
+       display: inline;
+       margin-top:;
+       font-family: 'Raleway', sans-serif;
+      font-size: 35px;
+      padding-top: 20px;
+    }
+    
 
-.content-icon{
-    width: 30%;
-    border:;
-    margin: 10px 20px;
-    text-align: center;
-}
-.content-image-div{
-    text-align: center;
-}
-.content-title{
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    transition: 0.2s;
-}
-.content-title:hover{
-    color: #76b900;
-    transition: 0.2s; 
-}
-.content-page-link{
-    text-decoration: none;
-}
-.content-desc{
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    text-align: center;
-    transition: 0.2s;
-}
-.content-desc:hover{
-    color: #76b900;
-    transition: 0.2s;
+
+    /* Header ends*/
+
+
+
+
+
+
+
+
+
+
+
+    /*Main*/
+    .main{
+        background-color: #34e03f2f;
+    }
+
+    .student-corner-ul li{
+       transition: 0.1s;
+        padding: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.382);
+    }
+    .student-corner-ul{
+        list-style: none;
+    }
+    .student-corner-ul li a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        
+    }
+    .text-stdcorner{
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-left: 40px;
+        padding: 10px;
+        
+    }
+    .student-corner-ul li:hover{
+        transition: 0.1s;
+        color: #34e03f;
+        background-color: #34e03f8c;
+    }
+    .mySlides {display:none;}
+
+    .w3-display-container img{
+        width: 100%;
+    }
+    .w3-content{
+        border: 3px solid black;
+        margin: 20px;
+    }
+
+
+
+
+    /*Submenu*/
+    .sub-menu{
+        display: none;
+    }
+
+
+
+    /*Section*/
+    .section-content{
+        padding: 10px;
+        background-color: ;
+    }
+
+    .section-row{
+        background-image: linear-gradient(to right,#2cf43980, #3aac4195);
+        margin-bottom: 25px;/*
+        border: 1px solid black;*/
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+    .section-row:hover{
+        background-color: ;
+    }
+    .section-content-img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .section-content-title{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .section-content-desc{
+        font-size: 15px;
+    }
+
+
+
+    /*Notice Section*/
+    .hr-line-s1{
+        margin: 0px;
+        border-color: #34e03f;
+    }
+    .notice-section{
+        margin-top: 18px;
+        margin-left: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        background-color: #34e03f2f;
+    }
+    .content-title{
+        text-align: center;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .notice-list{
+        list-style-type: disc;
+    }
+    .notice{
+        
+        padding: 2px;
+    }
+    .notice a{
+        transition: 0.2s;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .notice a:hover{
+        text-decoration: underline;
+        font-weight: ;
+        transition: 0.2s;
+    }
+    .notice-all-btn{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        text-align: ;
+        margin-bottom: 10px;
+    }
+    .notice-all-btn p{
+        margin-bottom: 0px;
+    }
+
+    /*Student-Login*/
+    .student-login{
+        background-color: #34e03f2f;
+        margin-top: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .student-login-title{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 7px;
+
+    }
+    .student-login-imgdiv{
+        text-align: center;
+    }
+    .student-login-img{
+        width: 30%;
+        padding-top: px;
+        padding-bottom: px;
+    }
+    .student-login-field{
+        padding: 10px;
+        margin-left: 10px;
+        font-size: px;
+    }
+    .roll-label{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .roll-input{
+        background-color: transparent;
+        border: none;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom: 3px solid #77ef7f;
+    }
+    .pass-label{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .pass-input{
+        background-color: transparent;
+        border: none;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom: 3px solid #2cf43980;
+    }
+    .student-login-button{
+        text-align: center;
+    }
+    .login-btn{
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: ;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        border: 3px solid #77ef7f;
+        transition: 0.2s;
+        margin-bottom: 10px;
+    }
+    .login-btn:hover{
+        background-color: #34e03f;
+        transition: 0.2s;
+        border-radius: 5px;
+        border: 3px solid #fff;
+        color: white;
+    }
+
+
+
+
+
+
 }
