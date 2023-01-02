@@ -238,6 +238,7 @@
         border-color: #34e03f;
     }
     .notice-section{
+        margin-bottom: 25px;
         margin-top: 18px;
         margin-left: 10px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -280,6 +281,7 @@
 
     /*Student-Login*/
     .student-login{
+        padding-bottom: 0px;
         background-color: #34e03f2f;
         margin-top: 15px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -349,9 +351,260 @@
         color: white;
     }
 
+    /*Photo Gallery*/
+    .image-gallery{
+        
+        margin-left: 10px;
+        -left: 10px;
+        margin: 0;
+        padding: 0;
+        background-color: #34e03f2f;
+        margin-top: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .image-gallery-title{
+        padding-top: 18px;
+        font-size:20px;
+        text-align: center;
+    }
+    .gallery-image{
+        text-align: center;
+    }
+    .gallery-img{
+        width: 90%;
+        margin: 10px;
+        border-radius: 8px;
+    }
+    .gallery-img:hover{
+        
+    }
+
+    .gallery-view-more-btn{
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: ;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        border: 3px solid #77ef7f;
+        transition: 0.2s;
+        margin-bottom: 10px;
+    }
+    .gallery-view-more-btn a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    .gallery-view-more-btn a{
+        text-decoration: none;
+    }
+    .gallery-view-more-btn:hover{
+        background-color: #34e03f;
+        transition: 0.2s;
+        border-radius: 5px;
+        border: 3px solid #fff;
+        color: white;
+    }
+
+    /*CI Speech*/
+    .ci-title{
+        text-align: center;
+        font-size:20px;
+        padding-top: px;
+    }
+    .ci-section{
+        padding-top: 15px;
+        padding-right: 20px;
+        margin-right: 0px;
+       
+        background-color: #34e03f2f;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+
+    .ci-image{
+        position: absolute;
+    }
+    .ci-profile-img{
+        width: 20%;
+        padding: 10px;
+    }
+    .ci-name{
+        font-weight: 500;
+        font-size: 20px;
+        text-align: right;
+    }
+    .ci-speech-text{
+        font-size: 17px;
+        text-align: justify;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .inner-hr{
+        margin: 10px;
+        
+    }
+    
+    .experimental-cf{
+        padding: 0px;
+    }
+
+
+    .absolute{
+        position: absolute;
+        top: 3043px;
+        left: 20px;
+    }
+
+    /*Important Links*/
+    .i-links{
+        background-color: #34e03f2f;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-left: -10px;
+        height: 360px;
+    }
+    .links-title{
+        text-align: center;
+        font-family: 10px;
+        margin-bottom: 0px;
+    }
+    .links-ul
+    .links-li{
+        border-bottom: 1px solid black;
+        transition: 0.1s;
+        font-size: 14px;
+        padding-top: 1px;
+        padding: 10px;
+        margin-bottom: 8px;
+    }
+    .links-li:hover{
+        transition: 0.1s;
+        background-color: #77ef7f;
+        border: 2px solid black;
+    }
+    .links-ul a{
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    .links-ul a:hover{
+        text-decoration: none;
+    }
+
+    /*map*/
+    .map{
+        background-color: #34e03f2f;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-bottom: 30px;
+    }
+    .map-image{
+        text-align: center;
+        padding: 20px;
+    }
+    .map-img{
+        width: 100%;
+        opacity: 95%;
+        border: 2px solid black;
+
+    }
+    .address-p{
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    .map-btn{
+        position: absolute;
+        top: 750px;
+        left: 306px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: ;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        border: 3px solid #77ef7f;
+        transition: 0.2s;
+        margin-bottom: 10px;
+    }
+    .map-btn a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    .map-btn a{
+        text-decoration: none;
+    }
+    .map-btn:hover{
+        background-color: #34e03f;
+        transition: 0.2s;
+        border-radius: 5px;
+        border: 3px solid #fff;
+        color: white;
+    }
+
+    /*Admit-Form*/
+    .admit-form{
+        background-color: #34e03f2f;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .admit-form-btn{
+        position: absolute;
+        top: 750px;
+        left: 706px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        border: 3px solid #77ef7f;
+        transition: 0.2s;
+        margin-bottom: 10px;
+    }
+    .admit-form-btn a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    .admit-form-btn a{
+        text-decoration: none;
+    }
+    .admit-form-btn:hover{
+        background-color: #34e03f;
+        transition: 0.2s;
+        border-radius: 5px;
+        border: 3px solid #fff;
+        color: white;
+    }
 
 
 
 
+
+    /*Footer*/
+    footer{
+        background-color: #34e03f2f;
+        color: ;
+        text-align: center;
+        padding: 20px;
+        font-family: monospace;
+    }
+    footer p{
+        margin: 0px;
+        color: black;
+    }
+    footer p a{
+        text-decoration: none;
+        color: ;
+    }
+    footer p a:hover{
+        text-decoration: none;
+    }
+    .hr-line-footer{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
 
 }

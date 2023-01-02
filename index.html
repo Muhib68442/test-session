@@ -39,14 +39,14 @@
             </div>
           </li>
           <li><a href="#">Teachers</a></li>
-          <li class="li-result"><a href="#">Results</a>
+          <li class="li-result"><a href="#" target="_blank">Results</a>
             <div class="submenu-result">
               <ul>
-                <li><a href="#">Admission Test</a></li>
-                <li><a href="#">Class Test</a></li>
-                <li><a href="#">Mid-Term</a></li>
-                <li><a href="#">Pre-Test</a></li>
-                <li><a href="#">Semester Final</a></li>
+                <li><a href="files/result/result.html">Admission Test</a></li>
+                <li><a href="files/result/result.html">Class Test</a></li>
+                <li><a href="files/result/result.html">Mid-Term</a></li>
+                <li><a href="files/result/result.html">Pre-Test</a></li>
+                <li><a href="files/result/result.html">Semester Final</a></li>
               </ul>
             </div>
           </li>
@@ -58,16 +58,18 @@
     <hr class="hr-line">
 
     <div class="main">
+          <!--Student Corner, Slide-->
           <div class="container-fluid">
               <div class="row">
                   <div class="col-lg-3"><!--stdcorner col-->
                       <p class="text-stdcorner">Student Corner</p>
                       <ul class="student-corner-ul">
-                          <li><a href="#">Notice</a></li>
-                          <li><a href="#">Result</a></li>
+                          <li><a href="#notice">Notice</a></li>
+                          <li><a href="files/result/result.html" target="_blank">Result</a></li>
                           <li><a href="files/routine/index.html" target="_blank">Routine</a></li>
                           <li><a href="#">Classrooms</a></li>
                           <li><a href="files/std-list/index.html" target="_blank">Student Information</a></li>
+                          <li><a href="files/admission-form/admission-form.html" target="_blank">Admission</a></li>
                           <li><a href="#">Helpline</a></li>
                       </ul>
                   </div>
@@ -119,6 +121,7 @@
               </div>
           </div>
 
+          <!--LAB Details Section-->
           <div class="section">
             <div class="container">
               <div class="section-row row">
@@ -167,9 +170,12 @@
 
           <hr class="hr-line-s1">
 
+          <!--Section : Notice, Login, Gallery, Speech, Links, Map, Others-->
           <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-5">
+                      
+            <div class="row"><!--Notice,Login,Gallery-->
+
+              <div class="col-lg-5" id="notice"><!--Notice Section-->
                 <div class="notice-section">
                   <div class="container">
                     <p class="content-title">Notice Board</p>
@@ -187,7 +193,8 @@
                 </div>
               </div>
 
-              <div class="col-3">
+              
+              <div class="col-lg-3"><!--Student Login-->
                 <div class="student-login">
                   <p class="student-login-title">Student Login</p>
                   <div class="student-login-imgdiv">
@@ -198,20 +205,97 @@
                     <input type="text" placeholder="Roll" name="roll" class="roll-input">
                     <br>
                     <label for="Pass" class="pass-label">Pass : </label>
-                    <input type="password" placeholder="********" name="pass" class="pass-input">
+                    <input type="password" placeholder="****" name="pass" class="pass-input">
                   </div>
                   <div class="student-login-button">
                     <button class="login-btn">Login</button>
                   </div>
                 </div>
               </div>
-              <div class="col-4"></div>
-            </div>
+
+
+              <div class="col-lg-4"> <!--Photo Gallery-->
+                <div class="image-gallery">
+                  <p class="image-gallery-title">Photo Gallery</p>
+                  <div class="gallery-image">
+                    <img src="res/gallery/img1.jpg" alt="Image Gallery" class="gallery-img">
+                    <img src="res/gallery/img2.jpg" alt="Image Gallery" class="gallery-img">
+                    <img src="res/gallery/img3.jpg" alt="Image Gallery" class="gallery-img">
+                    
+                  </div>
+                  <button class="gallery-view-more-btn"><a href="#">View More ></a></button>
+                </div>
+              </div>
+            </div><!--row 1 ends-->
+
+            <div class="absolute"><!--absolute-->
+              <div class="row"><!--absolute row 1-->
+
+                <div class="col-6"><!--CI Section-->
+                  <div class="ci-section">
+  
+                    <p class="ci-title">Message from Chief Instructor</p>
+                    <hr class="inner-hr">
+  
+                    <div class="ci-image">
+                      <img src="res/student-profile.jpg" alt="ci-profile-image" class="ci-profile-img">
+                    </div>
+  
+                    <p class="ci-name">Lorem Ipsum <br> (Chief Instructor) <br> Computer Department, SPI</p>
+                    <p class="ci-speech-text">
+                      Lorem, ipsum dolor sit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, magni. amet consectetur adipisicing elit. Hic, ex. Incidunt id inventore architecto, laborum laudantium laboriosam. Neque accusamus consequatur omnis ab! Hic quisquam, natus debitis harum dolore deleniti dolores consequuntur exercitationem at. Quas assumenda veritatis dolor architecto velit, maiores a sed, modi eaque repellat doloremque nisi officia tempore quaerat?
+                    </p>
+  
+                  </div>
+                </div>
+  
+                <div class="col-2"><!--Links-->
+                  <div class="i-links">
+                    <p class="links-title">Important Links</p>
+                    <ul class="links-ul">
+                      <a href="#"><li class="links-li">BTEB</li></a>
+                      <a href="#"><li class="links-li">BTEB</li></a>
+                      <a href="#"><li class="links-li">BTEB</li></a>
+                      <a href="#"><li class="links-li">BTEB</li></a>
+                      
+                    </ul>
+                  </div>
+                </div>
+  
+  
+                <div class="col-4"></div>
+              </div>
+              
+              <div class="row"><!--absolute row 2-->
+                <div class="col-4">
+                  <!--Maps-->
+                  <div class="map">
+                    <div class="map-image">
+                      <img src="res/map.jpg" alt="map" class="map-img">
+                    </div>
+                    <div class="map-address">
+                      <p class="address-p">Technical Road, South Surma, Sylhet</p>
+                      <p class="address-p">Sylhet Bangladesh</p>
+                    </div>
+                    <button class="map-btn">Locate Institute</button>
+                  </div>
+                </div>
+
+
+                <div class="col-4">
+                  <!--Others-->
+                </div>
+              </div>
+
+            </div><!--absolute row ends-->
+
           </div>
           
-
+          <!--Footer-->
           <footer>
-            <p>FOOTER</p>
+            <hr class="hr-line-footer">
+            <p>Copyright © 2023 Sylhet Polytechnic Institute All Right Reserved.</p>
+            <p>Developed by <a href="http://muhib68442.github.io/Portfolio" blank="target">Muhib IT and Web Dev</a></p>
           </footer>
     </div>
 

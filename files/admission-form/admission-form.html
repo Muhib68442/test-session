@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form - SPI</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="stylesheet" href="form-desktop-style.css" media="screen and (min-width:992px)">
+
+    <!--Bootstrap CDN-->
+    <!--4--> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--5--> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--FontAwesome-->
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <header>  
+            <h1 class="inst-name"> <img src="../../res/logo.jpg" alt="Site Logo" class="logo">Sylhet Politechnic Institute</h1>
+            <h3 class="form-title">Admission Form</h3>
+        </header>
+    
+        <div class="form">
+            <p class="warn">*Please Enter Your Correct Information in the Form </p>
+    
+            <form action="form-done.html">
+                    <!--Student Name-->
+                    <h3>Student's Information : </h3>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" required><br><br>
+        
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" required><br><br>
+        
+                    <label for="nname">Nickname:</label>
+                    <input type="text" id="nname" name="nname"><br><br>
+        
+                    <label for="mail">Email Address:</label>
+                    <input type="email" id="mail" name="mail"><br><br>
+        
+                    <label for="num">Mobile Number :</label>
+                    <input type="number" id="num" name="num"><br><br>
+                    <!--Student Name END-->
+        
+                    <label for="addr"> Present Address:</label>
+                    <input type="text" id="addr" name="addr"><br><br>
+        
+                    <!--Parent-->
+                    <h3>Parent's Information : </h3>
+        
+                    <label for="faname">Father's Name:</label>
+                    <input type="text" id="faname" name="faname"><br><br>
+        
+                    <label for="faocc">Father's Occupation:</label>
+                    <input type="text" id="faocc" name="faocc"><br><br>
+        
+                    <label for="maname">Mother's Name:</label>
+                    <input type="text" id="maname" name="maname"><br><br>
+        
+                    <label for="maname">Parent's Mobile Number :</label>
+                    <input type="tel" id="maname" name="maname" required><br><br>
+                    <!--Parent END-->
+        
+                    <!--Guardian-->
+                    <h3>Guardian's Information : </h3>
+                    <label for="ganame">Guardian's Name:</label>
+                    <input type="text" id="ganame" name="ganame"><br><br>
+        
+                    <label for="maname">Guardian's Mobile Number :</label>
+                    <input type="tel" id="maname" name="maname"><br><br>
+                        <!--Guardian END-->
+    
+                    <!--Advance info-->
+                    <h3>Previous Study Information : </h3>
+                    <label for="oldschlname">Previous School Name : </label>
+                    <input type="schlname" id="schl" name="schlname"><br><br>
+        
+                    <label for="prevclass">Class :  </label>
+                    <input type="prevclass" id="prevclass" name="prevclass"><br><br>
+        
+                    <label for="prevgroup">Group :  </label>
+                    <input type="prevgroup" id="prevgroup" name="prevgroup"><br><br>
+        
+                    <label for="oldschlname">GPA (Class 5 or 8) :  </label>
+                    <input type="schlname" id="schl" name="schlname"><br><br>
+    
+    
+    
+    
+    
+    
+                    <h3>Student's Information</h3>
+                    <label for="dtb">Date of Birth :</label>
+                    <input type="date" id="dtb" name="dtb"><br><br>
+        
+                    <label for="gen">Gender : </label>
+                    <input type="radio" id="female" name="gen" value="HTML" required>
+                    <label for="gen">Male</label>
+                    <input type="radio" id="female" name="gen" value="HTML">
+                    <label for="gen">Female</label><br><br>
+    
+                    <label for="img">Student's Image :  </label>
+                    <input type="file" id="simg" name="img"><br><br>
+    
+                    <div>
+                        <label for="dept"> Blood Group : </label> 
+                        <select name="bldgrp">
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                        </select>
+                    </div>
+                    <h3>Admission Info : </h3>
+    
+                    <div><!--Class-->
+                        <label for="class"> Class :  </label> 
+                        <select name="class">
+                            <option value="none">--Select--</option>
+                            <option value="10">10</option>
+                            <option value="9">9</option>
+                            <option value="8">8</option>
+                            <option value="7">7</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+    
+                    <div><!--Group-->
+                        <label for="group"> Group :  </label> 
+                        <select name="group">
+                            <option value="none">--Select--</option>
+                            <option value="science">Science</option>
+                            <option value="arts">Arts</option>
+                            <option value="commerce">Commerce</option>
+                            
+                        </select>
+                    </div>
+    
+                    <!--Shift-->
+                    <label for="gen">Shift : </label>
+                    <input type="checkbox" id="female" name="gen" value="Morning" required>
+                    <label for="gen">Morning</label>
+                    <input type="checkbox" id="chkbx" name="chkbx" value="Day">
+                    <label for="shift-day">Day</label><br><br>
+    
+                    <div>
+                        <label for="message"> Message : </label> <br>
+                        <textarea cols="40" rows="5"> </textarea>
+                    </div>
+    
+                    <p>We'll send you email and texts to update. Please Confirm youtr Mobile Number : </p>
+                    <label for="Number">Phone Number : </label>
+                    <input type="number" id="number" required><br><br>
+    
+                    <!--submit/reset button-->
+                    <button class="btn btn-primary" type="submit">Submit Application</button>
+                    <button class="btn btn-outline-danger" type="reset">Reset Info</button>
+ 
+            </form>
+        </div>
+    </div>
+
+<!--Bootstrap 4 JS CDN-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" class="muhib2929@gmail.com" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Bootstrap 5 JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--Java-Script-->
+<script src="index.js"></script>
+    
+</body>
+</html>

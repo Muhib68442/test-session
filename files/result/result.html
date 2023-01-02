@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result | SPI</title>
+    <!--CSS-->
+    
+    <link rel="stylesheet" href="result-style.css" media="screen and (min-width:992px)">
+
+    <!--Bootstrap CDN-->
+    <!--4--> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--5--> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <style>
+    @media screen and (max-width:500px) {
+      *{
+        font-family: "Roboto",sans-serif;
+      }
+      .logo{
+        width: 100px;
+      }
+      .inst-name{
+        text-align: center;
+      }
+      header h3{
+        text-align: center;
+        border-top: 2px solid rgb(46, 119, 255);
+        border-bottom: 2px solid rgb(46, 119, 255);
+        padding: 10px;
+      }
+      .search-result{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+
+      }
+      .form-result{
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding: 10px;
+      }
+      .top-results h3{
+        text-align: center;
+      }
+      .divider-hr{
+        background-color: rgb(46, 119, 255);
+        border: 2px solid rgb(46, 119, 255);
+      }
+      footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        
+      }
+      
+    }
+  </style>
+  </head>
+<body>
+    <div class="body">
+
+
+      <header>
+        <!--Inst. Logo-->
+        <h1 class="inst-name"> <img src="../../res/logo.jpg" alt="Site Logo" class="logo">Sylhet Polytechnic Institute</h1>
+        <h3>Result Page</h3>
+      </header>
+      
+      <div class="search-result">
+      
+        <h3>Find Your Result</h3><br>
+      
+      
+      
+      
+        <div class="form-result">
+          <h5>*Please enter valid information</h5>
+      
+          <label for="name"> Name : </label>
+          <input type="text" id="name" placeholder="(Optional)" name="name"><br>
+      
+          
+      
+          <div><!--Group-->
+              <label for="group"> Department :  </label> 
+              <select name="group" required>
+                  <option value="none">--Select--</option>
+                  <option value="cmt">Computer</option>
+                  <option value="civil">Civil</option>
+                  <option value="electrical">Electrical</option>
+                  <option value="mechanical">Mechanical</option>
+                  <option value="power">Power</option>
+                  <option value="electronics">Electronics</option>
+                  
+              </select>
+          </div>
+      
+          <div><!--Semester-->
+            <label for="class"> Semester :  </label> 
+            <select name="class">
+                <option value="none">--Select--</option>
+                <option value="1">1st</option>
+                <option value="2">2nd</option>
+                <option value="3">3rd</option>
+                <option value="4">4th</option>
+                <option value="5">5th</option>
+                <option value="6">6th</option>
+                <option value="7">7th</option>
+                <option value="8">8th</option>
+            </select>
+          </div>
+      
+          <div>
+            <!--Shift-->
+              <label for="gen">Shift : </label>
+              <input type="checkbox" id="female" name="gen" value="Morning" required>
+              <label for="gen">Morning</label>
+              <input type="checkbox" id="chkbx" name="chkbx" value="Day">
+              <label for="shift-day">Day</label><br>
+          </div>
+        
+          <label for="roll"> Roll : </label>
+          <input type="number" id="roll" name="roll" required><br>
+      
+          <label for="reg"> Reg. No : </label>
+          <input type="number" id="reg" name="reg"><br>
+      
+        </div>
+        
+        <div class="button">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="reset">Reset</button>
+        </div>
+        
+      
+      </div>
+        
+      <hr class="divider-hr">
+      
+      <div class="top-results">
+        <h3>Top Results</h3>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>#No.</th>
+                <th>Student Name</th>
+                <th>Marks</th>
+              </tr>
+            </thead>
+      
+            <tbody>
+              <tr>
+                <td>#1</td>
+                <td>Student Name</td>
+                <td>CGPA 4.00</td>
+              </tr>
+      
+              <tr>
+                <td>#2</td>
+                <td>Student Name</td>
+                <td>CGPA 3.98</td>
+              </tr>
+      
+              <tr>
+                <td>#3</td>
+                <td>Student Name</td>
+                <td>CGPA 3.96</td>
+              </tr>
+      
+              <tr>
+                <td>#4</td>
+                <td>Student Name</td>
+                <td>CGPA 3.77</td>
+              </tr>
+      
+              <tr>
+                <td>#5</td>
+                <td>Student Name</td>
+                <td>CGPA 3.74</td>
+              </tr>
+      
+              <tr>
+                <td>#6</td>
+                <td>Student Name</td>
+                <td>CGPA 3.65</td>
+              </tr>
+      
+              <tr>
+                <td>#7</td>
+                <td>Student Name</td>
+                <td>CGPA 3.61</td>
+              </tr>
+      
+              <tr>
+                <td>#8</td>
+                <td>Student Name</td>
+                <td>CGPA 3.58</td>
+              </tr>
+      
+              <tr>
+                <td>#9</td>
+                <td>Student Name</td>
+                <td>CGPA 3.55</td>
+              </tr>
+      
+              <tr>
+                <td>#10</td>
+                <td>Student Name</td>
+                <td>CGPA 3.40</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+      
+      <!--
+      
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="footer-nav col-1">
+              
+            </div>
+      
+            <div class="copyright col-11">
+              <h3>Created by &copy; Muhibbur Rahman</h3>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      -->
+    </div>
+
+
+
+<!--Bootstrap 4 JS CDN-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" class="muhib2929@gmail.com" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Bootstrap 5 JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--Java-Script-->
+<script src="index.js"></script>
+    
+</body>
+</html>

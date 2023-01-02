@@ -1,0 +1,91 @@
+<!--Section : Notice, Login, Gallery-->
+<div class="container-fluid">
+            
+    <div class="row"><!--Notice,Login,Gallery-->
+
+      <div class="col-lg-5"><!--Notice Section-->
+        <div class="notice-section">
+          <div class="container">
+            <p class="content-title">Notice Board</p>
+            <ul class="notice-list">
+              <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+              <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+              <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+              <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+              <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+              <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+              <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
+            </ul>
+            <button class="notice-all-btn"><p>View All</p></button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-3"><!--Student Login-->
+        <div class="student-login">
+          <p class="student-login-title">Student Login</p>
+          <div class="student-login-imgdiv">
+            <img src="res/student-profile.jpg" alt="Student-Profile" class="student-login-img">
+          </div>
+          <div class="student-login-field">
+            <label for="Phone" class="roll-label">Roll : </label>
+            <input type="text" placeholder="Roll" name="roll" class="roll-input">
+            <br>
+            <label for="Pass" class="pass-label">Pass : </label>
+            <input type="password" placeholder="****" name="pass" class="pass-input">
+          </div>
+          <div class="student-login-button">
+            <button class="login-btn">Login</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4"> <!--Photo Gallery-->
+        <div class="image-gallery">
+          <p class="image-gallery-title">Photo Gallery</p>
+          <div class="gallery-image">
+            <img src="res/gallery/img1.jpg" alt="Image Gallery" class="gallery-img">
+            <img src="res/gallery/img2.jpg" alt="Image Gallery" class="gallery-img">
+            <img src="res/gallery/img3.jpg" alt="Image Gallery" class="gallery-img">
+            <img src="res/gallery/img4.jpg" alt="Image Gallery" class="gallery-img">
+            
+          </div>
+          <button class="gallery-view-more-btn"><a href="#">View More ></a></button>
+        </div>
+      </div>
+    </div><!--row 1 ends-->
+
+    <div class="row"><!--row 2-->
+      <div class="col-8">
+
+        <div class="ci-speech container-fluid"><!--CI Section-->
+          <p class="ci-title">Message from Chief Instructor</p>
+          <hr class="inner-hr">
+          <div class="row"><!--CI row-->
+            <div class="col-4"><!--Left Side-->
+              <div class="ci-image">
+                <img src="res/student-profile.jpg" alt="ci-profile-image" class="ci-profile-img">
+              </div>
+            </div>
+            <div class="col-8"><!--Right Side-->
+              <p class="ci-name">Lorem Ipsum <br> (Chief Instructor) <br> Computer Department, SPI</p>
+              <p class="ci-speech-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, ex. Incidunt id inventore architecto, laborum laudantium laboriosam. Neque accusamus consequatur omnis ab! Hic quisquam, natus debitis harum dolore deleniti dolores consequuntur exercitationem at. Quas assumenda veritatis dolor architecto velit, maiores a sed, modi eaque repellat doloremque nisi officia tempore quaerat?
+              </p>
+            </div>
+
+          </div><!--ci row-->
+        </div><!--ci c.fluid-->
+
+
+      </div>
+
+      <div class="col-4"><!--Another Section--> 
+
+      </div>
+
+    </div>
+
+  </div>
