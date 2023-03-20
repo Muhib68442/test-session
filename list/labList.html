@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/lists.css">
+    <title>S.P.I Navigation</title>
+</head>
+<body>
+
+<!-- ---------------Header Part--------------- -->
+
+    <header class="header">
+        <div class="container">
+            <nav class="navWrap">
+                <div class="iconText">
+                    <a href="#"><i class="fa-solid fa-map-location"></i></a>
+                    <h1>S.P.I Navigation</h1>
+                </div>
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<!-- ---------------Map Search Part--------------- -->
+
+    <section class="mapSearch">
+        <div class="container">
+            <div class="searchBar">
+                <form>
+                    <i class="fas fa-search"></i>
+                    <input autocomplete="off" type="text" name="" id="searchBox"
+                        placeholder="ex : software lab, 1008, machine shop..." class="searchBox">
+                </form>
+                <div class="classList">
+                    <ul class="ulList">
+                        <li data-search="search-funtionality"><a href="#">//name <i class="fa-solid fa-caret-down"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ---------------ClassRoom List Part--------------- -->
+
+    <section class="classes">
+        <div class="container">
+            <div class="classWrap">
+                <ul class="classSingle">
+                    <li><a href="#">Non-Tech Labs<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropList display">
+                        <li><a href="#">Physics LAB</a></li>
+                        <li><a href="#">Chemistry LAB</a></li>
+                    </ul></li>
+                </ul>
+                <ul class="classSingle">
+                    <li><a href="#">Computer Labs<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropList display">
+                        <li><a href="#">Hardware LAB</a></li>
+                        <li><a href="#">Software LAB</a></li>
+                        <li><a href="#">Network LAB</a></li>
+                        <li><a href="#">ICT LAB</a></li>
+                    </ul></li>
+                </ul>
+                <ul class="classSingle">
+                    <li><a href="#">Electrical Labs<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropList display">
+                        <li><a href="#">EWS</a></li>
+                        <li><a href="#">EPS</a></li>
+                    </ul></li>
+                </ul>
+                <ul class="classSingle">
+                    <li><a href="#">Electronics Labs<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropList display">
+                        <li><a href="#">ENT LAB (Electronics Lab)</a></li>
+                        <li><a href="#">CMT LAB (Computer Lab)</a></li>
+                        <li><a href="#">Micro LAB</a></li>
+                    </ul></li>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+
+
+<!-- ---------------js Linking Part--------------- -->
+
+    <script src="/app.js"></script>
+    <script src="https://kit.fontawesome.com/b29a9f7326.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

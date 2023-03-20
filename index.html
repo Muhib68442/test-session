@@ -1,306 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Sylhet Polytechnic Institute</title>
-      <!--CSS-->
-      <link rel="stylesheet" href="style-main.css">
-      <link rel="stylesheet" href="style-mobile.css">
-      <!--Bootstrap (Offline)-->
-      <link rel="stylesheet" href="bootstrap.css">
-      <!--Slide CSS W3-->
-      <link rel="stylesheet" href="w3-slide.css">
-      <!--Google Fonts CDN-->
 
-      <!--Fontawesome CDN-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>S.P.I Navigation</title>
+</head>
 
-  </head>
+<body>
 
-  <body>
-    
-    <header>
-      <h1 class="inst-name"> <img src="res/logo.jpg" alt="Site Logo" class="logo">Sylhet Polytechnic Institute</h1>
-      
-      <div class="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li class="li-dept"><a href="#" >Department</a>
-            <div class="submenu-dept">
-              <ul>
-                <li><a href="#">Computer Technology</a></li>
-                <li><a href="#">Mechanical Technology</a></li>
-                <li><a href="#">Power Technology</a></li>
-                <li><a href="#">Electrical Technology</a></li>
-                <li><a href="#">Electronics Technology</a></li>
-                <li><a href="#">Electromedical Technology</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">Teachers</a></li>
-          <li class="li-result"><a href="#" target="_blank">Results</a>
-            <div class="submenu-result">
-              <ul>
-                <li><a href="files/result/result.html">Admission Test</a></li>
-                <li><a href="files/result/result.html">Class Test</a></li>
-                <li><a href="files/result/result.html">Mid-Term</a></li>
-                <li><a href="files/result/result.html">Pre-Test</a></li>
-                <li><a href="files/result/result.html">Semester Final</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">Notice</a></li>
-        </ul>
-      </div>
+<!-- ---------------Header Part--------------- -->
+
+    <header class="header">
+        <div class="container">
+            <nav class="navWrap">
+                <div class="iconText">
+                    <a href="#"><i class="fa-solid fa-map-location"></i></a>
+                    <h1>S.P.I Navigation</h1>
+                </div>
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <hr class="hr-line">
+<!-- ---------------Main Logo Part--------------- -->
 
-    <div class="main">
-          <!--Student Corner, Slide-->
-          <div class="container-fluid">
-              <div class="row">
-                  <div class="col-lg-3"><!--stdcorner col-->
-                      <p class="text-stdcorner">Student Corner</p>
-                      <ul class="student-corner-ul">
-                          <li><a href="#notice">Notice</a></li>
-                          <li><a href="files/result/result.html" target="_blank">Result</a></li>
-                          <li><a href="files/routine/index.html" target="_blank">Routine</a></li>
-                          <li><a href="#">Classrooms</a></li>
-                          <li><a href="files/std-list/index.html" target="_blank">Student Information</a></li>
-                          <li><a href="files/admission-form/admission-form.html" target="_blank">Admission</a></li>
-                          <li><a href="#">Helpline</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-lg-9"><!--Slide col-->
-                      <!--SLIDE HERE-->
-                      <div class="w3-content w3-display-container">
+    <section class="logoMain">
+        <div class="logowrap">
+            <img src="./res/logoMain.png" alt="">
+        </div>
+    </section>
 
-                          <div class="w3-display-container mySlides">
-                            <img src="res/slide/1.jpg" >
-                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-                            Img Details Here 1
-                            </div>
-                          </div>
-                          
-                          <div class="w3-display-container mySlides">
-                            <img src="res/slide/2.jpg" >
-                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-                              Img Details Here 2
-                            </div>
-                          </div>
-                          
-                          <div class="w3-display-container mySlides">
-                            <img src="res/slide/3.jpg" >
-                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-                              Img Details Here 3
-                            </div>
-                          </div>
-                          
-                          <div class="w3-display-container mySlides">
-                            <img src="res/slide/4.jpg" >
-                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-                              Img Details Here 4
-                            </div>
-                          </div>
-                          
-                          <div class="w3-display-container mySlides">
-                            <img src="res/slide/5.jpg">
-                            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-                              Img Details Here 5
-                            </div>
-                          </div>
-                          
-                          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-                          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-                          
-                      </div>
-                      <!--SLIDE ENDS-->
-                  </div>
-              </div>
-          </div>
+<!-- ---------------Main Section  Part--------------- -->
 
-          <!--LAB Details Section-->
-          <div class="section">
-            <div class="container">
-              <div class="section-row row">
-                <div class="section-content col-lg-6">
-                  <img src="res/apatotores.jpg" alt="lab" class="section-content-img">
-                </div>
-                <div class="section-content col-lg-6">
-                  <p class="section-content-title">Software Lab</p>
-                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
-                </div>
-              </div>
+    <section class="mainSection">
+        <div class="container">
+            <h1 class="mainText"> Where is your<br>Destination?</h1>
 
-              <div class="section-row row">
-                <div class="section-content col-lg-6">
-                  <p class="section-content-title">Network Lab</p>
-                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
-                </div>
-                <div class="section-content col-lg-6">
-                  <img src="res/apatotores.jpg" alt="" class="section-content-img">
-                </div>
-              </div>
+<!-- ---------------SearchBar Part--------------- -->
 
-              <div class="section-row row">
-                <div class="section-content col-lg-6">
-                  <img src="res/apatotores.jpg" alt="lab" class="section-content-img">
-                </div>
-                <div class="section-content col-lg-6">
-                  <p class="section-content-title">Hardware Lab</p>
-                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
-                </div>
-              </div>
+            <div class="searchBar">
+                <form>
+                    <i class="fas fa-search"></i>
+                    <input autocomplete="off" type="text" name="" id="searchBox"
+                        placeholder="ex : software lab, 1008, machine shop..." class="searchBox">
+                </form>
 
-              <div class="section-row row">
-                <div class="section-content col-lg-6">
-                  <p class="section-content-title">ICT Lab</p>
-                  <p class="section-content-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero, delectus aliquid cupiditate deleniti provident eius tenetur facilis labore nam quia? Expedita qui, nostrum, eligendi, corrupti dolorum doloremque rerum optio eum aperiam perferendis voluptatum dolores autem. Ut temporibus eligendi repellendus fugiat veniam, dolore, iste quos excepturi voluptatem consequatur iure ipsa! consectetur adipisicing elit. Excepturi molestias obcaecati itaque. Suscipit, doloremque, maxime minima a tenetur sapiente deleniti fugiat odit laudantium ipsum cum sed est quisquam quam exercitationem?</p>
-                </div>
-                <div class="section-content col-lg-6">
-                  <img src="res/apatotores.jpg" alt="" class="section-content-img">
-                </div>
-              </div>
+<!-- ---------------List Option For SearchBar Part--------------- -->
 
-
+                <div class="classList">
+                    <ul class="ulList">
+                        <li data-search="search-funtionality"><a href="maps/1006.html">Room no : 1006</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 1007</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 1010</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 1011</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 1012</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 2006</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 2008</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 2009</a></li>
+                        <li data-search="search-funtionality"><a href="#">Room no : 2010</a></li>
+                        <li data-search="search-funtionality"><a href="maps/RD1.html">RD-1</a></li>
+                        <li data-search="search-funtionality"><a href="#">RD-2</a></li>
+                        <li data-search="search-funtionality"><a href="#">RD-3</a></li>
+                        <li data-search="search-funtionality"><a href="#">RD-4</a></li>
+                        <li data-search="search-funtionality"><a href="#">RD-5</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
 
-          <hr class="hr-line-s1">
+<!-- ---------------Direct List Option Part--------------- -->
 
-          <!--Section : Notice, Login, Gallery, Speech, Links, Map, Others-->
-          <div class="container-fluid">
-                      
-            <div class="row"><!--Notice,Login,Gallery-->
-
-              <div class="col-lg-5" id="notice"><!--Notice Section-->
-                <div class="notice-section">
-                  <div class="container">
-                    <p class="content-title">Notice Board</p>
-                    <ul class="notice-list">
-                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
-                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
-                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
-                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
-                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
-                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
-                      <li class="notice"><a href="notice.html">27/12/2022 - this is a notice</a></li>
-                    </ul>
-                    <button class="notice-all-btn"><p>View All</p></button>
-                  </div>
-                </div>
-              </div>
-
-              
-              <div class="col-lg-3"><!--Student Login-->
-                <div class="student-login">
-                  <p class="student-login-title">Student Login</p>
-                  <div class="student-login-imgdiv">
-                    <img src="res/student-profile.jpg" alt="Student-Profile" class="student-login-img">
-                  </div>
-                  <div class="student-login-field">
-                    <label for="Phone" class="roll-label">Roll : </label>
-                    <input type="text" placeholder="Roll" name="roll" class="roll-input">
-                    <br>
-                    <label for="Pass" class="pass-label">Pass : </label>
-                    <input type="password" placeholder="****" name="pass" class="pass-input">
-                  </div>
-                  <div class="student-login-button">
-                    <button class="login-btn">Login</button>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col-lg-4"> <!--Photo Gallery-->
-                <div class="image-gallery">
-                  <p class="image-gallery-title">Photo Gallery</p>
-                  <div class="gallery-image">
-                    <img src="res/gallery/img1.jpg" alt="Image Gallery" class="gallery-img">
-                    <img src="res/gallery/img2.jpg" alt="Image Gallery" class="gallery-img">
-                    <img src="res/gallery/img3.jpg" alt="Image Gallery" class="gallery-img">
-                    
-                  </div>
-                  <button class="gallery-view-more-btn"><a href="#">View More ></a></button>
-                </div>
-              </div>
-            </div><!--row 1 ends-->
-
-            <div class="absolute"><!--absolute-->
-              <div class="row"><!--absolute row 1-->
-
-                <div class="col-lg-6 col-sm-12"><!--CI Section-->
-                  <div class="ci-section">
-  
-                    <p class="ci-title">Message from Chief Instructor</p>
-                    <hr class="inner-hr">
-  
-                    <div class="ci-image">
-                      <img src="res/student-profile.jpg" alt="ci-profile-image" class="ci-profile-img">
+            <div class="optionWrap">
+                <div class="options">
+                    <div class="option">
+                        <div class="iconWrap">
+                            <i class="fa-solid fa-users-rectangle iconFirst"></i>
+                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
+                        </div>
+                        <a href="./list/classroomList.html">
+                            <h3>Classroom</h3>
+                        </a>
                     </div>
-  
-                    <p class="ci-name">Lorem Ipsum <br> (Chief Instructor) <br> Computer Department, SPI</p>
-                    <p class="ci-speech-text">
-                      Lorem, ipsum dolor sit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, magni. amet consectetur adipisicing elit. Hic, ex. Incidunt id inventore architecto, laborum laudantium laboriosam. Neque accusamus consequatur omnis ab! Hic quisquam, natus debitis harum dolore deleniti dolores consequuntur exercitationem at. Quas assumenda veritatis dolor architecto velit, maiores a sed, modi eaque repellat doloremque nisi officia tempore quaerat?
-                    </p>
-  
-                  </div>
-                </div>
-  
-                <div class="col-lg-2 col-sm-12"><!--Links-->
-                  <div class="i-links">
-                    <p class="links-title">Important Links</p>
-                    <ul class="links-ul">
-                      <a href="#"><li class="links-li">BTEB</li></a>
-                      <a href="#"><li class="links-li">BTEB</li></a>
-                      <a href="#"><li class="links-li">BTEB</li></a>
-                      <a href="#"><li class="links-li">BTEB</li></a>
-                      
-                    </ul>
-                  </div>
-                </div>
-  
-  
-                <div class="col-4"></div>
-              </div>
-              
-              <div class="row"><!--absolute row 2-->
-                <div class="col-lg-4 col-sm-12">
-                  <!--Maps-->
-                  <div class="map">
-                    <div class="map-image">
-                      <img src="res/map.jpg" alt="map" class="map-img">
+                    <div class="option">
+                        <div class="iconWrap">
+                            <i class="fa-solid fa-display iconFirst"></i>
+                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
+                        </div>
+                        <a href="./list/labList.html">
+                            <h3>Laboratory</h3>
+                        </a>
                     </div>
-                    <div class="map-address">
-                      <p class="address-p">Technical Road, South Surma, Sylhet</p>
-                      <p class="address-p">Sylhet Bangladesh</p>
+                </div>
+                <div class="options">
+                    <div class="option">
+                        <div class="iconWrap">
+                            <i class="fa-solid fa-screwdriver-wrench iconFirst"></i>
+                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
+                        </div>
+                        <a href="./list/workshopList.html">
+                            <h3>Workshops</h3>
+                        </a>
                     </div>
-                    <button class="map-btn">Locate Institute</button>
-                  </div>
+                    <div class="option">
+                        <div class="iconWrap">
+                            <i class="fa-regular fa-building iconFirst"></i>
+                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
+                        </div>
+                        <a href="./list/officeList.html">
+                            <h3>Office</h3>
+                        </a>
+                    </div>
                 </div>
-
-
-                <div class="col-4">
-                  <!--Others-->
+                <div class="options">
+                    <div class="option">
+                        <div class="iconWrap">
+                            <i class="fa-solid fa-toilet-paper  iconFirst"></i>
+                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
+                        </div>
+                        <a href="./list/washroomList.html">
+                            <h3>Washroom</h3>
+                        </a>
+                    </div>
+                    <div class="option">
+                        <div class="iconWrap">
+                            <i class="fa-regular fa-bookmark iconFirst"></i>
+                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
+                        </div>
+                        <a href="./list/othersList.html">
+                            <h3>Others</h3>
+                        </a>
+                    </div>
                 </div>
-              </div>
+            </div>
+        </div>
+    </section>
 
-            </div><!--absolute row ends-->
+<!-- ---------------js Linking Part--------------- -->
 
-          </div>
-          
-          <!--Footer-->
-          <footer>
-            <hr class="hr-line-footer">
-            <p>Copyright © 2023 Sylhet Polytechnic Institute All Right Reserved.</p>
-            <p>Developed by <a href="http://muhib68442.github.io/Portfolio" blank="target">Muhib IT and Web Dev</a></p>
-          </footer>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/b29a9f7326.js" crossorigin="anonymous"></script>
+</body>
 
 </html>
