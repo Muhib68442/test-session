@@ -1,0 +1,99 @@
+@media screen and (min-width : 992px){
+
+
+
+.contact{
+    background-color: #000000;
+    padding-top: 0px;
+}
+.main-wrapper{
+    padding-top: 70px;
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-container{
+    width: 50%;
+}
+.wrapper-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.handle{
+    margin-bottom: 30px;
+}
+
+.media-ico{
+    width: 10%;
+    display: block;
+}
+.media-name{
+    font-size: 25px;
+    color: white;
+    font-family: Roboto;
+    text-align: left;
+}
+.media-link{
+    text-decoration: none;
+    /* color: rgb(49, 49, 234); */
+    color: rgb(135, 187, 255);
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #171717;
+    padding: 5px 8px;
+}
+
+
+
+.container-form{
+    color: ;
+    margin-left: 20px;
+}
+.container-form form label{
+    color: white;
+    font-size: 27px;
+    font-family: Roboto;
+    margin-right: 30px;
+}
+
+.container-form form input{
+    border: 3px solid #1176ff;
+    background-color: #000000;
+    /* padding: 13px 100px; */
+    width:58%;
+    padding: 10px 10px;
+    margin: 30px 0px;
+    color: #1176ff;
+}
+.container-form form input:focus{
+    background-color: #171717;
+    border: 3px solid #171717;
+    
+}
+
+.msgbox{
+    border: 3px solid #1176ff !important;
+  
+}
+#message{
+   width: 80%;
+    height: 280px;
+}
+.button{
+    padding: 10px 23px;
+    background-color: #000000;
+    border: 3px solid #1176ff;
+    color: white;
+    font-family: monospace;
+    margin-left: 60px;
+    transition: 0.4s;
+}
+.button:hover{
+    border: 2px solid #1176ff ;
+
+}
+
+}

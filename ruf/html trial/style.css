@@ -1,0 +1,15 @@
+.sidebar-link {
+    display: block;
+    margin-bottom: 10px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .sidebar-link-active {
+    font-weight: bold;
+  }
+  
+  .section-to-watch {
+    margin-bottom: 1000px;
+  }
+  

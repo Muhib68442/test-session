@@ -1,0 +1,61 @@
+@media screen and (min-width : 992px){
+
+    /* .main{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #000000;
+        height: 100vh;
+    } */
+
+    .home{
+        background-image: url('../../res/animate-cover/redirect-cover-pc-0.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: fading 2s ease-in-out infinite;
+        height:100vh;
+    }
+    @keyframes fading {
+        0% {background-image: url('../../res/animate-cover/redirect-cover-pc-0.jpg');}
+        50% {background-image: url('../../res/animate-cover/redirect-cover-pc-100.jpg');}
+        100% {background-image: url('../../res/animate-cover/redirect-cover-pc-0.jpg');}
+
+      }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+
+    .text{
+        transform: translate(6%, 70%) !important;
+        margin-left: 70px;
+        /* margin-top: -210px; */
+        color: #ffffff;
+        font-size: 35px;
+        font-family: Roboto;
+        line-height: 40px;
+        word-spacing: 4px;
+    }
+
+    #level{
+        color: #707070;
+        font-size: 25px;
+    }
+
+
+
+
+
+
+    .ending{
+        background-color: #171717;
+        /* height: 10vh; */
+        text-align: center;
+        font-family: Roboto;
+        color: White;
+        padding: 10px;
+    }
+}

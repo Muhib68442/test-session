@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Disable*/
+.forwarding-section{
+    display: none;
+}
+
+/* SECTION HOME */
+.home{
+    background-image: url('../res/redirect-cover.jpg');
+    background-size: 104%;
+    background-repeat: no-repeat;
+    /* background-color: #171717; */
+    height: 100vh;
+    /* margin: auto auto; */
+    /* position: relative; */
+    
+}
+.home-text{
+    transform: translateY(140%);
+    font-size: 20px;
+    font-family: Roboto;
+    color: white;
+    line-height: 25px;
+    word-spacing: 5px;
+    padding-left: 30px;
+}
+#dim-text{
+    color: #777777;
+}
+
+
+
+.about{
+    background-color: #171717;
+}
+
+.image{
+    width: 80%;
+    margin: 0 auto;
+}
+.design{
+    background-color: #f65050;
+    width: 40%;
+    height: 170px;
+    margin: 0 auto;
+}
+.profile-img{
+    width: 100%;
+    margin: 10px;
+}
+
+.profile-name{
+    font-size: 25px;
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+}
+.profile-desc{
+    text-align: left !important;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+    color: rgb(147, 147, 147);
+    margin-top: 45px;
+}
+
+.about-wrapper{
+    padding-top: 30px;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+}
+.topic-title{
+    color: #f65050;
+    font-size: 20px;
+
+}
+.topic-ans{
+    padding: 0;
+}
+
+
+.section-title{
+    text-align: center;
+    color: #f65050;
+    font-size: 25px;
+    font-family: Roboto;
+    padding: 20px;
+}
+.dotted-hr{
+    border: 6px dotted #f65050;
+    border-bottom: none;
+    margin: 0px auto;
+    width: 70px;
+    opacity: 100;
+}
+
+
+
+/*****************Project*********************/
+.projects{
+    background-color: #171717;
+}
+.p-wrapper{
+    display: flex;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.project img{
+    width: 100%;
+    
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+.project h3{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    margin: 7px;
+}
+.project p{
+    color: white;
+    padding: 5px;
+    font-family: Roboto;
+    font-weight: bolder;
+    margin: 5px;
+}
+.project-link{
+    text-decoration: none;
+}
+
+
+
+/********************SKILL STARTS HERE*********************/
+.skills{
+    background-color: #171717;
+}
+.skill-wrapper{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.skill-topic-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    /* margin: 0 auto; */
+
+}
+
+.logo-bg{
+    background-color: #f65050;
+    display: block;
+    width: 32%;
+    border-radius: 30px;
+}
+/* .logo-bg:hover{
+    background-color: #1176ff;
+} */
+.skill-topic-img{
+    width: 100%;
+    display: block;
+}
+
+.skill-topic-name{
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 3px;
+
+}
+
+.heading{
+    color: #f65050;
+    font-size: 30px;
+    text-align: center;
+    font-family: Roboto;
+
+}
+
+.wrapper-skills{
+  width: 70%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+/****/
+.progress-bar {
+width: 70%;
+margin-left: 20px;
+height: 10px;
+background-color: #373737 !important; 
+border-radius: 10px;
+overflow: hidden;
+margin-bottom: 10px;
+}
+
+.progress {
+width: 0%;
+height: 10px;
+background-color: #f65050  !important;
+border-radius: 10px;
+animation: loading 1s ease-in-out forwards;
+animation-fill-mode: forwards;
+}
+#progress1 {
+    animation-delay: 0s;
+    animation-name: loading1;
+  }
+  
+  #progress2 {
+    animation-delay: 0.1s;
+    animation-name: loading2;
+  }
+  
+  #progress3 {
+    animation-delay: 0.2s;
+    animation-name: loading3;
+  }
+  
+  #progress4 {
+    animation-delay: 0.3s;
+    animation-name: loading4;
+  }
+  
+  #progress5 {
+    animation-delay: 0.4s;
+    animation-name: loading5;
+  }
+  
+  #progress6 {
+    animation-delay: 0.5s;
+    animation-name: loading6;
+  }
+  
+  #progress7 {
+    animation-delay: 0.6s;
+    animation-name: loading7;
+  }
+  
+  #progress8 {
+    animation-delay: 0.7s;
+    animation-name: loading8;
+  }
+  
+  @keyframes loading1 {
+    to { width: 90%; }
+  }
+
+  @keyframes loading2 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading3 {
+    to { width: 50%; }
+  }
+
+  @keyframes loading4 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading5 {
+    to { width: 60%; }
+  }
+
+  @keyframes loading6 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading7 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading8 {
+    to { width: 50%; }
+  }
+
+/***********SKILLS ENDS HERE**************/
+
+
+/*contact start*/
+.contact-me{
+    background-color: #171717;
+    width: 100%;
+    display: ;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-links{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact-links a{
+    padding: 5px;
+}
+#mail{
+    color: white;
+    font-family: "quicksand","sans-serif";
+}
+#mail a{
+    text-decoration: none;
+    
+}
+.contact-button-name{
+    display: none;
+}
+.contact-links-dex{
+    display: none;
+}
+.feedback{
+    display: none;
+}
+/*Contact END*/
+
+
+
+/*Forwarding Section*/
+@media screen and (min-width : 992px){
+     .home, .about, .skills, .projects, .contact-me{
+        display: none;
+    } 
+    .forwarding-section{
+        display: block;
+        background-image: url('../res/animate-cover/redirect-cover-pc-0.jpg') ;
+        background-size: 100%;
+
+        height: 100vh;
+        overflow-x: none;
+        overflow-y: none;
+        animation: fading 2s ease-in-out infinite;
+    }
+
+    .homeF{
+        height: 100vh;
+    }
+    .homeF-text{
+        width: 50%;
+        transform: translate(6%, 130%) !important;
+        font-family: Roboto;
+        color: white;
+        line-height: 25px;
+        word-spacing: 5px;
+        padding-left: 30px;
+    }
+    .homeF-text h3{
+        font-size: 35px;
+    }
+    #dim-text{
+        color: #777777;
+    }
+    .explore-btn-div{
+        margin-top: 40px;
+    }
+    .explore-btn-div a{
+        border: 3px solid #569dff;
+        /* #1176ff; */
+        padding: 10px 30px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: rgb(201, 201, 201);
+        font-size: 23px;
+        transition: 0.4s;
+    }
+    .explore-btn-div a:hover{
+        color: #1176ff;
+        border: 3px solid #373737;
+    }
+
+    @keyframes fading {
+        0% {background-image: url('../res/animate-cover/redirect-cover-pc-0.jpg');}
+        50%   {background-image: url('../res/animate-cover/redirect-cover-pc-100.jpg');}
+        100%   {background-image: url('../res/animate-cover/redirect-cover-pc-0.jpg');}
+      }
+}

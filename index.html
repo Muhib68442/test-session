@@ -1,148 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!--786-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>S.P.I Navigation</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Muhibbur Rahman | Portfolio</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="pages/home/home.css">
+    <link rel="stylesheet" href="pages/about/about-me.css">
+    <link rel="stylesheet" href="pages/projects/projects.css">
+    <link rel="stylesheet" href="pages/skill/skill.css">
+    <link rel="stylesheet" href="pages/contact/contact.css">
+    <!--Bootstrap (Offline)-->
+    <link rel="stylesheet" href="css/bootstrap.css">
 
+</head>
 <body>
 
-<!-- ---------------Header Part--------------- -->
+    <!---SideBar--->
+    <section class="sidebar">
+        <img src="res/micon.png" alt="M-Icon">
+        <h3 class="sidebar-title">Md. Muhibbur Rahman</h3>
+        
+        <ul class="section-option-ul">
+            <a class="section-option-link" href="#home"><li class="section-option a">Home</li></a>
+            <a class="section-option-link" href="#about"><li class="section-option b">About Me</li></a>
+            <a class="section-option-link" href="#project"><li class="section-option c">Projects</li></a>
+            <a class="section-option-link" href="#skill"><li class="section-option d">Skills</li></a>
+            <a class="section-option-link" href="#contact"><li class="section-option e">Contact Me</li></a>
+        </ul>
+       
+        <!-- <p style="font-family:monospace; color: aliceblue; "> &copy; Muhib</p> -->
 
-    <header class="header">
-        <div class="container">
-            <nav class="navWrap">
-                <div class="iconText">
-                    <a href="#"><i class="fa-solid fa-map-location"></i></a>
-                    <h1>S.P.I Navigation</h1>
-                </div>
-                <div class="menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-<!-- ---------------Main Logo Part--------------- -->
-
-    <section class="logoMain">
-        <div class="logowrap">
-            <img src="./res/logoMain.png" alt="">
-        </div>
     </section>
+    <!---SideBar--->
 
-<!-- ---------------Main Section  Part--------------- -->
+    
+    <section class="content-section">
+        <!-- <iframe src="pages/home/home.html" class="Miframe" name="iframex" frameborder="0"></iframe> -->
 
-    <section class="mainSection">
-        <div class="container">
-            <h1 class="mainText"> Where is your<br>Destination?</h1>
-
-<!-- ---------------SearchBar Part--------------- -->
-
-            <div class="searchBar">
-                <form>
-                    <i class="fas fa-search"></i>
-                    <input autocomplete="off" type="text" name="" id="searchBox"
-                        placeholder="ex : software lab, 1008, machine shop..." class="searchBox">
-                </form>
-
-<!-- ---------------List Option For SearchBar Part--------------- -->
-
-                <div class="classList">
-                    <ul class="ulList">
-                        <li data-search="search-funtionality"><a href="maps/1006.html">Room no : 1006</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 1007</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 1010</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 1011</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 1012</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 2006</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 2008</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 2009</a></li>
-                        <li data-search="search-funtionality"><a href="#">Room no : 2010</a></li>
-                        <li data-search="search-funtionality"><a href="maps/RD1.html">RD-1</a></li>
-                        <li data-search="search-funtionality"><a href="#">RD-2</a></li>
-                        <li data-search="search-funtionality"><a href="#">RD-3</a></li>
-                        <li data-search="search-funtionality"><a href="#">RD-4</a></li>
-                        <li data-search="search-funtionality"><a href="#">RD-5</a></li>
-                    </ul>
-                </div>
-            </div>
-
-<!-- ---------------Direct List Option Part--------------- -->
-
-            <div class="optionWrap">
-                <div class="options">
-                    <div class="option">
-                        <div class="iconWrap">
-                            <i class="fa-solid fa-users-rectangle iconFirst"></i>
-                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
-                        </div>
-                        <a href="./list/classroomList.html">
-                            <h3>Classroom</h3>
-                        </a>
-                    </div>
-                    <div class="option">
-                        <div class="iconWrap">
-                            <i class="fa-solid fa-display iconFirst"></i>
-                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
-                        </div>
-                        <a href="./list/labList.html">
-                            <h3>Laboratory</h3>
-                        </a>
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="container">
+                <div class="content">
+                    <div class="text">
+                        <p>Hi</p>
+                        <p>Myself Muhib</p>
+                        <p>Frontend Web Designer</p>
+                        <p>and Beginner Programmer</p>
+                        <br>
+                        <p id="level">CSE Student | Frontend | Beginner</p>
+    
+                        <!-- <button><a href="../../index.html" target="iframex">About Me</a></button> -->
                     </div>
                 </div>
-                <div class="options">
-                    <div class="option">
-                        <div class="iconWrap">
-                            <i class="fa-solid fa-screwdriver-wrench iconFirst"></i>
-                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
-                        </div>
-                        <a href="./list/workshopList.html">
-                            <h3>Workshops</h3>
-                        </a>
+        </section>
+        <!-- Home ENDS -->
+
+        <!-- About Me -->
+        <section class="about" id="about">
+            <h3 class="section-title">About Me</h3>
+            <hr class="dotted-hr">
+            <div class="about-container">
+                <div class="wrapper">
+                    <div class="image">
+                        <div class="design"></div>
+                        <img src="res/Muhib.jpeg" alt="Muhib-Profile">
                     </div>
-                    <div class="option">
-                        <div class="iconWrap">
-                            <i class="fa-regular fa-building iconFirst"></i>
-                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
-                        </div>
-                        <a href="./list/officeList.html">
-                            <h3>Office</h3>
-                        </a>
-                    </div>
+                    <h3 class="name">Md. Muhibbur Rahman</h3>
                 </div>
-                <div class="options">
-                    <div class="option">
-                        <div class="iconWrap">
-                            <i class="fa-solid fa-toilet-paper  iconFirst"></i>
-                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
-                        </div>
-                        <a href="./list/washroomList.html">
-                            <h3>Washroom</h3>
-                        </a>
+                <p class="description">Hello ! Myself Muhib. I'm not that professional web developer, but I love coding. So I like to try something new with programming languages. And I've gained much knowledge about it. It looks very interesting ! I'm Excited ! I would inspire if you like my builds and created projects. Thanks.</p>
+                
+                <div class="wrapper">
+                    <div class="topic">
+                        <h3>Level</h3>
+                        <p>Front-End</p>
                     </div>
-                    <div class="option">
-                        <div class="iconWrap">
-                            <i class="fa-regular fa-bookmark iconFirst"></i>
-                            <i class="fa-solid fa-arrow-right-long iconLast"></i>
-                        </div>
-                        <a href="./list/othersList.html">
-                            <h3>Others</h3>
-                        </a>
+                    <div class="topic">
+                        <h3>Started Journey</h3>
+                        <p>From 2021</p>
+                    </div>
+                    <div class="topic">
+                        <h3>Wish to be</h3>
+                        <p>an Developer</p>
                     </div>
                 </div>
             </div>
+            
+        </section>
+        <!-- About Me ENDS -->
+
+
+        <!-- Projects -->
+        <section class="projects" id="project">
+            <h3 class="section-title">Projects</h3>
+            <hr class="dotted-hr">
+            <div class="project-container">
+                <div class="project">
+                    <a href="#" class="project-link">
+                        <img src="res/proj-thumb/spimap.jpg" alt="project-img">
+                        <h3>Muhib Photography</h3>
+                        <p>Lorem ipsum Dolor Sit Amet !!!</p>
+                    </a>
+                </div>
+
+                <div class="project">
+                    
+                    <a href="#" class="project-link" >
+                        <img src="res/proj-thumb/project-spi.jpg" alt="project-img">
+                        <h3>Project SPI</h3>
+                        <p>Lorem ipsum Dolor Sit Amet !!!</p>
+                    </a>
+                </div>
+    
+                <div class="project">
+                    <a href="" class="project-link">
+                        <img src="res/proj-thumb/muhib-photography.jpg" alt="project-img">
+                        <h3>SPI Navigation</h3>
+                        <p>Lorem ipsum Dolor Sit Amet !!!</p>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="" class="project-link">
+                        <img src="res/proj-thumb/projectc.jpg" alt="project-img">
+                        <h3>Project C</h3>
+                        <p>Lorem ipsum Dolor Sit Amet !!!</p>
+                    </a>
+                </div>
+            </div>
+
+           
+        </section>
+        <!-- Projects ENDS -->
+
+        <!-- Skills -->
+        <section class="skills" id="skill">
+            <h3 class="section-title">Skills</h3>
+            <hr class="dotted-hr">
+            <div class="side-wrapper">
+    
+                <div class="side">
+                    <h3 class="heading">Web Design</h3>
+        
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/html.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">HTML</h3>
+                        </div>
+                        <!-- <progress value="80" max="100"></progress> -->
+    
+                        <div class="progress-bar">
+                            <div class="progress" id="progress1"></div>
+                        </div>                      
+    
+                    </div>
+    
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/css.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">CSS</h3>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" id="progress2"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/js.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">JS</h3>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" id="progress3"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/bootstrap.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">Bootstrap</h3>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress p4" id="progress4"></div>
+                        </div>
+                    </div>
+    
+                </div>
+
+
+                <div class="side">
+                    <h3 class="heading">Programming</h3>
+        
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/python.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">Python</h3>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" id="progress5"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/c.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">C</h3>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" id="progress6"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/csharp.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">C#</h3>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" id="progress7"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill-wrapper">
+                        <div class="skill-topic-wrapper">
+                            <div class="logo-bg">
+                                <img class="skill-topic-img" src="res/ico/java.png" alt="skill-topic-logo">
+                            </div>
+                            <h3 class="skill-topic-name">Java</h3>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" id="progress8"></div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+            
+            <div class="wrapper-skills">
+                <div class="topic">
+                    <h3>Started Journey</h3>
+                    <p>From 2021</p>
+                </div>
+                <div class="topic">
+                    <h3>Also Interested in...</h3>
+                    <p>Graphics and UI Design</p>
+                </div>
+                <div class="topic">
+                    <h3>Wish to be</h3>
+                    <p>A Developer</p>
+                </div>
+            </div>
+    
+    
+        </section>
+        <!-- Skills ENDS -->
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h3 class="section-title">Contact Me</h3>
+            <hr class="dotted-hr">
+            <div class="main-wrapper">
+    
+                <div class="container-form">
+                    <form action="mailto:muhib2929@gmail.com">
+                        <label for="name">Name : </label>
+                        <input type="text" id="name" placeholder="Your Name">
+                        <br>
+                        <label for="mail">Email : </label>
+                        <input type="email" id="email" placeholder="someone@example.com">
+                        <label for="name">Your Message :  </label>
+                        <br>
+                        <input class="msgbox"  type="text" id="message" placeholder="Type your Feedback...">
+                        <br>
+                        <button type="submit" class="button">Submit</button>
+                        <button type="reset" class="button">Reset</button>
+                    </form>
+                </div>
+    
+                <div class="contact-container">
+                    
+                    <div class="handle wrapper-c">
+                        <img src="res/ico/fb.png" class="media-ico" alt="media-icon">
+                        <h3 class="media-name">Facebook</h3>
+                        <a href="https://www.facebook.com/m.muhib.68442" target="_blank" class="media-link">facebook.com/m.muhib.68442</a>
+                    </div>
+                    
+                    <div class="handle wrapper-c">
+                        <img src="res/ico/messenger.png" class="media-ico" alt="media-icon">
+                        <h3 class="media-name">Messenger</h3>
+                        <a href="https://www.messenger.com/t/100015683830018" target="_blank" class="media-link">Md. Muhibbur rahman</a>
+                    </div>
+                    <div class="handle wrapper-c">
+                        <img src="res/ico/whatsapp.png" class="media-ico" alt="media-icon">
+                        <h3 class="media-name">Whatsapp</h3>
+                        <a href="tel:+8801717109550" target="_blank" class="media-link">+880 1717-109550</a>
+                    </div>
+                    <div class="handle wrapper-c">
+                        <img src="res/ico/instagram.png" class="media-ico" alt="media-icon">
+                        <h3 class="media-name">Instagram</h3>
+                        <a href="https://www.instagram.com/muhib2929/" target="_blank" class="media-link">muhib2929</a>
+                    </div>
+                    <div class="handle wrapper-c">
+                        <img src="res/ico/github.png" class="media-ico" alt="media-icon">
+                        <h3 class="media-name">Github</h3>
+                        <a href="https://github.com/Muhib68442" target="_blank" class="media-link">Muhib 68442 </a>
+                    </div>
+                    <div class="handle wrapper-c">
+                        <img src="res/ico/phone.png" class="media-ico" alt="media-icon">
+                        <h3 class="media-name">Phone</h3>
+                        <a href="tel:+8801717109550" target="_blank" class="media-link">01717-109550</a>
+                    </div>
+                    <div class="handle wrapper-c">
+                        <img src="res/ico/gmail.png" class="media-ico" alt="media-icon">
+                        <h3 class="media-name">Email</h3>
+                        <a href="mailto:muhib2929@gmail.com" target="_blank" class="media-link">muhib2929@gmail.com</a>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <!-- Contact ENDS -->
+
+    </section>
+    <!--Content Section ENDS-->
+
+
+
+
+    <!--Parallel-->
+
+    <!--Redirection Page-->
+    <section class="redirection-home">
+        <div class="R-intro-text">
+            <h3>Hi</h3>
+            <h3>Myself Muhib</h3>
+            <h3>Frontend Web Designer</h3>
+            <h3>Student | Begineer | CSE</p>
+            <div class="explore-btn-div">
+                <a href="redirect/indexR.html">Explore <i class="fa-solid fa-angle-right"></i> </a>
+            </div>
+        </div>
+        <div class="R-resize-text">
+            <p>Portfolio are better in PC Screen. <br>
+                Open this webpage in PC Screen for better view.
+            </p>
         </div>
     </section>
 
-<!-- ---------------js Linking Part--------------- -->
 
-    <script src="./app.js"></script>
+
+
+
+    <!-- JS -->
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/b29a9f7326.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

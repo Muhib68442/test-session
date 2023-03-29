@@ -1,0 +1,173 @@
+@media screen and (min-width : 992px){
+    /*********PC DESIGN*********/
+.redirection-home{
+    display: none;
+}
+.sidebar{
+    background-color: #171717;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+.sidebar-title{
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: Inter;
+}
+
+
+
+/******Section option******/
+.section-option-ul{
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+.section-option{
+    color: white;
+    background-color: #373737;
+    text-align: center;
+    border: blue;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 20px;
+    transition: 0.1s;
+
+}
+.section-option-link{
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+
+
+
+.section-option:hover{
+    background-color: #1176ff;
+    transition: 0.1s;
+}
+.section-option:hover .section-option-link{
+    color: #373737;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.content-section{ 
+    width: 85%;
+    display: block;
+    float: right;
+    background-color: #000000;
+    /* height: 100vh; */
+    /* padding: 20px;
+    padding-left: 40px;
+    padding-top: 40px; */
+    padding-bottom: 70px;
+}
+
+/*iframe*/
+.Miframe{
+    width: 100%;
+    height: 90vh;
+}
+
+
+.section-highlight {
+    background-color: #f65050;
+  }
+  
+  .section-option-link.active .section-option {
+    color: #fff;
+  }
+
+}   
+
+
+
+
+
+
+@media screen and (max-width : 992px){
+
+    /*Disable Contents*/
+    .sidebar, .home, .about, .skills, .projects, .contact{
+        display: none;
+    }
+
+
+
+
+    /*Redirection Page*/
+    .redirection-home{
+        width: 100%;
+        font-family: Inter;
+        /* background-color: #171717; */
+        margin: 0 auto;
+        height: 100vh;
+        background-image: url("../res/animate-cover/redirect-cover-0.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        /* overflow: none; */
+        animation: fading 2s ease-in-out infinite;
+        
+
+    }
+    .R-intro-text{
+        color: white;
+        width: 80%;
+        display: block;
+        transform: translate(40px,200px);
+    }
+    .R-resize-text{
+        color: #373737;
+        position: absolute;
+        bottom: 0px;
+    }
+    .explore-btn-div{
+        margin-top: 40px;
+    }
+    .explore-btn-div a{
+        border: 3px solid #569dff;
+        /* #f65050; */
+        padding: 10px 30px;
+        text-decoration: none;
+        color: White;
+        transition: 0.4s;
+    }
+    .explore-btn-div a:hover{
+        color: #f65050;
+        border: 3px solid #373737;
+    }
+    
+
+
+    @keyframes fading {
+        0% {background-image: url('../res/animate-cover/redirect-cover-0.jpg');}
+        50%   {background-image: url('../res/animate-cover/redirect-cover-100.jpg');}
+        100%   {background-image: url('../res/animate-cover/redirect-cover-0.jpg');}
+      }
+
+
+
+
+
+
+
+}
+
+
+
