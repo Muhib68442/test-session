@@ -9,7 +9,7 @@
 
     .home{
         background-image: url('../../res/animate-cover/redirect-cover-pc-0.jpg');
-        background-size: 100%;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         animation: fading 2s ease-in-out infinite;
         height:100vh;
@@ -32,6 +32,7 @@
     .text{
         transform: translate(6%, 70%) !important;
         margin-left: 70px;
+        margin-top: 70px;
         /* margin-top: -210px; */
         color: #ffffff;
         font-size: 35px;

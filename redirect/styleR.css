@@ -11,15 +11,18 @@
 
 /* SECTION HOME */
 .home{
-    background-image: url('../res/redirect-cover.jpg');
-    background-size: 104%;
+    background-image: url('../res/animate-cover/redirect-cover-mobile.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
-    /* background-color: #171717; */
-    height: 100vh;
-    /* margin: auto auto; */
-    /* position: relative; */
-    
+    height: 95vh;
+    animation : fading 3s ease-in-out forwards infinite;
 }
+@keyframes fading {
+    0% {background-image: url('../res/animate-cover/redirect-cover-mobile-0.jpg');}
+    50%   {background-image: url('../res/animate-cover/redirect-cover-mobile-100.jpg');}
+    100%   {background-image: url('../res/animate-cover/redirect-cover-mobile-0.jpg');}
+}
+
 .home-text{
     transform: translateY(140%);
     font-size: 20px;
@@ -34,7 +37,6 @@
 }
 
 
-
 .about{
     background-color: #171717;
 }
@@ -44,9 +46,9 @@
     margin: 0 auto;
 }
 .design{
-    background-color: #f65050;
+    background-color: #1176ff;
     width: 40%;
-    height: 170px;
+    height: 150px;
     margin: 0 auto;
 }
 .profile-img{
@@ -59,51 +61,41 @@
     font-family: Roboto;
     text-align: center;
     color: white;
-    margin-top: 45px;
+    padding-top: 55px;
 }
 .profile-desc{
     text-align: left !important;
-    padding: 0px 10px;
-    font-size: 20px;
+    padding: 0px 15px;
+    font-size: 17px;
     font-family: Roboto;
     text-align: center;
-    color: rgb(147, 147, 147);
-    margin-top: 45px;
+    color: #777777;
+    margin-top: 25px;
 }
 
 .about-wrapper{
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     display: flex;
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     font-family: Roboto;
+    text-align: center;
 }
 .topic-title{
-    color: #f65050;
+    color: #1176ff;
     font-size: 20px;
 
 }
 .topic-ans{
     padding: 0;
+    color: #777777;
 }
 
 
-.section-title{
-    text-align: center;
-    color: #f65050;
-    font-size: 25px;
-    font-family: Roboto;
-    padding: 20px;
-}
-.dotted-hr{
-    border: 6px dotted #f65050;
-    border-bottom: none;
-    margin: 0px auto;
-    width: 70px;
-    opacity: 100;
-}
+
 
 
 
@@ -115,12 +107,11 @@
     display: flex;
     padding-bottom: 10px;
     margin: 0 auto;
-    width: 90%;
+    width: 94%;
 }
 
 .project img{
     width: 100%;
-    
     border-radius: 15px;
     display: block;
     margin: 0 auto;
@@ -128,10 +119,11 @@
     
 }
 .project h3{
-    color: white;
+    color: #eeeeee;
     font-family: Roboto;
     text-align: center;
     margin: 7px;
+    font-size: 20px;
 }
 .project p{
     color: white;
@@ -156,7 +148,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 18px;
     margin-left: 30px;
 }
 
@@ -170,7 +162,7 @@
 }
 
 .logo-bg{
-    background-color: #f65050;
+    background-color: #1176ff;
     display: block;
     width: 32%;
     border-radius: 30px;
@@ -184,7 +176,7 @@
 }
 
 .skill-topic-name{
-    color: white;
+    color: #eeeeee;
     font-size: 20px;
     font-family: Roboto;
     letter-spacing: 3px;
@@ -222,7 +214,7 @@ margin-bottom: 10px;
 .progress {
 width: 0%;
 height: 10px;
-background-color: #f65050  !important;
+background-color: #1176ff  !important;
 border-radius: 10px;
 animation: loading 1s ease-in-out forwards;
 animation-fill-mode: forwards;
@@ -362,7 +354,7 @@ animation-fill-mode: forwards;
     }
     .homeF-text{
         width: 50%;
-        transform: translate(6%, 130%) !important;
+        transform: translate(7%, 104%) !important;
         font-family: Roboto;
         color: white;
         line-height: 25px;

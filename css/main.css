@@ -18,13 +18,16 @@
     margin-bottom: 27px;
 }
 .sidebar-title{
-    font-size: 17px;
+    font-size: 20px;
     padding: 5px;
     text-align: center;
     color: white;
     font-family: Inter;
 }
 
+.title{
+    font-size: 35px !important;
+}
 
 
 /******Section option******/
@@ -34,7 +37,6 @@
     padding: 0;
 }
 .section-option{
-    color: white;
     background-color: #373737;
     text-align: center;
     border: blue;
@@ -42,29 +44,31 @@
     margin: 5px;
     margin-bottom: 20px;
     transition: 0.1s;
-
 }
+
+
 .section-option-link{
+    color: white;
     text-decoration: none;
     font-family: Roboto;
+    transition: 0.1s;
 }
-
-
-
+.section-option-link:target{
+    background-color: #1176ff;
+}
 
 .section-option:hover{
     background-color: #1176ff;
     transition: 0.1s;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 20px;    
+    border: 2px solid #83b7ff;
 }
 .section-option:hover .section-option-link{
     color: #373737;
     font-weight: bolder;
 }
-
-
-
-
-
 
 .content-section{ 
     width: 85%;
@@ -84,18 +88,7 @@
     height: 90vh;
 }
 
-
-.section-highlight {
-    background-color: #f65050;
-  }
-  
-  .section-option-link.active .section-option {
-    color: #fff;
-  }
-
-}   
-
-
+}/***Ending of PC CSS***/
 
 
 
@@ -106,25 +99,15 @@
     .sidebar, .home, .about, .skills, .projects, .contact{
         display: none;
     }
-
-
-
-
     /*Redirection Page*/
     .redirection-home{
-        width: 100%;
         font-family: Inter;
-        /* background-color: #171717; */
-        margin: 0 auto;
-        height: 100vh;
+        height: 95vh;
         background-image: url("../res/animate-cover/redirect-cover-0.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
-
         /* overflow: none; */
         animation: fading 2s ease-in-out infinite;
-        
-
     }
     .R-intro-text{
         color: white;
@@ -133,9 +116,11 @@
         transform: translate(40px,200px);
     }
     .R-resize-text{
-        color: #373737;
+        color: #444444;
         position: absolute;
         bottom: 0px;
+        margin-bottom: 0px;
+        padding: 20px;
     }
     .explore-btn-div{
         margin-top: 40px;
@@ -149,25 +134,32 @@
         transition: 0.4s;
     }
     .explore-btn-div a:hover{
-        color: #f65050;
+        color: #1176ff;
         border: 3px solid #373737;
     }
+    #dim-text{
+        color: #777777;
+    }
     
-
-
     @keyframes fading {
-        0% {background-image: url('../res/animate-cover/redirect-cover-0.jpg');}
-        50%   {background-image: url('../res/animate-cover/redirect-cover-100.jpg');}
-        100%   {background-image: url('../res/animate-cover/redirect-cover-0.jpg');}
+        0% {background-image: url('../res/animate-cover/redirect-cover-mobile-0.jpg');}
+        50%   {background-image: url('../res/animate-cover/redirect-cover-mobile-100.jpg');}
+        100%   {background-image: url('../res/animate-cover/redirect-cover-mobile-0.jpg');}
       }
-
-
-
-
-
-
 
 }
 
+@media screen and (max-width : 320px){
+    .redirection-home{
+        height: 100vh;
+    }
+    .R-intro-text h3{
+        font-size: 18px;
+    }
+    #dim-text{
+        color: #777777;
+    }
+
+}
 
 

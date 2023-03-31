@@ -28,9 +28,9 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #373737;
+  background-color: #1176ff;
   border-radius: 10px;
-  border: 1px solid #777777;
+  border: 2px solid #334e75;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -46,7 +46,7 @@ body{
   color: #1176ff;
   font-size: 35px;
   font-family: Roboto;
-  padding: 10px;
+  padding: 30px;
 }
 .dotted-hr{
   border: 6px dotted #1176ff;
