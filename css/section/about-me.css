@@ -12,6 +12,7 @@
     justify-content: space-evenly;
     align-items: flex-end;
 }
+/*Profile-Image*/
 .image{
     width: 40%;
 }
@@ -25,7 +26,7 @@
     background-color: #1176ff;
     height: 245px;
 }
-
+/*Name and Desc.*/
 .name{
     font-family: Inter;
     padding-bottom: 40px;
@@ -41,6 +42,8 @@
     font-family: Roboto;
     margin-top: 20px;
 }
+
+/*Points*/
 .topic{
     margin-top: 25px;
     text-align: center;

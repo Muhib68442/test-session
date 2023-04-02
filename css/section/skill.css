@@ -32,36 +32,27 @@
         /* margin: 0 auto; */
 
     }
-
     .logo-bg{
-        /* background-color: #1176ff; */
         display: block;
         width: 32%;
         border-radius: 30px;
     }
-    /* .logo-bg:hover{
-        background-color: #1176ff;
-    } */
     .skill-topic-img{
         width: 100%;
         display: block;
     }
-
     .skill-topic-name{
         font-size: 25px;
         font-family: Roboto;
         letter-spacing: 3px;
 
     }
-
     .heading{
         color: #1176ff;
         font-size: 30px;
         text-align: center;
         font-family: Roboto;
-
     }
-   
     .wrapper-skills{
       width: 70%;
       margin: 40px auto;
@@ -70,8 +61,7 @@
       align-items: center;
   }
 
-
-/**Parallel**/
+  /*Progress & Animation (Skills)*/
 .progress-bar {
     width: 70%;
     margin-left: 20px;
@@ -82,13 +72,12 @@
     margin-bottom: 10px;
   }
   
-  .progress {
+  .progress-anim {
     width: 0%;
     height: 10px;
     background-color: #1176ff  !important;
     border-radius: 10px;
     animation: loading 1s ease-in-out forwards;
-    animation-fill-mode: ;
   }
   
   #progress1 {

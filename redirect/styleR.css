@@ -300,36 +300,42 @@ animation-fill-mode: forwards;
     width: 100%;
     display: ;
     margin: 0 auto;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-bottom: 40px;
 }
 
 .contact-links{
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
+
 }
 .contact-links a{
     padding: 5px;
 }
-#mail{
-    color: white;
-    font-family: "quicksand","sans-serif";
+
+.contact-links a button{
+    width: 12%;
+    height: 6vh;
+    border: none ;
+    border-radius: 10px;
+    background-color: #333333;
 }
-#mail a{
-    text-decoration: none;
-    
+.contact-links a button i{
+
 }
-.contact-button-name{
-    display: none;
-}
-.contact-links-dex{
-    display: none;
-}
-.feedback{
-    display: none;
-}
-/*Contact END*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

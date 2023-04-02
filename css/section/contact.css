@@ -18,34 +18,8 @@
     width: 50%;
 }
 
-.handle{
-    margin-bottom: 30px;
-}
-
-.media-ico{
-    width: 30%;
-    display: block;
-}
-.media-name{
-    font-size: 25px;
-    color: white;
-    font-family: Roboto;
-    text-align: left;
-}
-.media-link{
-    text-decoration: none;
-    /* color: rgb(49, 49, 234); */
-    color: rgb(135, 187, 255);
-    font-size: 20px;
-    font-family: monospace;
-    background-color: #171717;
-    padding: 5px 8px;
-}
-
-
-
+/*Form*/
 .container-form{
-    color: ;
     margin-left: 20px;
 }
 .container-form form label{
@@ -54,7 +28,6 @@
     font-family: Roboto;
     margin-right: 30px;
 }
-
 .container-form form input{
     border: 3px solid #1176ff;
     background-color: #000000;
@@ -67,12 +40,9 @@
 .container-form form input:focus{
     background-color: #171717;
     border: 3px solid #333333;
-    
 }
-
 .msgbox{
     border: 3px solid #1176ff !important;
-  
 }
 #message{
    width: 80%;
@@ -98,23 +68,14 @@
     align-items: center;
 }
 
-
-
-
-
-
-
-/*Handle Parallel*/
-
+/*Handle*/
 .handle-link-div{
     padding: 5px 10px;
     background-color: #222211;
     margin: 0;
 }
 .handle-link{
-    /* color: white; */
     text-decoration: none;
-
 }
 
 .handle-topic-name{
@@ -123,7 +84,6 @@
 }
 .handle-logo-bg{
     width: 20%;
-    /* height: 40%; */
     background-color: #222222;
     border-radius: 20px;
     transition: 0.2s;
@@ -132,13 +92,12 @@
     background-color: #333333;
 }
 .handle-topic-img{
-    /* width: 100%; */
     padding: 15px;
-    /* margin: 0 auto; */
     display: block;
     fill: #1176ff !important;
 }
 .handle-topic-img:hover{
    fill: #0b70ff  !important;
 }
+
 }

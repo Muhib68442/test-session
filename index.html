@@ -1,7 +1,12 @@
 <!DOCTYPE html>
+<!--
+        Md. Muhibbur Rahman | Portfolio 
+        ver : 4.0.1
+        Last Updated : 4/4/2023 | 8.00PM
+        Project by ©Muhib
+-->
 <html lang="en">
 <head>
-    <!--786-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +16,13 @@
     <title>Md. Muhibbur Rahman | Portfolio</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/universal.css">
-    <link rel="stylesheet" href="pages/home/home.css">
-    <link rel="stylesheet" href="pages/about/about-me.css">
-    <link rel="stylesheet" href="pages/projects/projects.css">
-    <link rel="stylesheet" href="pages/skill/skill.css">
-    <link rel="stylesheet" href="pages/contact/contact.css">
     <!--Bootstrap (Offline)-->
     <link rel="stylesheet" href="css/bootstrap.css">
-
 </head>
 <body>
 
-    <!---SideBar--->
+    <!------------SideBar---------->
     <section class="sidebar">
         <img src="res/micon.png" alt="M-Icon">
         <h3 class="sidebar-title">Md. Muhibbur Rahman</h3>
@@ -37,16 +35,17 @@
             <a class="section-option-link" href="#contact"><li class="section-option e">Contact Me</li></a>
         </ul>
        
-        <!-- <p style="font-family:monospace; color: aliceblue; "> &copy; Muhib</p> -->
+        <!-- <p style="font-family:monospace; color: aliceblue; "> &copy;Muhib</p> -->
+        <a href="mailto:muhib2929@gmail.com" class="sidebar-dim-text"><i class="far fa-envelope"></i> muhib2929@gmail.com</a>
 
     </section>
-    <!---SideBar--->
+    <!------------SideBar ENDS---------->
 
     
+    <!------------Contents---------->
     <section class="content-section">
-        <!-- <iframe src="pages/home/home.html" class="Miframe" name="iframex" frameborder="0"></iframe> -->
 
-        <!-- Home -->
+        <!------------Home---------->
         <section class="home" id="home">
             <div class="container">
                 <div class="content">
@@ -62,9 +61,9 @@
                     </div>
                 </div>
         </section>
-        <!-- Home ENDS -->
+        <!------------Home ENDS---------->
 
-        <!-- About Me -->
+        <!------------About---------->
         <section class="about" id="about">
             <div class="section-title">
                 <h3 class="title">About Me</h3>
@@ -97,10 +96,10 @@
             </div>
             
         </section>
-        <!-- About Me ENDS -->
+        <!------------About ENDS---------->
 
 
-        <!-- Projects -->
+        <!------------Projects---------->
         <section class="projects" id="project">
             <div class="section-title">
                 <h3 class="title">Projects</h3>
@@ -143,9 +142,9 @@
 
            
         </section>
-        <!-- Projects ENDS -->
+        <!------------Projects ENDS---------->
 
-        <!-- Skills -->
+        <!------------Skills---------->
         <section class="skills" id="skill">
             <div class="section-title">
                 <h3 class="title">Skills</h3>
@@ -157,7 +156,7 @@
                     <h3 class="heading">Web Design</h3>
         
                     <div class="skill-wrapper">
-                        <div class="skill-topic-wrapper">
+                        <div class="skill-topic-wrapper" id="skill-wrapper">
                             <div class="logo-bg">
                                 <img class="skill-topic-img" src="res/ico/html.png" alt="skill-topic-logo">
                             </div>
@@ -166,32 +165,32 @@
                         <!-- <progress value="80" max="100"></progress> -->
     
                         <div class="progress-bar">
-                            <div class="progress" id="progress1"></div>
+                            <div class="progress-anim" id="progress1"></div>
                         </div>                      
     
                     </div>
     
                     <div class="skill-wrapper">
-                        <div class="skill-topic-wrapper">
+                        <div class="skill-topic-wrapper" id="skill-wrapper">
                             <div class="logo-bg">
                                 <img class="skill-topic-img" src="res/ico/css.png" alt="skill-topic-logo">
                             </div>
                             <h3 class="skill-topic-name">CSS</h3>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress" id="progress2"></div>
+                            <div class="progress-anim" id="progress2"></div>
                         </div>
                     </div>
     
                     <div class="skill-wrapper">
-                        <div class="skill-topic-wrapper">
+                        <div class="skill-topic-wrapper" id="skill-wrapper">
                             <div class="logo-bg">
                                 <img class="skill-topic-img" src="res/ico/js.png" alt="skill-topic-logo">
                             </div>
                             <h3 class="skill-topic-name">JS</h3>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress" id="progress3"></div>
+                            <div class="progress-anim" id="progress3"></div>
                         </div>
                     </div>
     
@@ -203,7 +202,7 @@
                             <h3 class="skill-topic-name">Bootstrap</h3>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress p4" id="progress4"></div>
+                            <div class="progress-anim" id="progress4"></div>
                         </div>
                     </div>
     
@@ -213,7 +212,7 @@
                 <div class="side">
                     <h3 class="heading">Programming</h3>
         
-                    <div class="skill-wrapper">
+                    <div class="skill-wrapper" >
                         <div class="skill-topic-wrapper">
                             <div class="logo-bg">
                                 <img class="skill-topic-img" src="res/ico/python.png" alt="skill-topic-logo">
@@ -221,7 +220,7 @@
                             <h3 class="skill-topic-name">Python</h3>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress" id="progress5"></div>
+                            <div class="progress-anim" id="progress5"></div>
                         </div>
                     </div>
     
@@ -233,7 +232,7 @@
                             <h3 class="skill-topic-name">C</h3>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress" id="progress6"></div>
+                            <div class="progress-anim" id="progress6"></div>
                         </div>
                     </div>
     
@@ -245,7 +244,7 @@
                             <h3 class="skill-topic-name">C#</h3>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress" id="progress7"></div>
+                            <div class="progress-anim" id="progress7"></div>
                         </div>
                     </div>
     
@@ -257,7 +256,7 @@
                             <h3 class="skill-topic-name">Java</h3>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress" id="progress8"></div>
+                            <div class="progress-anim" id="progress8"></div>
                         </div>
                     </div>
     
@@ -282,9 +281,9 @@
     
     
         </section>
-        <!-- Skills ENDS -->
+        <!------------Skills ENDS---------->
 
-        <!-- Contact -->
+        <!------------Contact---------->
         <section class="contact" id="contact">
             <div class="section-title">
                 <h3 class="title">Contact Me</h3>
@@ -387,17 +386,13 @@
     
             </div>
         </section>
-        <!-- Contact ENDS -->
-
+        <!------------Contact ENDS---------->
     </section>
-    <!--Content Section ENDS-->
+
+    <!------------CONTENT ENDS---------->
 
 
-
-
-    <!--Parallel-->
-
-    <!--Redirection Page-->
+    <!------------Redirection---------->
     <section class="redirection-home">
         <div class="R-intro-text">
             <h3>Hi</h3>
@@ -415,12 +410,9 @@
         </div>
     </section>
 
-
-
-
-
     <!-- JS -->
     <script src="script.js"></script>
+    <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/b29a9f7326.js" crossorigin="anonymous"></script>
 </body>
 </html>
