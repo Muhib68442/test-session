@@ -593,6 +593,11 @@ to { width: 50%; }
 
 /*REDIRECTION SECTION SCREEN Small 320px*/
 @media screen and (max-width : 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .redirection-home{
         height: 100vh;
     }
