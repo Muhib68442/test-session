@@ -1,0 +1,103 @@
+@media screen and (min-width : 992px){
+
+
+
+.contact{
+    background-color: #000000;
+    padding-top: 0px;
+}
+.main-wrapper{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-container{
+    width: 50%;
+}
+
+/*Form*/
+.container-form{
+    margin-left: 20px;
+}
+.container-form form label{
+    color: white;
+    font-size: 27px;
+    font-family: Roboto;
+    margin-right: 30px;
+}
+.container-form form input{
+    border: 3px solid #1176ff;
+    background-color: #000000;
+    /* padding: 13px 100px; */
+    width:58%;
+    padding: 10px 10px;
+    margin: 30px 0px;
+    color: #1176ff;
+}
+.container-form form input:focus{
+    background-color: #171717;
+    border: 3px solid #333333;
+}
+.msgbox{
+    border: 3px solid #1176ff !important;
+}
+#message{
+   width: 80%;
+    height: 280px;
+}
+.button{
+    padding: 10px 23px;
+    background-color: #000000;
+    border: 3px solid #1176ff;
+    color: white;
+    font-family: monospace;
+    margin-left: 60px;
+    transition: 0.4s;
+}
+.button:hover{
+    border: 3px solid #333333 ;
+    color: #1176ff;
+
+}
+.icon-name-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Handle*/
+.handle-link-div{
+    padding: 5px 10px;
+    background-color: #222211;
+    margin: 0;
+}
+.handle-link{
+    text-decoration: none;
+}
+
+.handle-topic-name{
+    color: white;
+    font-family: Roboto;
+}
+.handle-logo-bg{
+    width: 20%;
+    background-color: #222222;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.handle-logo-bg:hover{
+    background-color: #333333;
+}
+.handle-topic-img{
+    padding: 15px;
+    display: block;
+    fill: #1176ff !important;
+}
+.handle-topic-img:hover{
+   fill: #0b70ff  !important;
+}
+
+}

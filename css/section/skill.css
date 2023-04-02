@@ -1,0 +1,161 @@
+@media screen and (min-width : 992px){
+    .skills{
+        padding: 10px 0px;
+        background-color: #000000;
+    }
+    .side-wrapper{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        margin: 0 auto;
+        color: #ffffff;
+    }
+    .side{
+        width: 47%;
+    }
+    .skill-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .skill-topic-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+        /* margin: 0 auto; */
+
+    }
+    .logo-bg{
+        display: block;
+        width: 32%;
+        border-radius: 30px;
+    }
+    .skill-topic-img{
+        width: 100%;
+        display: block;
+    }
+    .skill-topic-name{
+        font-size: 25px;
+        font-family: Roboto;
+        letter-spacing: 3px;
+
+    }
+    .heading{
+        color: #1176ff;
+        font-size: 30px;
+        text-align: center;
+        font-family: Roboto;
+    }
+    .wrapper-skills{
+      width: 70%;
+      margin: 40px auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  /*Progress & Animation (Skills)*/
+.progress-bar {
+    width: 70%;
+    margin-left: 20px;
+    height: 10px;
+    background-color: #373737 !important; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .progress-anim {
+    width: 0%;
+    height: 10px;
+    background-color: #1176ff  !important;
+    border-radius: 10px;
+    animation: loading 1s ease-in-out forwards;
+  }
+  
+  #progress1 {
+    animation-delay: 0s;
+    animation-name: loading1;
+  }
+  
+  #progress2 {
+    animation-delay: 0.1s;
+    animation-name: loading2;
+  }
+  
+  #progress3 {
+    animation-delay: 0.2s;
+    animation-name: loading3;
+  }
+  
+  #progress4 {
+    animation-delay: 0.3s;
+    animation-name: loading4;
+  }
+  
+  #progress5 {
+    animation-delay: 0.4s;
+    animation-name: loading5;
+  }
+  
+  #progress6 {
+    animation-delay: 0.5s;
+    animation-name: loading6;
+  }
+  
+  #progress7 {
+    animation-delay: 0.6s;
+    animation-name: loading7;
+  }
+  
+  #progress8 {
+    animation-delay: 0.7s;
+    animation-name: loading8;
+  }
+  
+  @keyframes loading1 {
+    to { width: 90%; }
+  }
+
+  @keyframes loading2 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading3 {
+    to { width: 50%; }
+  }
+
+  @keyframes loading4 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading5 {
+    to { width: 60%; }
+  }
+
+  @keyframes loading6 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading7 {
+    to { width: 70%; }
+  }
+
+  @keyframes loading8 {
+    to { width: 50%; }
+  }
+
+
+
+  
+
+
+
+}

@@ -1,0 +1,61 @@
+.about{
+    background-color: #000000;
+}
+.about-container{
+    width: 70%;
+    margin: 20px auto;
+}
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+/*Profile-Image*/
+.image{
+    width: 40%;
+}
+.image img{
+    width: 100%;
+    margin-top: -230px;
+    margin-left: 15px;
+    /* position: static; */
+}
+.design{
+    background-color: #1176ff;
+    height: 245px;
+}
+/*Name and Desc.*/
+.name{
+    font-family: Inter;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: white;
+}
+.description{
+    color: white;
+    font-size: 22px;
+    line-height: 31px;
+    word-spacing: 3px;
+    font-family: Roboto;
+    margin-top: 20px;
+}
+
+/*Points*/
+.topic{
+    margin-top: 25px;
+    text-align: center;
+}
+.topic h3{
+    color: #1176ff;
+    font-size: 25px;
+    font-family: Roboto;
+}
+.topic p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
