@@ -112,17 +112,17 @@ Last Updated : 4/4/2023 | 8.00 PM
 
 /******* Section : HOME ******/
 .home{
-    background-image: url('../../res/animate-cover/redirect-cover-pc-0.jpg');
+    background-image: url('../res/animate-cover/redirect-cover-pc-0.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
     animation: fading 2s ease-in-out infinite;
     height:100vh;
 }
 @keyframes fading {
-    0% {background-image: url('../../res/animate-cover/redirect-cover-pc-0.jpg');}
-    50% {background-image: url('../../res/animate-cover/redirect-cover-pc-100.jpg');}
-    100% {background-image: url('../../res/animate-cover/redirect-cover-pc-0.jpg');}
-  }
+    0% {background-image: url('../res/animate-cover/redirect-cover-pc-0.jpg');}
+    50% {background-image: url('../res/animate-cover/redirect-cover-pc-100.jpg');}
+    100% {background-image: url('../res/animate-cover/redirect-cover-pc-0.jpg');}
+}
 
 .container{
     display: flex;
@@ -541,7 +541,7 @@ to { width: 50%; }
     .redirection-home{
         font-family: Inter;
         height: 95vh;
-        background-image: url("../res/animate-cover/redirect-cover-0.jpg");
+        background-image: url("../res/animate-cover/redirect-cover-mobile-0.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         /* overflow: none; */
