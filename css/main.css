@@ -475,15 +475,17 @@ to { width: 50%; }
 }
 .msgbox{
     border: none !important;
-    border-left: 3px solid #1176ff !important;
+    border-left: 2px solid #1176ff !important;
     padding: 10px;
     color: #1176ff;
     font-size: 25px;
     padding-left: 40px;
-
+    transition: 0.2s;
 }
-.msgbox:active{
-    border: 2px solid #1176ff;
+.msgbox:hover{
+    border-left: 4px solid #1176ff !important;
+    transition: 0.2s;
+
 }
 #message{
    width: 80%;
@@ -502,10 +504,13 @@ to { width: 50%; }
 .button:hover{
     border: 3px solid #333333 ;
     color: #1176ff;
+    transition: 0.2s;
 
 }
 #reset-btn:hover{
     color: #f65050;
+    transition: 0.2s;
+
 }
 .icon-name-wrapper{
     display: flex;
