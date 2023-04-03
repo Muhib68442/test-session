@@ -51,7 +51,7 @@ Last Updated : 4/4/2023 | 8.00 PM
     padding: 0;
 }
 .section-option{
-    background-color: #373737;
+    background-color: #222222;
     text-align: center;
     border: blue;
     padding: 15px;
@@ -72,12 +72,14 @@ Last Updated : 4/4/2023 | 8.00 PM
 }
 
 .section-option:hover{
-    background-color: #202020;
+    background-color: #111111;
     transition: 0.1s;
     color: #1176ff;
     font-weight: bolder;
     font-size: 20px;    
-    border-bottom: 3px solid #1176ff;
+    border-left: 3px solid #1176ff;
+    padding-left: 20px;
+    margin-left: 10px;
 }
 .section-option:hover .section-option-link{
     color: #373737;
@@ -143,6 +145,13 @@ Last Updated : 4/4/2023 | 8.00 PM
 #level{
     color: #707070;
     font-size: 25px;
+    transition: 0.2s;
+}
+#level:hover{
+    color: #1176ff;
+    transition: 0.2s;
+    border-left: 2px solid #1176ff;
+    padding-left: 20px;
 }
 .ending{
     background-color: #171717;
@@ -184,10 +193,19 @@ Last Updated : 4/4/2023 | 8.00 PM
 }
 .name{
     font-family: Inter;
-    padding-bottom: 40px;
-    padding-left: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
     font-size: 30px;
     color: white;
+    transition: 0.2s;
+
+}
+.name:hover{
+    color: #1176ff;
+    border-left: 4px solid #1176ff;
+    transition: 0.2s;
+    padding-left: 10px;
+    font-weight: 700;
 }
 .description{
     color: white;
@@ -462,11 +480,12 @@ to { width: 50%; }
     padding: 10px 10px;
     margin: 30px 0px;
     color: #1176ff;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     transition: 0.2s;
     padding-left: 20px;
 }
 .container-form form input:hover{
+    /* border: 3px solid #333333; */
     border-bottom: 4px solid #1176ff;
 }
 .container-form form input:focus{
@@ -483,9 +502,9 @@ to { width: 50%; }
     transition: 0.2s;
 }
 .msgbox:hover{
+    /* border: 3px solid #333333 !important; */
     border-left: 4px solid #1176ff !important;
     transition: 0.2s;
-
 }
 #message{
    width: 80%;
@@ -505,12 +524,12 @@ to { width: 50%; }
     border: 3px solid #333333 ;
     color: #1176ff;
     transition: 0.2s;
-
+    border-bottom-color: #1176ff;
 }
 #reset-btn:hover{
     color: #f65050;
     transition: 0.2s;
-
+    border-bottom-color: #f65050;
 }
 .icon-name-wrapper{
     display: flex;
@@ -521,11 +540,22 @@ to { width: 50%; }
 /*Handle*/
 .handle-link-div{
     padding: 5px 10px;
-    background-color: #222211;
+    background-color: #222222;
     margin: 0;
+    transform: 0.2s;
+}
+.handle-link-div:hover{
+    background-color: #111111;
+    transform: 0.2s;
 }
 .handle-link{
     text-decoration: none;
+    font-family: monospace;
+    font-size: 18px;
+}
+.handle-link:hover{
+    font-weight: 700;
+
 }
 .handle-topic-name{
     color: white;
