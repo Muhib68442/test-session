@@ -47,8 +47,25 @@ body{
   font-size: 35px;
   font-family: Roboto;
   padding: 30px;
+  margin: 0 auto;
+  /* display: block; */
+  width: 18%;
+  transition: 0.2s;
+}
+.section-title:hover{
+  border-left: 3px solid #1176ff;
+  padding-left: 10px;
+  transition: 0.2s;
+  color: #777777;
+}
+.section-title:hover .dotted-hr{
+  width: 130px;
+  transition: 0.2s;
+  border-color: #777777;
+
 }
 .dotted-hr{
+  transition: 0.2s;
   border: 6px dotted #1176ff;
   background-color: transparent;
   border-bottom: none;
