@@ -214,7 +214,7 @@ overflow: hidden;
 margin-bottom: 10px;
 }
 
-.progress {
+.progress-anim {
 width: 0%;
 height: 10px;
 background-color: #1176ff  !important;
@@ -222,6 +222,11 @@ border-radius: 10px;
 animation: loading 1s ease-in-out forwards;
 animation-fill-mode: forwards;
 }
+
+.progress-anim.start-animation {
+    animation-play-state: running !important;
+}
+  
 #progress1 {
     animation-delay: 0s;
     animation-name: loading1;
@@ -238,27 +243,27 @@ animation-fill-mode: forwards;
   }
   
   #progress4 {
-    animation-delay: 0.3s;
+    animation-delay: 0.2s;
     animation-name: loading4;
   }
   
   #progress5 {
-    animation-delay: 0.4s;
+    animation-delay: 0.2s;
     animation-name: loading5;
   }
   
   #progress6 {
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
     animation-name: loading6;
   }
   
   #progress7 {
-    animation-delay: 0.6s;
+    animation-delay: 0.2s;
     animation-name: loading7;
   }
   
   #progress8 {
-    animation-delay: 0.7s;
+    animation-delay: 0.2s;
     animation-name: loading8;
   }
   
@@ -301,7 +306,6 @@ animation-fill-mode: forwards;
 .contact-me{
     background-color: #171717;
     width: 100%;
-    display: ;
     margin: 0 auto;
     /* padding-top: 40px; */
     padding-bottom: 40px;
@@ -316,7 +320,6 @@ animation-fill-mode: forwards;
 .contact-links a{
     padding: 5px;
 }
-
 .contact-links a button{
     width: 12%;
     height: 6vh;
@@ -324,22 +327,6 @@ animation-fill-mode: forwards;
     border-radius: 10px;
     background-color: #333333;
 }
-.contact-links a button i{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Forwarding Section*/

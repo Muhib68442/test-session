@@ -60,7 +60,6 @@ Last Updated : 4/4/2023 | 8.00 PM
     transition: 0.1s;
 }
 
-
 .section-option-link{
     color: white;
     text-decoration: none;
@@ -167,6 +166,7 @@ Last Updated : 4/4/2023 | 8.00 PM
 .about{
     background-color: #000000;
 }
+
 .about-container{
     width: 70%;
     margin: 20px auto;
@@ -253,11 +253,16 @@ Last Updated : 4/4/2023 | 8.00 PM
     width: 40%;
     margin-left: 30px;
     transition: 0.1s;
+    transition: 0.2s;
 }
 .project:hover{
-    box-shadow: 1px 1px 30px 4px rgba(17,118,255,0.75);
-    -webkit-box-shadow: 1px 1px 30px 4px rgba(17,118,255,0.75);
-    -moz-box-shadow: 1px 1px 30px 4px rgba(17,118,255,0.75);
+    box-shadow: 0px 0px 15px 5px #1174ff88;
+    transition: 0.2s;
+        /* box-shadow: 1px 1px 30px 4px rgba(17,118,255,0.75);
+        -webkit-box-shadow: 1px 1px 30px 4px rgba(17,118,255,0.75);
+        -moz-box-shadow: 1px 1px 30px 4px rgba(17,118,255,0.75); */
+    border-bottom: 4px solid #1176ff;
+    background-color: #111111;
 }
 .project img{
     width: 100%;
@@ -319,20 +324,10 @@ Last Updated : 4/4/2023 | 8.00 PM
     /* margin: 0 auto; */
 
 }
-.logo-bg{
-    display: block;
-    width: 32%;
-    border-radius: 30px;
-}
-.skill-topic-img{
-    width: 100%;
-    display: block;
-}
 .skill-topic-name{
     font-size: 25px;
     font-family: Roboto;
     letter-spacing: 3px;
-
 }
 .heading{
     color: #1176ff;
@@ -347,6 +342,38 @@ Last Updated : 4/4/2023 | 8.00 PM
   justify-content: space-evenly;
   align-items: center;
 }
+.skill-logo-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 32%;
+    height:80px;
+    background-color: #222222;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.skill-logo-bg:hover{
+    background-color: #1176ff;
+    border-bottom: 4px solid #1176ff;
+    background-color: #111111;
+    border-radius: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.skill-topic-img{
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    transition: 0.4s;
+    /* height: 80%; */
+    fill: #1176ff !important;
+}
+.skill-topic-img:hover{
+   /* fill: #000000  !important; */
+}
+
+
+
 
 /*Progress & Animation (Skills)*/
 .progress-bar {
@@ -365,6 +392,7 @@ height: 10px;
 background-color: #1176ff  !important;
 border-radius: 10px;
 animation: loading 1s ease-in-out forwards;
+/* animation-iteration-count: infinite; */
 }
 
 .progress-anim.start-animation {
@@ -374,6 +402,8 @@ animation: loading 1s ease-in-out forwards;
 #progress1 {
 animation-delay: 0s;
 animation-name: loading1;
+animation-play-state: running !important;
+
 }
 
 #progress2 {
@@ -387,27 +417,27 @@ animation-name: loading3;
 }
 
 #progress4 {
-animation-delay: 0.3s;
+animation-delay: 0.2s;
 animation-name: loading4;
 }
 
 #progress5 {
-animation-delay: 0.4s;
+animation-delay: 0.3s;
 animation-name: loading5;
 }
 
 #progress6 {
-animation-delay: 0.5s;
+animation-delay: 0.3s;
 animation-name: loading6;
 }
 
 #progress7 {
-animation-delay: 0.6s;
+animation-delay: 0.2s;
 animation-name: loading7;
 }
 
 #progress8 {
-animation-delay: 0.7s;
+animation-delay: 0.1s;
 animation-name: loading8;
 }
 
@@ -568,7 +598,13 @@ to { width: 50%; }
     transition: 0.2s;
 }
 .handle-logo-bg:hover{
-    background-color: #333333;
+    /* background-color: #333333;*/
+    background-color: #1176ff;
+    border-bottom: 4px solid #1176ff;
+    background-color: #111111;
+    border-radius: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 .handle-topic-img{
     padding: 15px;
