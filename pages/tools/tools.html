@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimization Tools</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="tools.css">
+    <link rel="stylesheet" href="../../css/universal.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="body">
+    
+    <header class="header">
+        <p class="header-text">Toolbox</p>
+        <hr class="dotted-hr">
+
+        <div class="back-button">
+            <a href="../../index.html"><i class="far fa-arrow-alt-circle-left"></i> Back</a><!--Back-->
+        </div>
+    </header>
+
+
+    <section class="primary-tips">
+        <div class="container">
+            <!-- <p class="content-title">Tools</p> -->
+            <p class="title">This Tools will make your PC Performance Faster : </p>
+            <p class="tips">(This type of tools doesn't support external download. Please try typing these in windows searchbox) :</p>
+            
+            <p class="tips">in Windows Searchbox,</p>
+            <ul>
+                <li class="tips-to-do"><b class="title"> Disk Cleanup : </b> C: Drive > (then select all options and delete)<abbr title="Cleans Unwanted files and windows cache and clean up space"> <i class="fas fa-info-circle"></i></abbr></li> <br>
+                
+                <br>
+                <li class="tips-to-do"><b class="title"> (Cleaning Temporary Files) : </b> Go To Settings > System > Storage > Temporary files > (then select all options and delete) <abbr title="This may take time in Purging Windows files"><i class="fas fa-info-circle"> </i></abbr></li> <br>
+                <li class="tips-to-do"><b class="title">Defragment and Optimize Drives </b> 
+                    <ul>
+                        <li class="tips-to-do">Select all drives and press Analyze, </li>
+                        <li class="tips-to-do">after completing, select all and press Defrag (This may take time, depends on HDD and files and fragment) <abbr title="Optimize Disk Drives and makes faster"> <i class="fas fa-info-circle"></i></abbr></li>
+                    </ul>
+                </li>
+            </ul>
+    
+            <p><ul>
+                    <li class="tips-to-do"><b class="title">Disable Startup : </b> 
+                        <ul>
+                            <li class="tips-to-do">Go to <abbr title="in desktop, press ctrl + shift + esc to open Task Manager">Task Manager</abbr> > Startup > (then disable that app you don't want to open with startup) <abbr title="This will reduce starup time and loads windows faster. "> <i class="fas fa-info-circle"></i> </abbr></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+    
+            <!--Run Commands-->
+            <ul>
+                <li class="tips-to-do"><b class="title"> <abbr title="press Windows + R or search Run in searchbox to open run">Run Commands :</abbr></b> </li>
+                <p class="tips"> >> Open Run and type these and press enter, <br> 
+                    >>> Delete all the files shows in the folder </p>
+                <ul class="tips-command">
+                    <li>temp</li>
+                    <li>%temp%</li>
+                    <li>recent</li>
+                    <li>prefetch</li>
+                    <li>tree</li>
+                    <!--CMD : sfc /scannow-->
+                </ul>
+            </ul>
+        </div>
+    </section>
+
+    <section class="advance-tips">
+        <div class="container">
+            <h3 class="tips-heading">Advance Tools (CMD)</h3>
+            <ul>
+                <li class="tips-to-do"><b class="title"> Disk Cleanup (Advance): </b>  <br>
+                    <ul>
+                        <li class="tips-to-do-code">
+                            <span class="copy-text">cmd.exe /c Cleanmgr /sageset:65535 & Cleanmgr /sagerun:65535</span>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="tips-to-do"><b class="title">Check Battery Status : </b>
+                    <ul> 
+                        <li class="tips-to-do-code">
+                            <span class="copy-text">powercfg /batteryreport</span>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="tips-to-do"><b class="title">Check Ping : </b>
+                    <ul>
+                        <li class="tips-to-do-code">
+                            <span class="copy-text">ping 192.168.0.1 -t</span>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="tips-to-do"><b class="title">System File Checker : </b>
+                    <ul>
+                        <li class="tips-to-do-code"> 
+                            <span class="copy-text">sfc /scannow</span>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="tips-to-do"><b class="title">Reset DNS Cache : </b>
+                    <ul>
+                        <li class="tips-to-do-code">
+                            <span class="copy-text">ipconfig /flushdns</span>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="tips-to-do"><b class="title">Check Disk Errors : </b>
+                    <ul>
+                        <li class="tips-to-do-code">
+                            <span class="copy-text">chkdsk </span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="etools">
+        <h2 class="essential-tools-title">Essential Drivers and Tools</h2>
+        <div class="card-wrapper">
+            <div class="card">
+                <img class="card-logo" src="../../res/tools/directx.png" alt="card-logo">
+                <h3 class="card-name">DirectX</h3>
+                <p class="card-desc">End-User Runtime Installer</p>
+                <a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=35" target="_blank" class="card-download-link">Download</a>
+            </div>
+
+            <div class="card">
+                <img class="card-logo" src="../../res/tools/dotnet.png" alt="card-logo">
+                <h3 class="card-name">.Net Framework</h3>
+                <p class="card-desc">Microsoft DotNET Framework</p>
+                <a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework" target="_blank" class="card-download-link">Download</a>
+            </div>
+
+            <div class="card">
+                <img class="card-logo" src="../../res/tools/vcredist-ico.png" alt="card-logo">
+                <h3 class="card-name">VCRedistributable</h3>
+                <p class="card-desc">Visual C++ Redistributable</p>
+                <a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank" class="card-download-link">Download</a>
+            </div>
+
+            <div class="card">
+                <img class="card-logo" src="../../res/tools/activator.png" alt="card-logo">
+                <h3 class="card-name">Windows Activator</h3>
+                <p class="card-desc">CMD Windows Activator .bat</p>
+                <a href="https://www.avast.com/index#pc" target="_blank" target="_blank" class="card-download-link">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="../../js/script.js"></script>
+
+</body>
+</html>

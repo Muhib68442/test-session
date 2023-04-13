@@ -3,83 +3,101 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: Inter;
-    src: url(../fonts/Inter-Light.ttf);
-  }
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Light.ttf);
-  }
 
-body{
-   scroll-behavior: smooth;
+/******* Fonts *******/
+@font-face {
+    font-family: Font1;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: Font2;
+    src: url('../fonts/Inter-Light.ttf');
 }
 
-/*ScrollBar*/
+/******* Colors *******/
+/* 76b900*/
+:root {
+    --theme: #76b900;
+    --bg   : #171717;
+    --text : #ffffff;
+    --dim  : #aaaaaa;
+}
+
+/******* ScrollBar *******/
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+    width: 8px;
+    height: 10px;
 }
-
 ::-webkit-scrollbar-track {
-  background-color: #171717;
+    background-color: #5f5f5f;
 }
-
+  
 ::-webkit-scrollbar-thumb {
-  background-color: #1176ff;
-  border-radius: 10px;
-  border: 2px solid #334e75;
+    background-color: var(--theme);
+    border-radius: 10px;
+    border: 2px solid #000000;
 }
-
+  
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #313131;
+    background-color: #313131;
+}
+
+
+/******* Back Button *******/
+.back-button{
+    margin-top: 20px;
+    border: 2px solid var(--theme);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.2s;
+    padding: 10px 20px;
+    background-color: #313131;
+}
+.back-button a{
+    text-decoration: none;
+    color: var(--text);
+    font-family: Font1;
+    font-weight: 600;
+    background-color: transparent;
+}
+.back-button a i{
+    background-color: transparent;
+}
+.back-button:hover{
+    transition: 0.2s;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 3px solid var(--theme);
+    background-color: #313131;
+}
+.back-button a:hover{
+    color: var(--theme);
 }
 
 
 
-
-/*Title and HR*/
-.section-title{
-  text-align: center;
-  color: #1176ff;
-  font-size: 35px;
-  font-family: Roboto;
-  padding: 30px;
-  transition: 0.2s;
-  /* margin: 0 auto;
-  display: block;
-  width: 18%; */
+.header-text{
+    color: var(--text);
+    font-family: Font1;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    transition: 0.2s;
 }
-/* .section-title:hover{
-  transition: 0.2s;
-  color: #777777;
-}
-.section-title:hover .dotted-hr{
-  width: 130px;
-  transition: 0.2s;
-  border-color: #777777;
-} */
 .dotted-hr{
-  transition: 0.2s;
-  border: 6px dotted #1176ff;
-  background-color: transparent;
-  border-bottom: none;
-  margin: 0px auto;
-  width: 70px;
-  opacity: 100;
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100px;
 }
 
 
 
 
-/*
-COLOR 
-
-Black :     #171717
-Orange :    #f65050
-Blue :      #1176ff
-Dim-Active: #373737
-*/
 

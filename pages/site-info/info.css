@@ -1,0 +1,152 @@
+@media screen and (min-width : 992px){
+    /*  PC  */
+    *{
+        color: white;
+        background-color: #171717;
+    }
+
+    .back-button{
+        margin-top: 20px;
+        
+        color: white;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        background-color: ;
+    }
+    .btn:hover{
+        background-color: #76b900;
+    }
+    .header-text{
+        color: #76b900;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .hr-full{
+        color: rgb(107, 188, 107);
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+
+
+
+    .mu, .hk{
+        background-color: ;
+       
+        padding: 0px;
+        margin: px;
+        display: ;
+    }
+    .col-6{
+        width: 8%;
+        margin: 0px;
+    }
+    .dev{
+        display: ;
+        border-radius: 10px;
+        transition: 0.1s;
+        border: 2px solid #75b9003f;
+    }
+    
+   .dev:hover{
+        border: 2px solid #76b900;
+        transition: 0.1s;
+    }
+
+    .h3-dev{
+        color: white;
+        font-size: 2.1rem;
+        font-family: ;
+        text-align: center;
+        margin-top: 13px;
+    }
+    .dev-profile-image{
+        display: inline;
+        position: ;
+    }
+    .dev-profile-img{
+        width: 25%;
+        margin: 15px;
+        display: ;
+    }
+
+    .dev-profile-details{
+        display: inline-block;
+        float: right;
+        text-align: right;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .dev-profile-name{
+        color: white;
+        font-size: 1.7rem;
+        display: ;
+        text-align: right;
+
+
+    }
+    .dev-profile-rank{
+        color: white;
+        font-size : 0.9rem;
+        text-align: right;
+    }
+    .dev-profile-desc{
+        color: white;
+        font-size: 1.1rem;
+        text-align: right;
+
+    }
+
+    
+    .details-title{
+        color: #76b900;
+        
+        text-align: center;
+        margin: 10px;
+    }
+    .details-subtitle{
+        text-align: center;
+        font-size: 25px;
+        color: #4285F4;
+    }
+    .dotted-hr{
+        color: black;
+        border: 6px dotted white;
+        border-bottom: none;
+        margin: 20px auto;
+        width: 70px;
+    }
+    .details-pane{
+        margin-left: 25px;
+        font-size: 25px;
+
+    }
+    .details-listed{
+        font-size: 25px;
+        margin-left: 20px;
+        color: #76b900;
+        font-weight: ;
+    }
+    .details-pane ul li{
+        margin-left: 20px;
+    }
+    .versions{
+
+    }
+    .versions ul li{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width : 992px){
+    /*  MOBILE  */
+}

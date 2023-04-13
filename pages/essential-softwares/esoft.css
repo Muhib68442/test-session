@@ -1,0 +1,86 @@
+@media screen and (min-width : 992px){
+    header{
+        background-color: var(--bg);
+    }
+
+    .header-text:hover{
+        color: #76b900;
+        transition: 0.2s;
+    }
+    .softwares{
+        background-color: var(--bg);
+    }
+    .container{
+        background-color: var(--bg);
+        padding-bottom: 20px;
+        width: 95% ;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    /*Card Design*/
+    .card-category-title{
+        color: var(--theme);
+        font-family: Font2;
+        padding: 0px 20px;
+        margin: 30px 46px 10px ;
+        border-left: 3px solid var(--theme);
+        font-weight: 700;
+    }
+    .card-wrapper{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .card{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 23%;
+        margin: 10px;
+        height: 43vh;
+        border: 2px solid var(--theme);
+    }
+    .card-logo{
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+        padding: 25px 0px;
+    }
+    .card-name{
+        color: var(--text);
+        font-size: 25px;
+        font-family: Font1;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .card-desc{
+        color: var(--dim);
+        font-family: Font2;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .crack-alert{
+        color: #f65050;
+        font-family: Font1;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -30px;
+    }
+    .card-download-link{
+        border: 1px solid var(--theme);
+        text-decoration: none;
+        font-family: Font2;
+        color: var(--text);
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        width: 70%;
+        padding: 10px 20px;
+    }
+   
+}

@@ -1,0 +1,139 @@
+
+
+
+
+header{
+    background-color: var(--bg);
+}
+.primary-tips{
+    background-color: var(--bg);
+}
+.advance-tips{
+    background-color: var(--bg);
+}
+.container{
+    background-color: var(--bg) !important;
+    margin-bottom: 0px !important;
+    padding: 10px 0px;
+}
+
+/******* Writings *******/
+
+.title{
+    color: var(--theme);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.tips{
+    color: var(--text);
+}
+.tips-to-do{
+    color: var(--text);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+.tips-to-do-code{
+    font-size: 15px;
+    background-color: #333333;
+    display: inline-block;
+    transition: 0.1s;
+    text-align: center;
+    padding: 5px 10px;
+    color: var(--dim);
+    cursor: pointer;
+}
+.tips-to-do-code:hover{
+    background-color: #000000;
+    color: rgb(44, 44, 255);
+    border: 2px solid white;
+    transition: 0.1s;
+
+}
+.tips-command{
+    color: var(--text);
+
+    font-family: monospace;
+
+}
+abbr{
+    color: var(--theme);
+    font-weight: bolder;
+}
+.tips-heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: Font2;
+    font-weight: 700;
+    color: var(--theme);
+}
+
+/******* Essential Tools Section *******/
+.etools{
+    background-color: var(--bg);
+    padding: 30px 10px;
+}
+.essential-tools-title{
+    color: var(--theme);
+    font-weight: 700;
+    text-align: center;
+    font-family: Font2;
+    padding: 20px;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: var(--bg);
+}
+.card{
+    justify-content: space-between;
+    padding: 20px !important;
+    width: 20% !important;
+    background-color: var(--bg) !important;
+    height: 40vh !important;
+    border: 2px solid var(--theme) !important;
+}
+.card-logo{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+.card-name{
+    color: var(--text);
+    font-size: 27px;
+    font-family: Font1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-desc{
+    color: var(--dim);
+    font-family: Font2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-download-link{
+    border: 1px solid var(--theme);
+    text-decoration: none;
+    font-family: Font2;
+    color: var(--text);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+

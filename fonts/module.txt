@@ -1,0 +1,8 @@
+@font-face {
+    font-family: FontName;
+    src: url(FontName.ttf);
+}
+
+.class{
+    font-family: FontName;
+}

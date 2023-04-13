@@ -1,0 +1,46 @@
+@media screen and (min-width : 992px){
+    /* PC*/
+    *{
+        background-color: #171717;
+        color: white;
+    }
+    .hr-full{
+        color: rgb(107, 188, 107);
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .back-button{
+        margin-top: 20px;
+        border: 1px solid white;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .header-text{
+        color: white;
+        
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+        transition: 0.2s;
+    }
+    .header-text:hover{
+        color: #76b900;
+        transition: 0.2s;
+    }
+
+    .contact-us
+    .adviser
+    .adviser-name
+    .adviser-contact-btn
+    .adviser-contact-link
+
+
+
+
+}
+
+
+@media screen and (max-width : 992px){
+    /*  MOBILE  */
+}
