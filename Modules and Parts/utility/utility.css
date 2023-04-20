@@ -1,0 +1,153 @@
+.body{
+    background-color: #171717;
+    color: white;
+}
+
+.back-button{
+    margin-top: 20px;
+    border: 1px solid white;
+   
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.2s;
+}
+.back-button:hover{
+    border: none;
+    border-bottom: 2px solid #76b900;
+    
+    transition: 0.2s;
+}
+.header-text{
+    color: white;
+    
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.header-text:hover{
+    color: #76b900;
+    transition: 0.2s;
+}
+.dotted-hr{
+    background-color: black;
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+
+
+/*   Information    */
+.content-information{
+    margin-left: 30px;
+}
+.text-head{
+    color: #76b900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.text-tip{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.ul-contains{
+    list-style-type: square;
+}
+.ul-ver{
+    list-style-type: disc;
+}
+.ul-info{
+    list-style-type: circle;
+}
+.tip{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  CONTENT  */
+.content{
+    border: 2px solid #76b900;
+    max-width: ;
+    padding: 20px;
+    display:inline-block;
+    margin: auto;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.content:hover{
+    transition: 0.3s;
+    border: none;
+    border-bottom: 2px solid #82ce00;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+    display: block;
+}
+.content-img{
+    display: inline;
+    border: ;
+    width: 150px;
+}
+.content-name{
+    display: inline;
+    margin: 15px;
+    color: #76b900;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+.content-ver{
+    color: blanchedalmond;
+    font-family: monospace;
+    text-align: ;
+    display: none;
+}
+.content-link{
+    text-decoration: none;
+}
+.content-btn{
+    display: inline;
+    background-color: #171717;
+    color: #76b900;
+    padding: 10px;
+    border: 1px solid #76b900;
+    transition: 0.2s;
+}
+.content-btn:hover{
+    border: none;
+    border-bottom: 2px solid #76b900;
+    background-color: #303030;
+    
+    transition: 0.2s;
+    font-weight: bolder;
+}
+
+/*      CONTENT ENDS        */

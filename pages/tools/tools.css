@@ -1,10 +1,4 @@
 
-
-
-
-header{
-    background-color: var(--bg);
-}
 .primary-tips{
     background-color: var(--bg);
 }
@@ -18,10 +12,12 @@ header{
 }
 
 /******* Writings *******/
-
+li::marker{
+    color: var(--theme);
+}
 .title{
     color: var(--theme);
-    font-family: 'Roboto', sans-serif;
+    font-family: Font1;
     font-size: 20px;
 }
 .tips{
@@ -29,7 +25,7 @@ header{
 }
 .tips-to-do{
     color: var(--text);
-    font-family: 'PT Sans', sans-serif;
+    font-family: Font1;
     font-size: 20px;
 }
 .tips-to-do-code{
@@ -41,19 +37,18 @@ header{
     padding: 5px 10px;
     color: var(--dim);
     cursor: pointer;
+    font-family: monospace;
 }
 .tips-to-do-code:hover{
-    background-color: #000000;
     color: rgb(44, 44, 255);
-    border: 2px solid white;
     transition: 0.1s;
-
 }
 .tips-command{
     color: var(--text);
-
     font-family: monospace;
-
+}
+.ttdc{
+    margin: 20px;
 }
 abbr{
     color: var(--theme);
@@ -61,7 +56,7 @@ abbr{
 }
 .tips-heading{
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     font-family: Font2;
     font-weight: 700;
     color: var(--theme);
@@ -83,7 +78,7 @@ abbr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 40px;
     background-color: var(--bg);
@@ -91,9 +86,10 @@ abbr{
 .card{
     justify-content: space-between;
     padding: 20px !important;
-    width: 20% !important;
+    width: 24% !important;
+    margin: 20px !important;
     background-color: var(--bg) !important;
-    height: 40vh !important;
+    height: 43vh !important;
     border: 2px solid var(--theme) !important;
 }
 .card-logo{
@@ -126,10 +122,39 @@ abbr{
     display: block;
     width: 70%;
     padding: 10px 20px;
+    transition: 0.2s !important;
+}
+.card:hover{
+    background-color: #000000;
+    border: 3px solid var(--theme);
+    box-shadow: 0px 0px 10px 5px var(--theme);
+    transition: 0.1s;
+}
+.card:hover .card-name{
+    color: var(--theme);
+    transition: 0.1s;
+}
+.card:hover .card-download-link{
+    background-color: var(--theme);
+    border: 2px solid ;
+    color: #000000;
+    font-weight: 700;
+    transition: 0.1s;
+}
+.card-download-link:hover{
+    border: none !important;
+    border-bottom: 3px solid var(--theme) !important;
+    background-color: var(--bg) !important;
+    color: var(--theme) !important;
+    transition: 0.2s !important;
 }
 
 
-
+@media screen and (max-width:992px){
+    .etools{
+        display: none;
+    }
+}
 
 
 
