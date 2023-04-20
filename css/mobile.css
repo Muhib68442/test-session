@@ -35,6 +35,11 @@
         margin: 20px 0px;
 
     }
+    .option:hover{
+        border: none;
+        /* border: 3px solid var(--theme); */
+        box-shadow: 0px 0px 10px 5px var(--theme);
+    }
     .option-logo-svg{
         fill: var(--theme);
         width: 15%;
@@ -46,7 +51,7 @@
     }
     .option-name{
         font-family: Font1;
-        font-size: 25px;
+        font-size: 22px;
         text-align: right;
     }
     .option-desc{

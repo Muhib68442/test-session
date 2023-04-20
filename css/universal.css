@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: Font2;
-    src: url('../fonts/Inter-Light.ttf');
+    src: url('../fonts/Roboto-Light.ttf');
 }
 
 /******* Colors *******/
@@ -76,6 +76,9 @@
     color: var(--theme);
 }
 
+/* a:visited{
+    color: ;
+} */
 
 header{
     background-color: var(--bg);
