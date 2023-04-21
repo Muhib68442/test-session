@@ -154,6 +154,10 @@ abbr{
     .etools{
         display: none;
     }
+    abbr{
+        display: none;
+    }
+    
 }
 
 

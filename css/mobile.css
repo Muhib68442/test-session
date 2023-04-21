@@ -33,10 +33,11 @@
         padding: 10px;
         justify-content: space-between;
         margin: 20px 0px;
-
+        transition: 0.2s;
     }
     .option:hover{
         border: none;
+        transition: 0.2s;
         /* border: 3px solid var(--theme); */
         box-shadow: 0px 0px 10px 5px var(--theme);
     }

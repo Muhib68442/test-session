@@ -69,13 +69,14 @@
         color: var(--text);
         margin-top: 10px;
         font-size: 22px;
+        transition: 0.2s;
         font-family: Font2;
-
     }
     .option-desc{
         text-align: center !important;
         color: var(--dim);
         font-size: 17px;
+        transition: 0.2s;
     }
     .option-link{
         text-decoration: none;
@@ -83,7 +84,7 @@
     }
     .option:hover{
         background-color: #222222;
-        border: 3px solid black;
+        border: none;
         border-bottom: 4px solid var(--theme);
         transition: 0.2s;
     }
@@ -94,6 +95,13 @@
     }
     .option:hover .option-name{
         color:var(--theme);
+        font-weight: 800;
+        font-size: 24px;
+        transition: 0.2s;
+    }
+    .option:hover .option-desc{
+        color: var(--text);
+        transition: 0.2s;
     }
 
 
