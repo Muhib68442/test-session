@@ -1,0 +1,133 @@
+/********** PC SCREEN **********/
+@media screen and (min-width:992px) {
+    header {
+        text-align: center;
+        background-color: var(--bg);
+        color: var(--text);
+        font-family: Font0;
+        padding: 20px;
+    }
+    .content-container-section {
+        background-color: var(--bg);
+    }
+    .content-container {
+        width: 88%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* add some space between items */
+    }
+
+    .content {
+        width: calc(33.33% - 20px); /* subtracting 20px for margin */
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    
+    .content-image {
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+    }
+    .content-caption {
+        margin-top: 10px;
+        padding: 0px;
+        font-size: 22px;
+        margin-left: 10px;
+        font-family: Font0;
+        color: var(--text);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.25s ease-in-out;
+    }
+   
+    .content-caption.show {
+        max-height: 500px;
+    }
+    
+    .content-details {
+        font-size: 20px;
+        font-family: Font0;
+        margin-left: 20px;
+        color: var(--text);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.25s ease-in-out;
+    }
+    
+    .content-details.show {
+        max-height: 500px;
+    }
+    
+ 
+}
+
+
+/********** MOBILE SCREEN **********/
+@media screen and (max-width:992px){
+    header {
+        text-align: center;
+        background-color: var(--bg);
+        color: var(--text);
+        font-family: Font0;
+        padding: 20px;
+    }
+    
+    .content-container-section {
+        background-color: var(--bg);
+    }
+    
+    .content-container {
+        width: 88%;
+        margin: 0 auto;
+    }
+    
+    .content {
+        /* border: 1px solid var(--theme);
+        border-radius: 20px;
+        background-color: #222222; */
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .content-image {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+    
+    }
+    
+    
+    .content-caption {
+        margin-top: 10px;
+        padding: 0px;
+        font-size: 22px;
+        margin-left: 10px;
+        font-family: Font0;
+        color: var(--text);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.25s ease-in-out;
+    }
+    
+    
+    .content-caption.show {
+        max-height: 500px;
+    }
+    
+    .content-details {
+        font-size: 20px;
+        font-family: Font0;
+        margin-left: 20px;
+        color: var(--text);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.25s ease-in-out;
+    }
+    
+    .content-details.show {
+        max-height: 500px;
+    }
+    
+}
