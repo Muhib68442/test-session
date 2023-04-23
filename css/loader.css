@@ -1,0 +1,48 @@
+.muhib{
+    display: none;
+}
+
+.loader{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #171717;
+    position: absolute;
+}
+
+.loader>.spinner{
+    height: 50px;
+    width: 50px;
+    border: 10px solid #45474b;
+    border-top-color: #2a88e6;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.loader>.message{
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    top: 160px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    background-color:;
+    
+}
+.loader>.message>h4{
+    color: white;
+    text-align: center;
+
+}

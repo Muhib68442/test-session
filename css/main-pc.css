@@ -1,0 +1,161 @@
+@media screen and (min-width : 992px){
+    /********** PC SCREEN CSS **********/
+    .body{
+        background-color: var(--bg);
+    }
+   
+    /******* INTRO *******/
+    .intro{
+
+    }
+    .mobile-cover{
+        display: none;
+    }
+
+    .desktop-cover{
+        width: 100%;
+    }
+    .cover-title{
+        font-size: 40px;
+        font-family: Font0;
+        display: block;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .intro-link i{
+        color: var(--bg);
+        display: block;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /******* CAROUSEL *******/
+    .carousel{
+        display: none;
+    }
+
+
+    /******* CATEGORY *******/
+    .category{
+        background-color: var(--bg);
+    }
+    .category-cover-link{
+        text-decoration: none;
+        color: var(--dim-text);
+        font-family: Font0;
+        text-align: center;
+    }
+    .category-cover-image{
+        border: 2px solid var(--dim);
+        transition: 0.2s;
+        width: 80%;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+        opacity: 80%;
+        filter: blur(0.5px);
+    }
+    .category-cover-image:hover{
+        transition: 0.2s;
+        opacity: 100%;
+        filter: blur(0px);
+    }
+    .row{
+        margin: 30px 0px;
+    }
+
+
+
+    /******* CARD *******/
+    .card-section{
+        background-color: var(--bg);
+    }
+    .card-container{
+        padding: 20px;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .card-x{
+        border: 2px solid var(--theme);
+        padding: 10px;
+        border-radius: 20px;
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card-img{
+        width: 30%;
+        border-radius: 18px;
+    }
+    .card-text{
+        width: 60%;
+    }
+    .card-name{
+        border-left: 3px solid var(--theme);
+        padding-left: 15px;
+        color: var(--theme);
+        font-size: 25px;
+        font-family: Font0;
+        margin-bottom: 20px;
+    }
+    .card-desc{
+        color: var(--dim-text);
+        font-size: 18px;
+        font-family: Font0;
+
+    }
+    .card-link{
+        text-decoration: none;
+        color: var(--theme);
+        font-family: Font0;
+        font-size: 17px;
+    }
+
+
+
+    /******* FOOTER *******/
+    .footer{
+        background-color: var(--bg);
+    }
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .footer-menu
+
+    .copyright-text{
+        text-align: right;
+    }
+    .copyright{
+        font-family: Font0;
+        font-size: 20px;
+        color: var(--theme);
+    }
+    .m-p{
+        color: var(--dim-text);
+        font-family: Font0;
+    }
+    .footer-btn{
+        border: 1px solid var(--theme);
+        padding: 8px 18px;
+        background-color: transparent;
+        color: var(--text);
+        transition: 0.1s;
+        margin-left: 20px;
+    }
+    .footer-btn:hover{
+        transition: 0.1s;
+        border: 2px solid var(--dim);
+        background-color: var(--theme);
+        color: var(--dim);
+        font-weight: 600;
+    }
+
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Site</title>
+
+    <!--Bootstrap CDN-->
+    <!--4--> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--5--> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	
+    <!--Font Awesome CDN-->
+    <!--4--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--5--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Google Fonts CDN-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+
+    <!--Style-->
+    <!--Mobile--> <link rel="stylesheet" href="insider-style.css">
+    <!--Desktop--> <link rel="stylesheet" href="insider-desktop-style.css" media="screen and (min-width:992px)">
+    
+
+</head>
+<body id="body">
+
+    <header>
+        <h1 id="page-title">About Site</h1>
+        <hr class="border-hr">
+    
+        <div class="alert alert-danger alert-dismissible">
+            <button class="close" data-dismiss="alert">&times; </button>
+            <p id="insider-warning">This page contains site data and information, which might be unnecessary for regular users.  </p>
+            <a href="../index.html"><button class="back btn btn-outline-danger"> <i class="far fa-arrow-alt-circle-left"></i> Back To Home</button></a>
+            
+         </div>
+    
+    </header>  
+    
+    <div class="sitemap">
+        <h1 id="page-title">Sitemap</h1>
+        <hr class="dotted-hr">
+
+        <img src="sitemap.jpg" alt="Sitemap Image" class="sitemap-img">
+
+        <a href="" ><button class="btn btn-outline-primary" onclick="alerta()"> View Full Map</button></a>
+        
+        <button class="btn btn-outline-warning" onclick="category()"> Go To <i class="fas fa-angle-right"></i></button>
+        
+        <div class="category-js" >
+            <ul class="ul">
+                <h3 id="goto">Go To</h3>
+                <a href="../index.html"><li>Home</li></a>
+                <a href="../aesthetic/aesthetic-1.html"><li>Aesthetic Shots</li></a>
+                <a href="../city/city-1.html"><li>Cityscapes</li></a>
+                <a href="../nature/nature-1.html"><li>Nature</li></a>
+                <a href="../flower/flower-1.html"><li>Flower</li></a>
+                <a href="../gamegraphy/gamegraphy.html"><li>Game Shots</li></a>
+                <a href="../video-stream/video-stream.html"><li>Videos</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="site-info">
+        <h1 id="page-title">Site Information</h1>
+        <hr class="dotted-hr">
+        <p>Site Contents : Photography Images</p>
+        <p>link : <a href="https://muhib68442.github.io/Muhib-Photography/">https://muhib68442.github.io/Muhib-Photography/</a></p>
+        <p>Domain by github.io</p>
+        
+        <p>Last Editted : 18/7/2021</p>
+        <p>Date Created : 23/5/2021</p>
+        <p>Images : 205</p>
+        <p>Language Used : HTML 5, CSS 3, Bootstrap 4,5 , Java-Script; jQuery</p>
+        <p>HTML : 29 Files; CSS : 13 Files; JS : 9 Files;</p>
+        <p>Site Size : 466 MB</p>
+        <a href="https://github.com/Muhib68442/Muhib-Photography" target="blank"><button class="btn btn-outline-secondary"><i class="fas fa-code"></i> View Source Codes</button></a>
+         
+    </div>
+
+
+    <div class="site-ver">
+        <h1 id="page-title">Site Version</h1>
+        <hr class="dotted-hr">
+        <h3>Current Version : 3.0.1</h3>
+        
+        <ul>
+            <p>What's New : </p>
+            <li>Changed Home Layout</li>
+            <li>Added 30+ More Images</li>
+            <li>Used Javascript</li>
+            <li>Caption disabled </li>
+            <li>2 New Category</li>
+            <li>Cover Changed</li>
+            <li>More Responsive for Desktop Layout</li>
+        </ul>
+        <!--use anther div for older version-->
+    </div>
+
+    <div class="copyright">
+        <h1 id="page-title">Copyright</h1>
+        <hr class="dotted-hr">
+
+        <p>This Entire Site and All Contents are Created By : </p>
+        
+        <a href="../about and contact/about contact.html"> <p id="muhib">&copy; Muhibbur Rahman</p> </a>
+    </div>
+
+    <footer>
+        <p id="footer-text">&copy; Muhib-Photography</p>
+    </footer>
+
+    <div class="page-control">
+        <a href="../index.html"><button class="btn btn-dark"><i class="far fa-arrow-alt-circle-left"></i> </button></a><!--Back-->
+    </div>
+
+    
+
+
+
+<!--Bootstrap 4 JS CDN-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Bootstrap 5 JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--Java-Script-->
+<script src="insider.js"></script>
+
+</body>
+</html>

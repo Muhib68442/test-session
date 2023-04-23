@@ -1,0 +1,7 @@
+rev 1.0 = upload 
+
+rev 1.1 = *overflow disabled in about page
+	*category "back to home" problem solved
+
+rev 1.2 = *compressed category thumbnail pics
+	*

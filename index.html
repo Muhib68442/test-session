@@ -1,125 +1,237 @@
 <!DOCTYPE html>
+<!--DOCUMENTATION-->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utility Toolkit</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Md. Muhibbur Rahman">
+  <meta name="description" content="Photography Gallery, Static Webpage">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <title>Muhib Photography</title>
 
-    <meta name="author" content="Md. Muhibbur Rahman">
-    <meta name="description" content="Utility Toolkit">
-
-    <!--CSS-->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/universal.css">
-    <link rel="stylesheet" href="css/bootstrap.css"><!-- Bootstrap Offline -->
+  <!--Fontawesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!--- CSS Files --->
+  <!--Loader-->               <link rel="stylesheet" href="css/loader.css">
+  <!--Bootstrap (Offline)-->  <link rel="stylesheet" href="css/bootstrap.css">
+  <!--Universal CSS -->       <link rel="stylesheet" href="css/universal.css">
+  <!--Mobile CSS-->           <link rel="stylesheet" href="css/main-mobile.css">
+  <!--Desktop CSS-->          <link rel="stylesheet" href="css/main-pc.css">  
     
-    <!--Fontawesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="body"> 
 
-    <section class="intro">
-        <img src="res/intro/pc-cover.jpg" class="main-cover pc-cover" alt="main-cover">
-        <img src="res/intro/phone-cover.jpg" class="main-cover mobile-cover" alt="main-cover">
-        <p class="intro-text"> All Important tools in one place </p>
+<body class="body">
 
-        <div class="forward-text">
-            <i class="fa-solid fa-triangle-exclamation"></i> <p class="f-text"><b class="f-text-b">Note : </b> This Site isn't Optimised for Phone. Please Re-Open this in your Browser</p>
-        </div>
+<!--Loader-->
+<div class="loader">
+  <div class="spinner"></div>
+  <div class="message">
+    <h4>Please wait while image loads...</h4>
+  </div>
+</div>
 
+
+<!--Intro START-->    
+<section class="intro" id="home">
+  <img class="mobile-cover" src="res/intro-cover/mobile-intro.jpeg" alt="intro-img">
+  <img class="desktop-cover" src="res/intro-cover/desktop-intro.jpeg" alt="intro-img">
+  <h4 class="cover-title">Muhib Photography</h4>
+  <a href="#category" class="intro-link"> <i id="arrow-down" class="fa-2x fas fa-chevron-down"></i></a>
+</section>
+<!--Intro END-->   
+
+<!--Carousel START--> 
+<div class="carousel" id="carousel">
+  <div class="container-fluid text-white " id="photography-slides">
+
+    <section id="feedback">
+
+      <div class="section-title">
+          <h3 class="component-title"><i class="fas fa-images"></i> Photography Slides</h3>
+          <hr class="dotted-hr">
+      </div>
+
+      <div class="row">
+          <div class="col-sm-12 col-lg-12">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/1.jpeg" alt="image">
+                          <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/1.jpeg" alt="image">
+                          <h6></h6><!--caption-->
+                      </div>
+
+                      <div class="carousel-item">
+                          <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/2.jpeg" alt="image">
+                          <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/2.jpeg" alt="image">
+                          <h6></h6>
+                      </div>
+
+                      <div class="carousel-item">
+                          <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/3.jpeg" alt="image">
+                          <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/3.jpeg" alt="image">
+                          <h6></h6>
+                      </div>
+
+                      <div class="carousel-item">
+                          <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/4.jpeg" alt="image">
+                          <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/4.jpeg" alt="image">
+                          <h6></h6>
+                      </div>
+
+                      <div class="carousel-item">
+                          <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/5.jpeg" alt="image">
+                          <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/5.jpeg" alt="image">
+                          <h6></h6>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+          </div>
+      </div>
     </section>
+  </div>
+</div>
+<!--Carousel END-->
 
+<!--Category STARTS  -->
+<section class="category col-sm-12 col-lg-12" id="category" style="padding-left: 0px;">
 
-    <section class="option-section">
-         <!-- Options -->
-         <div class="option-wrapper">
-            <div class="option esoft">
-                <a href="pages/essential-softwares/essential-softwares.html" class="option-link">
-                    <svg class="option-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M432 48H208c-17.7 0-32 14.3-32 32V96H128V80c0-44.2 35.8-80 80-80H432c44.2 0 80 35.8 80 80V304c0 44.2-35.8 80-80 80H416V336h16c17.7 0 32-14.3 32-32V80c0-17.7-14.3-32-32-32zM48 448c0 8.8 7.2 16 16 16H320c8.8 0 16-7.2 16-16V256H48V448zM64 128H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192c0-35.3 28.7-64 64-64z"/></svg>
-                    <div class="option-text">
-                        <h3 class="option-name">Essential Softwares</h3>
-                        <p class="option-desc">Essential Apps that you might need</p>
-                    </div>
-                    
-                </a>
-            </div>
+  <h3 class="component-title"> <i class="fa fa-list-alt" aria-hidden="true"></i> Category</h3>
+  <hr class="dotted-hr">
 
-            <div class="option tools" >
-                <a href="pages/tools/tools.html" class="option-link">
-                    <svg class="option-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
-                    <div class="option-text">
-                       <h3 class="option-name">Tools and Optimization</h3>
-                       <p class="option-desc">Tools and Tips to Optimize your PC</p> 
-                    </div>
-                    
-                </a>
-            </div>
+  <div class="container-fluid">
 
-            <div class="option os" >
-                <a href="pages/os/os.html" class="option-link">
-                    <svg class="option-logo-svg" style="margin-bottom: 11px;"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/></svg>
-                    <div class="option-text">
-                        <h3 class="option-name" style="margin-top: 0px;margin-bottom: 4px;">OS Installation</h3>
-                        <p class="option-desc">Install a fresh copy of Windows</p>
-                    </div>
-                </a>
-            </div>
+    <div class="row col-lg-12 col-sm-4 col-md-12" style="margin-right: 0px;margin-left: 0px; "> <!--R1-->
 
-            <div class="option tips" >
-                <a href="pages/tips/tips.html" class="option-link">
-                    <svg class="option-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24V250.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1H222.6c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
-                    <div class="option-text">
-                        <h3 class="option-name">Tips and FAQ's</h3>
-                        <p class="option-desc">Get Info and Tips</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+      <div class="category-cover col-lg-4 col-sm-12 col-md-6">
+        <a href="city/city-1.html" class="category-cover-link">
+          <img src="res/category-covers/city-cover.jpeg" alt="city shots" class="category-cover-image">
+          <h4 class="category-cover-text" id="citytext">Cityscape Shots <i class="fas fa-angle-right"></i></h4>
+        </a>
+      </div>
 
-        <div class="option-wrapper wrapper-r2">
- 
-            <div class="option c1">
-                <a href="pages/support/support.html" class="option-link c-link">
-                    <svg class="option-logo-svg c1-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve"><path class="st0" d="M6,25.2L6,25.2c0,4.6,0.4,9.1,1.1,13.6l0.3,1.6c0.4,2.4,1.3,4.7,2.7,6.8l4.7,7.1c0.8,1.2,1,2.6,0.7,4c-0.2,0.8,0.4,1.6,1.2,1.8c0.1,0,0.2,0,0.3,0h6.5c2.5,0,4.5-2,4.5-4.5l0,0v-7.5c0-2.8-0.7-5.6-2.1-8.1c-1.6-2.7-3.9-4.9-6.7-6.2l-2.9-1.5c-0.2-0.1-0.4-0.1-0.6-0.2h-0.2c-0.8,0-1.4,0.7-1.4,1.4c0,0.4,0.1,0.7,0.4,1l5.2,5.2c0.5,0.5,0.5,1.3,0.1,1.9c-0.5,0.6-1.4,0.7-2,0.2c0,0-0.1-0.1-0.1-0.1l-3.9-3.8c-1.1-1.1-2-2.5-2.5-4l-3-8.9C8,24.2,7.3,24,6.7,24.2C6.3,24.4,6,24.7,6,25.2z"/><path class="st0" d="M56.6,40.3l0.3-1.6c0.8-4.5,1.1-9,1.1-13.6l0,0c0-0.6-0.5-1.2-1.2-1.2c-0.5,0-0.9,0.3-1.1,0.8l-3,8.9c-0.5,1.5-1.4,2.9-2.5,4l-3.8,3.8c-0.5,0.6-1.4,0.6-2,0.1c0,0-0.1-0.1-0.1-0.1c-0.5-0.6-0.4-1.4,0.1-1.9l5.2-5.2c0.5-0.6,0.5-1.5,0-2c-0.3-0.3-0.6-0.4-1-0.4h-0.2c-0.2,0-0.4,0.1-0.6,0.2l-2.9,1.5c-2.8,1.4-5.1,3.5-6.7,6.2c-1.4,2.5-2.1,5.3-2.1,8.1v8c0,2.3,1.9,4.1,4.1,4.1h7c0.8,0,1.5-0.7,1.5-1.5c0-0.1,0-0.2,0-0.4c-0.3-1.4-0.1-2.8,0.7-4l4.7-7.1C55.3,45,56.2,42.7,56.6,40.3z"/><path class="st0" d="M44,18.3V8.5l0,0c0-0.5-0.3-0.9-0.7-1L32.8,4.1C32.6,4,32.3,4,32,4l0,0c-0.3,0-0.6,0-0.9,0.1L20.7,7.5c-0.4,0.1-0.7,0.5-0.7,1v9.8C20,25,24.6,30.6,31.1,32c0.3,0.1,0.6,0.1,0.9,0.1l0,0c0.3,0,0.6,0,0.9-0.1C39.4,30.6,44,24.9,44,18.3zM40,18.3c0,4.7-3.3,8.7-7.9,9.7H32V18h-8v-7.3l8-2.6V18h8V18.3z"/></svg>
-                    <div class="option-text">
-                        <h3 class="option-name righty">Get Support</h3>
-                        <p class="option-desc righty">Report us a problem and Troubleshoot Problem</p>
-                    </div>
-                </a>
-            </div>
+      <div class="category-cover col-lg-4 col-sm-12 col-md-6">
+        <a href="nature/nature-1.html" class="category-cover-link">
+          <img src="res/category-covers/nature-cover.jpeg" alt="nature shots" class="category-cover-image">
+          <h4 class="category-cover-text" id="naturetext">Nature Shots <i class="fas fa-angle-right"></i></h4>
+        </a>
+      </div>
 
-            <div class="option c2 ">
-                <a href="pages/toolkit/toolkit.html"  class="option-link c-link">
-                    <svg class="option-logo-svg c2-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 232V334.1l31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31V232c0-13.3 10.7-24 24-24s24 10.7 24 24z"/></svg>
-                    <div class="option-text">
-                        <h3 class="option-name righty">Download Toolkit</h3>
-                        <p class="option-desc righty">Download Shortcut Optimizer </p>
-                    </div>
-                </a>
-            </div>
+      <div class="category-cover col-lg-4 col-sm-12 col-md-6">
+        <a href="aesthetic/aesthetic-1.html" class="category-cover-link">
+          <img src="res/category-covers/aes-cover.jpeg" alt="aesthetic shots" class="category-cover-image">
+          <h4 class="category-cover-text" id="aesthetictext">Aesthetic Shots <i class="fas fa-angle-right"></i></h4>
+        </a>
+      </div>
 
-            <div class="option c3">
-                <a href="pages/info/info.html" class="option-link c-link">
-                    <svg class="option-logo-svg c3-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M512 80c8.8 0 16 7.2 16 16V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16H512zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16H304c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H176zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z"/></svg>
-                    <div class="option-text">
-                        <h3 class="option-name righty">About Us</h3>
-                        <p class="option-desc righty">Contact us</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+    </div><!--R1 END-->
+    
+    <div class="row col-lg-12 col-sm-4 col-md-12" style="margin-right: 0px;margin-left: 0px;"><!--R2-->
 
-        <!-- Options End -->
-    </section>
+      <div class="category-cover col-lg-4 col-sm-12 col-md-6">
+        <a href="flower/flower-1.html" class="category-cover-link">
+          <img src="res/category-covers/flower-cover.jpeg" alt="flower shots" class="category-cover-image">
+          <h4 class="category-cover-text" id="flowertext">Flower <i class="fas fa-angle-right"></i></h4>
+        </a>
+      </div>
+
+      <div class="category-cover col-lg-4 col-sm-6 col-md-6">
+        <a href="gamegraphy/gamegraphy.html" class="category-cover-link">
+          <img src="res/category-covers/game-cover.jpeg" alt="game  shots" class="category-cover-image">
+          <h4 class="category-cover-text" id="gametext">Game Shots <i class="fas fa-angle-right"></i></h4>
+        </a>
+      </div>
+
+      <div class="category-cover col-lg-4 col-sm-6 col-md-6">
+        <a href="videography/videography.html" class="category-cover-link">
+          <img src="res/category-covers/video-cover.jpeg" alt="videography " class="category-cover-image">
+          <h4 class="category-cover-text" id="videotext">Videography <i class="fas fa-angle-right"></i></h4>
+        </a>
+      </div>
+
+    </div><!--R2 END-->
+
+  </div><!--container-fluid ends-->
+</section>
+
+<!--Category ENDS -->
 
 
 
-   
+<!-- CARD -->
+<section class="card-section">
+  <div class="card-container">
+    <div class="card-x">
 
-    <!-- JS -->
-    <script src="js/script.js"></script>
+      
+      <img src="res/profiles/Muhib-thumbnail.jpeg" alt="profile-image" class="card-img">
+      
+
+      <div class="card-text">
+        <h3 class="card-name">Md. Muhibbur Rahman</h3>
+        <p class="card-desc">I Love to capture the Nature and every beautiful moment of reality in camera.</p>
+        <a href="#" class="card-link">(i) About Me</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- CARD -->
+
+
+
+
+
+
+<!--Footer Start--> 
+<footer class="footer">
+  
+  <div class="footer-container">
+
+    <div class="footer-menu">
+      <a href="about and contact/about contact.html"><button id="footer-btn" class="footer-btn"> <i class="far fa-address-card"></i> About Me </button></a>
+      <a href="insider-ver/insider.html"><button id="footer-btn" class="footer-btn"> <i class="fas fa-info-circle"></i>  Site Info </button></a>
+    </div>
+
+    <div class="copyright-text">
+      <p class="copyright">Created by <br> 
+        &copy; Md. Muhibbur Rahman
+      </p>
+      <p class="m-p"><i class="fas fa-camera"></i> Muhib-Photography</p>
+    </div>
+
+  </div>
+  
+</footer>
+<!--Footer End-->
+
+
+<!--Project END-->
+
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--Loading-->
+<script src="js/loader.js"></script>
+<!--Java-Script (index)-->
+<script src="js/script.js"></script> 
+
 </body>
 </html>

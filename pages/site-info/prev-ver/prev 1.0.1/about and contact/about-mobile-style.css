@@ -1,0 +1,66 @@
+/*body {
+    overflow: hidden; /* Hide scrollbars
+  }*/
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.about{
+    background-color: #171717;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+.profile-pic{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 60px 10px;
+}
+.about p{
+    font-size: 1.0rem;
+}
+/*About*//*END*/
+.middle-hr{
+    margin: 0;
+    width: 50px;
+}
+/*Contact*//*START*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+}
+.contact{
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 20px;
+}
+.contact h3{
+    color: white;
+    text-align: center;
+}
+
+.add h4{
+    color: white;
+    display: inline;
+    margin: 10px;
+    margin-right: 20px
+}
+.add button{
+    margin-bottom: 20px;
+}
+/*Contact*//*END*/
+
+
