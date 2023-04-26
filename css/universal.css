@@ -1,12 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
 :root {
-
     /* Color */
     --bg    : #171717;
     --bg-dlight    : #111111;
@@ -18,7 +17,6 @@
     /* Text */
     --text-h  : 25px; /*Heading*/
     --text-p  : 20px; /*Paragraph*/
-
 }
 
 /**** Font ****/
@@ -34,6 +32,7 @@
     color: var(--theme);
     text-align: center;
 }
+
 .dotted-hr{
     border: 6px dotted white;
     border-bottom: none;

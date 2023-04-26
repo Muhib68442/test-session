@@ -1,44 +1,59 @@
-const carouselItems = document.querySelector('.carousel-items');
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
+const carousel = document.querySelector('.carousel');
+const prevButton = carousel.querySelector('.prev');
+const nextButton = carousel.querySelector('.next');
+const carouselImages = carousel.querySelector('.carousel-images');
+let currentImage = 0;
 
+// Add images from your arrays to the carousel
+const imageArrays = [carouselArray]; // replace with the names of your arrays
+imageArrays.forEach(imageArray => {
+  imageArray.forEach(imageObject => {
+    const image = document.createElement('img');
+    image.src = imageObject.src;
+    carouselImages.appendChild(image);
+  });
+});
 
-// Choose one of the arrays randomly
-const arrays = [aes, city, nature, flower, game];
-const randomIndex = Math.floor(Math.random() * arrays.length);
-const items = arrays[randomIndex];
-
-let currentItem = Math.floor(Math.random() * items.length);
-
-function showItem(index) {
-  carouselItems.style.transform = `translateX(-${index * 100}%)`;
-}
-
-showItem(currentItem);
+const images = carousel.querySelectorAll('img');
 
 prevButton.addEventListener('click', () => {
-  currentItem--;
-  if (currentItem < 0) {
-    currentItem = items.length - 1;
+  currentImage--;
+  if (currentImage < 0) {
+    currentImage = images.length - 1;
   }
-  showItem(currentItem);
+  updateCarousel();
 });
 
 nextButton.addEventListener('click', () => {
-  currentItem++;
-  if (currentItem >= items.length) {
-    currentItem = 0;
+  currentImage++;
+  if (currentImage >= images.length) {
+    currentImage = 0;
   }
-  showItem(currentItem);
+  updateCarousel();
 });
 
-function loadImages() {
-  items.forEach((item, index) => {
-    const element = document.createElement('div');
-    element.classList.add('carousel-item');
-    element.style.backgroundImage = `url(${item})`;
-    carouselItems.appendChild(element);
+function updateCarousel() {
+  const offset = -currentImage * 100;
+  images.forEach(image => {
+    image.style.transform = `translateX(${offset}%)`;
   });
 }
 
-loadImages();
+
+let interval = setInterval(() => {
+  nextButton.click();
+}, 5000);
+
+nextButton.addEventListener('click', () => {
+  clearInterval(interval);
+  interval = setInterval(() => {
+    nextButton.click();
+  }, 5000);
+});
+
+prevButton.addEventListener('click', () => {
+  clearInterval(interval);
+  interval = setInterval(() => {
+    nextButton.click();
+  }, 5000);
+});

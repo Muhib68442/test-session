@@ -41,6 +41,7 @@
 
     /******* CATEGORY *******/
     .category{
+        padding : 15px 0px;
         background-color: var(--bg);
     }
     .category-cover-link{
@@ -89,7 +90,7 @@
     }
     .card-img{
         width: 30%;
-        border-radius: 18px;
+        border-radius: 13px;
     }
     .card-text{
         width: 60%;
@@ -119,19 +120,20 @@
 
     /******* FOOTER *******/
     .footer{
-        background-color: var(--bg);
+        background-color: var(--bg-dlight);
+        padding: 15px 0px;
     }
     .footer-container{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
     }
-    .footer-menu
+
 
     .copyright-text{
-        text-align: right;
+        text-align: center;
     }
     .copyright{
         font-family: Font0;

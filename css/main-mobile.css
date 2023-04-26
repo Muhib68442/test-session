@@ -53,60 +53,38 @@
 
 
 /********************************/
-    .carousel {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-        background-color: #ddd;
-      }
-      
-      .carousel-items {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-      }
-      
-      .carousel img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      
-      .prev-button,
-      .next-button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: var(--theme);
-        color: #fff;
-        border: none;
-        padding: 10px;
-        font-size: 1.5em;
-        cursor: pointer;
-      }
-      
-      .prev-button {
-        left: 0;
-      }
-      
-      .next-button {
-        right: 0;
-      }
-      
-      button:focus {
-        outline: none;
-      }
-      
+.carousel-section{
+    background-color: var(--bg);
+    padding: 20px 0px;
+}
+
+.carousel {
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+}
+
+.carousel-images {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-images img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.5s ease-in-out;
+}
 
 
-
-
-
-
-
+.carousel-btn{
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+.fa-2x{
+    color: var(--text) !important;
+}
 /************************************/
 
 
@@ -118,6 +96,7 @@
 
     /***** CATEGORY *****/
     .category{
+        padding : 15px 0px;
       background-color: var(--bg);  
     }
     .category-cover{
@@ -146,14 +125,13 @@
         padding: 20px 0px;
     }
     .card-container{
-        width: 90%;
+        width: 92%;
         margin:  0 auto;
         background-color: var(--bg);
     }
     .card-x{
         border-radius: 8px;
         border: 2px solid var(--dim);
-
         margin:  0 auto;
         display: flex;
         justify-content: space-between;
@@ -161,10 +139,12 @@
     }
     .card-img{
         width: 33%;
+        border-radius: 8px;
+        margin: 5px;
     }
     .card-text{
         padding: 10px;
-        width: 70%;
+        width: 100%;
     }
     .card-name{
         font-family: Font0;
@@ -183,6 +163,7 @@
 
     /***** FOOTER *****/
     .footer{
+        padding : 15px 0px;
         background-color: var(--bg-dlight);
     }
     .footer-container{
@@ -207,10 +188,13 @@
     .copyright-text
 
     .copyright{
+        display: none;
         color: var(--text);
         font-family: Font0;
+        word-wrap: break-word;
     }
     .m-p{
+        text-align: right;
         color: var(--theme);
         font-family: Font0;
     }

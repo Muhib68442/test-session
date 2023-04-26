@@ -7,6 +7,9 @@
         font-family: Font0;
         padding: 20px;
     }
+    #page-title{
+        font-size: 30px;
+    }
     .content-container-section {
         background-color: var(--bg);
     }
@@ -72,7 +75,9 @@
         font-family: Font0;
         padding: 20px;
     }
-    
+    #page-title{
+        font-size: 25px;
+    }
     .content-container-section {
         background-color: var(--bg);
         padding-bottom: 20px;
