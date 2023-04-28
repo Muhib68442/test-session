@@ -32,58 +32,64 @@
         display: block;
         border-radius: 10px;
     }
-    .content-caption {
+    .content-title{
         margin-top: 10px;
         padding: 0px;
         font-size: 22px;
         margin-left: 10px;
         font-family: Font0;
         color: var(--text);
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.25s ease-in-out;
+       text-align: center;
     }
-   
-    .content-caption.show {
-        max-height: 500px;
-    }
-    
+
     .content-details {
         font-size: 20px;
         font-family: Font0;
-        margin-left: 20px;
+        margin: 20px;
         color: var(--text);
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.25s ease-in-out;
     }
-    
-    .content-details.show {
-        max-height: 500px;
-    }
-    
- 
-    /* For Video */
-    .content-title{
-        text-align: center;
-        color: var(--text);
-        font-size: 25px;
-        font-family: Font0;
-        margin: 10px;
-    }
+
     .content-link{
-        text-decoration: none;
-        font-size: 20px;
+        margin: 20px;
+        width: 25%;
         text-align: center;
-        font-family: Font0;
-        color: var(--theme);
-        border: 2px solid var(--theme);
-        padding: 8px 18px;
-        width: 28%;
         margin: 0 auto;
         display: block;
+        text-decoration: none;
+        font-size: 15px;
+        border: 2px solid var(--theme);
+        padding: 8px 18px;
     }
+ 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********** MOBILE SCREEN **********/

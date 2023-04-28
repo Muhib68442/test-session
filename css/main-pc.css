@@ -14,7 +14,40 @@
 
     .desktop-cover{
         width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('../res/intro-cover/desktop/1.jpeg');
+        animation: fade 120s forwards infinite;
+        transition: background 1s ease-in-out; 
     }
+    @keyframes fade{
+        0%{
+            background-image: url('../res/intro-cover/desktop/1.jpeg');
+            
+        }
+        16.66%{
+            background-image: url('../res/intro-cover/desktop/2.jpeg');
+        }
+        33.33%{
+            background-image: url('../res/intro-cover/desktop/3.jpeg');
+        }
+        50%{
+            background-image: url('../res/intro-cover/desktop/4.jpeg');
+        }
+        66.66%{
+            background-image: url('../res/intro-cover/desktop/5.jpeg');
+        }
+        83.33%{
+            background-image: url('../res/intro-cover/desktop/6.jpeg');
+        }
+        100%{
+            background-image: url('../res/intro-cover/desktop/7.jpeg');
+        }
+    }
+
+
     .cover-title{
         font-size: 40px;
         font-family: Font0;
@@ -23,7 +56,33 @@
         top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
+        animation: colorC 120s infinite forwards;
     }
+    @keyfrakmes colorC{
+        0%{
+            color: var(--text);
+        }-/
+        16.66%{
+            color: var(--bg);
+        }
+        33.33%{
+            color: var(--bg);
+        }
+        50%{
+            color: var(--bg);
+        }
+        66.66%{
+            color: var(--bg);
+        }
+        83.33%{
+            color: var(--bg);
+        }
+        100%{
+            color: var(--bg);
+        }
+
+    }
+
     .intro-link i{
         color: var(--bg);
         display: block;
@@ -45,7 +104,7 @@
         background-color: var(--bg);
     }
     .category-cover-link{
-        text-decoration: none;
+        tex74t-decoration: none;
         color: var(--dim-text);
         font-family: Font0;
         text-align: center;
