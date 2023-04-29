@@ -26,15 +26,26 @@
 }
 
 
+
+header {
+    text-align: center;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: Font0;
+    padding: 20px;
+}
+#page-title{
+    font-size: 30px;
+}
 .component-title{
     font-family: Font0;
     font-weight: 700;
     color: var(--theme);
     text-align: center;
 }
-
 .dotted-hr{
     border: 6px dotted white;
+    background-color: transparent;
     border-bottom: none;
     margin: 20px auto;
     width: 70px;
@@ -74,6 +85,7 @@
     background-color: var(--bg);
 }
 .back-button a{
+
     padding: 10px;
     text-decoration: none;
     color: var(--text);
@@ -83,6 +95,8 @@
 }
 .back-button a i{
     background-color: transparent;
+    color: var(--text);
+
 }
 .back-button:hover{
     transition: 0.2s;

@@ -6,20 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Md. Muhibbur Rahman">
-  <meta name="description" content="Photography Gallery, Static Webpage">
+  <meta name="description" content="Photography Gallery, ver: 4.1.1 Static">
   <link rel="shortcut icon" href="res/favicon.png" type="image/x-icon">
   <title>Muhib Photography</title>
 
-  <!--Fontawesome CDN-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
   <!--- CSS Files --->
   <!--Loader-->               <link rel="stylesheet" href="css/loader.css">
   <!--Bootstrap (Offline)-->  <link rel="stylesheet" href="css/bootstrap.css">
   <!--Universal CSS -->       <link rel="stylesheet" href="css/universal.css">
   <!--Mobile CSS-->           <link rel="stylesheet" href="css/main-mobile.css">
   <!--Desktop CSS-->          <link rel="stylesheet" href="css/main-pc.css">  
-    
+  <!--Fontawesome CDN--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body class="body">
@@ -40,10 +38,9 @@
 
 <!--Intro START-->    
 <section class="intro" id="home">
-  <img class="mobile-cover" src="res/intro-cover/mobile-intro.jpeg" alt="intro-img">
-  <div class="desktop-cover">
-    
-  </div>
+  <!-- <img class="mobile-cover" src="res/intro-cover/mobile-intro.jpeg" alt="intro-img"> -->
+  <div class="desktop-cover"></div>
+  <div class="mobile-cover"></div>
   <h4 class="cover-title">Muhib Photography</h4>
   <a href="#category" class="intro-link"> <i id="arrow-down" class="fa-2x fas fa-chevron-down"></i></a>
 </section>
@@ -147,7 +144,7 @@
       <div class="card-text">
         <h3 class="card-name">Md. Muhibbur Rahman</h3>
         <p class="card-desc">I Love to capture the Nature and every beautiful moment of reality in camera.</p>
-        <a href="#" class="card-link"> <i class="fa-solid fa-circle-info"></i> About Me</a>
+        <a href="pages/about-contact/about-contact.html" class="card-link"> <i class="fa-solid fa-circle-info"></i> About Me</a>
       </div>
 
     </div>
@@ -162,8 +159,8 @@
   <div class="footer-container">
 
     <div class="footer-menu">
-      <a href="about and contact/about contact.html"><button id="footer-btn" class="footer-btn"> <i class="far fa-address-card"></i> About Me </button></a>
-      <a href="insider-ver/insider.html"><button id="footer-btn" class="footer-btn"> <i class="fas fa-info-circle"></i>  Site Info </button></a>
+      <a href="https://muhib68442.github.io/Muhib-Photography"><button id="footer-btn" class="footer-btn"> <i class="fa-solid fa-toggle-on"></i> Switch to Static  </button></a>
+      <a href="pages/site-info/site-info.html"><button id="footer-btn" class="footer-btn"> <i class="fas fa-info-circle"></i>  Site Info </button></a>
     </div>
 
     <div class="copyright-text">
@@ -181,30 +178,23 @@
 
 
 
-
-
-<!--Project END-->
-
-
 <!--jQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!--Loading-->
 <script src="js/loader.js"></script>
 
+<!-- Cover  -->
+<script src="js/cover-array.js"></script>
+<script src="js/cover.js"></script>
+
+<!-- JS - Carousel (Array) -->
+<script src="js/carousel-array.js"></script>
+<script src="js/carousel.js"></script>
+
 <!--Java-Script (index)-->
 <script src="js/script.js"></script> 
 
-<!-- JS - Carousel (Array) -->
-<script src="js/carouselArray.js"></script>
-<script src="js/carousel.js"></script>
 
-
-<script src="img-data/aes-array.js"></script>
-<script src="img-data/city-array.js"></script>
-<script src="img-data/flower-array.js"></script>
-<script src="img-data/nature-array.js"></script>
-<script src="img-data/game-array.js"></script>
-<!-- JS - Carousel -->
 </body>
 </html>

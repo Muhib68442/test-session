@@ -1,15 +1,6 @@
 /********** PC SCREEN **********/
 @media screen and (min-width:992px) {
-    header {
-        text-align: center;
-        background-color: var(--bg);
-        color: var(--text);
-        font-family: Font0;
-        padding: 20px;
-    }
-    #page-title{
-        font-size: 30px;
-    }
+   
     .content-container-section {
         background-color: var(--bg);
     }

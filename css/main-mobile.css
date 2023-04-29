@@ -2,19 +2,33 @@
     .mobile-cover{
         display: block;
         width: 100%;
+        height: 99vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: fade 120s forwards infinite;
+        transition: background 1s ease-in-out;   
     }
     .desktop-cover{
         display: none;
     }
     .cover-title{
-        width: 80%;
+        width: 67%;
+        margin: 0 auto;
+        text-align: center;
         font-family: Font0;
         font-size: 28px;
-        color: var(--text);
+        font-weight: 700;
+
+        color: var(--dim-text);
         position: absolute;  
         top: 40%;
-        left: 60%;
+        left: 50%;
         transform: translate(-50%, -50%);
+
+        background-color: #17171731;
+        padding: 10px 15px;
+        border-radius: 10px;
     }
     .intro-link{
         color: var(--text);
@@ -26,67 +40,43 @@
     .category-cover-image{
         width: 100%;
     }
-    
 
-    /***** Carousel *****
-    .carousel{
-        display: block;
+
+    /******* CAROUSEL START *******/
+    .carousel-section{
         background-color: var(--bg);
+        padding: 20px 0px;
     }
-    .feedback-image{
-        width: 70%;
-        display: block;
-        margin: 0 auto;
-        border-radius: 10px;
+
+    .carousel {
+        background-color: var(--bg);
+        display: flex;
+        align-items: center;
     }
-    
 
- */
+    .carousel-images {
+        display: flex;
+        overflow: hidden;
+    }
 
-
-
-
-
-
-
-
-
-
-
-/********************************/
-.carousel-section{
-    background-color: var(--bg);
-    padding: 20px 0px;
-}
-
-.carousel {
-    background-color: var(--bg);
-    display: flex;
-    align-items: center;
-}
-
-.carousel-images {
-  display: flex;
-  overflow: hidden;
-}
-
-.carousel-images img {
-  width: 100%;
-  border-radius: 8px;
-  transition: transform 0.5s ease-in-out;
-}
+    .carousel-images img {
+        width: 100%;
+        border-radius: 8px;
+        transition: transform 0.5s ease-in-out;
+    }
 
 
-.carousel-btn{
-    margin: 0px 10px;
-    padding: 10px;
-    background-color: transparent;
-    border: none;
-}
-.fa-2x{
-    color: var(--text) !important;
-}
-/************************************/
+    .carousel-btn{
+        margin: 0px 10px;
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+    }
+    .fa-2x{
+        color: var(--dim-text)!important;
+    }
+    /******* CAROUSEL END *******/
+
 
 
 

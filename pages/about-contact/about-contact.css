@@ -1,5 +1,21 @@
 @media screen and (min-width : 992px){
 
+
+
+    header{
+        padding: 20px;
+    }
+    #page-title{
+        font-size: 30px;
+        text-align: center;
+        color: var(--text);
+        font-family: Font0;
+    }
+
+    li::marker{
+        color: var(--theme);
+    }
+
     .about{
         background-color: #171717;
         color: white;
@@ -36,9 +52,6 @@
 
     /*Contact*//*START*/
     *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
         background-color: #171717;
     }
     .contact{

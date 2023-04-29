@@ -6,9 +6,6 @@ const videos = [
         thumbnail: "../res/video-thumb/rain-rain.jpeg"
     },
 
-
-
-
     {
         title: "Srabon Er Megh x Cloud Timelapse",
         url: "https://youtu.be/gzkvarZd22I",
