@@ -32,6 +32,11 @@
         display: block;
         border-radius: 10px;
     }
+
+    .content-text{
+        display: none;
+    }
+    
     .content-caption {
         margin-top: 10px;
         padding: 0px;
@@ -64,6 +69,15 @@
     
  
     /* For Video */
+    .content-video{
+        width: calc(33.33% - 20px); /* subtracting 20px for margin */
+        margin-bottom: 20px;
+        padding: 10px;
+        /* height: 58vh !important; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
     .content-title{
         text-align: center;
         color: var(--text);
@@ -155,5 +169,44 @@
     .content-details.show {
         max-height: 500px;
     }
+
+
+
+
+
+    /* For Video */
+    .content-video{
+        padding-bottom: 25px;
+    }
+    .content-title{
+        text-align: center;
+        color: var(--text);
+        font-size: 25px;
+        font-family: Font0;
+        margin: 10px;
+    }
+    .content-link{
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: Font0;
+        color: var(--theme);
+        border: 2px solid var(--theme);
+        padding: 8px 18px;
+        width: 28%;
+        margin: 0 auto;
+        display: block;
+    }
+
     
+}
+@media only screen and (max-width: 320px) {
+    .content-link{
+        width: 35%;
+        font-size: 18px;
+    }
+    .content-title{
+        font-size: 20px;
+
+    }
 }

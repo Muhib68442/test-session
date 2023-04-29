@@ -16,7 +16,7 @@
   
       // create a new content element
       const content = document.createElement('div');
-      content.classList.add('content');
+      content.classList.add('content-video');
   
       // create the thumbnail element
       const thumbnail = document.createElement('img');
@@ -26,7 +26,7 @@
   
       // create the content text element
       const contentText = document.createElement('div');
-      contentText.classList.add('content-text');
+      contentText.classList.add('content-text-video');
   
       // create the title element
       const title = document.createElement('p');

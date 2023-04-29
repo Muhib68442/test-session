@@ -15,9 +15,9 @@ const videos = [
         thumbnail: "../res/video-thumb/sraboner-megh.jpeg"
     },
     {
-        title: "Video 2",
-        url: "6",
-        thumbnail: "../img/aes-img/2aes.jpeg"
+        title: "Jo Bheji Thi Dua (Lofi) Lyrical",
+        url: "https://youtu.be/qAItPQkxb18",
+        thumbnail: "../res/video-thumb/jo-bheji-thi-dua.jpeg"
     },
     {
         title: "একা পাখি বসে আছে x Grayscale ",
@@ -30,9 +30,9 @@ const videos = [
         thumbnail: "../res/video-thumb/amar-dehokhan.jpeg"
     },
     {
-        title: "",
-        url: "https://www.youtube.com/watch?v=def456",
-        thumbnail: "../img/aes-img/2aes.jpeg"
+        title: "Kotodur (Lofi) Lyrical",
+        url: "https://youtu.be/0SSXlmEorew",
+        thumbnail: "../res/video-thumb/kotodur-lofi.jpeg"
     },
     // add more videos as needed
 ];

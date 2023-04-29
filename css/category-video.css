@@ -25,6 +25,7 @@
         width: calc(33.33% - 20px); /* subtracting 20px for margin */
         margin-bottom: 20px;
         padding: 10px;
+
     }
     
     .content-image {

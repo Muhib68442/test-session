@@ -18,11 +18,11 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url('../res/intro-cover/desktop/1.jpeg');
+        background-image: url('../res/intro-cover/desktop/2.jpeg');
         animation: fade 120s forwards infinite;
         transition: background 1s ease-in-out; 
     }
-    @keyframes fade{
+    /* @keyframes fade{
         0%{
             background-image: url('../res/intro-cover/desktop/1.jpeg');
             
@@ -45,7 +45,7 @@
         100%{
             background-image: url('../res/intro-cover/desktop/7.jpeg');
         }
-    }
+    } */
 
 
     .cover-title{
@@ -57,7 +57,8 @@
         left: 50%;
         transform: translate(-50%, -50%);
         animation: colorC 120s infinite forwards;
-    }
+     }
+     /*
     @keyfrakmes colorC{
         0%{
             color: var(--text);
@@ -81,7 +82,7 @@
             color: var(--bg);
         }
 
-    }
+    } */
 
     .intro-link i{
         color: var(--bg);
@@ -93,8 +94,46 @@
     }
 
     /******* CAROUSEL *******/
-    .carousel{
-        display: none;
+    .carousel-section{
+        /* display: none; */
+        padding: 20px 10px;
+        background-color: var(--bg);
+        padding-top: 40px;
+    }
+    
+    .carousel {
+        background-color: var(--bg);
+        display: flex;
+        align-items: center;
+    }
+    
+    .carousel-images {
+      display: flex;
+      overflow: hidden;
+      border-radius: 10%;
+    }
+    
+    .carousel-images img {
+      width:20%;
+      /* border: 2px solid var(--dim); */
+      margin: 30px;
+      border-radius: 8px;
+      transition: transform 0.5s ease-in-out;
+    }
+    .carousel-images img:hover{
+        border: 2px solid var(--theme);
+        transition: 0.5s;
+    }
+    
+    
+    .carousel-btn{
+        margin: 0px 10px;
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+    }
+    .fa-2x{
+        color: var(--text) !important;
     }
 
 
@@ -104,19 +143,18 @@
         background-color: var(--bg);
     }
     .category-cover-link{
-        tex74t-decoration: none;
-        color: var(--dim-text);
-        font-family: Font0;
-        text-align: center;
+        text-decoration: none;
+        
     }
+
     .category-cover-image{
         border: 2px solid var(--dim);
         transition: 0.2s;
-        width: 80%;
+        width: 78%;
         border-radius: 10px;
         display: block;
         margin: 10px auto;
-        opacity: 80%;
+        opacity: 70%;
         filter: blur(0.5px);
     }
     .category-cover-image:hover{
@@ -127,6 +165,22 @@
     .row{
         margin: 30px 0px;
     }
+    .category-cover-text{
+        transition: 0.2s;
+        display: block;
+        width: 50%;
+        margin:  0 auto;
+        color: var(--dim-text);
+        font-family: Font0;
+        text-align: center;
+    }
+    .category-cover-text:hover{
+        transition: 0.2s;
+        color: var(--theme);
+        border-left: 3px solid var(--theme);
+        padding-left: 20px;
+    }
+    
 
 
 
