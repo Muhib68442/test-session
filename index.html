@@ -6,18 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Md. Muhibbur Rahman">
-  <meta name="description" content="Photography Gallery, ver: 4.1.1 Static">
+  <meta name="description" content="Photography Gallery, Static Webpage">
   <link rel="shortcut icon" href="res/favicon.png" type="image/x-icon">
   <title>Muhib Photography</title>
 
+  <!--Fontawesome CDN--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <!--- CSS Files --->
   <!--Loader-->               <link rel="stylesheet" href="css/loader.css">
   <!--Bootstrap (Offline)-->  <link rel="stylesheet" href="css/bootstrap.css">
   <!--Universal CSS -->       <link rel="stylesheet" href="css/universal.css">
   <!--Mobile CSS-->           <link rel="stylesheet" href="css/main-mobile.css">
   <!--Desktop CSS-->          <link rel="stylesheet" href="css/main-pc.css">  
-  <!--Fontawesome CDN--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
 </head>
 
 <body class="body">
@@ -38,34 +39,87 @@
 
 <!--Intro START-->    
 <section class="intro" id="home">
-  <!-- <img class="mobile-cover" src="res/intro-cover/mobile-intro.jpeg" alt="intro-img"> -->
-  <div class="desktop-cover"></div>
-  <div class="mobile-cover"></div>
+  <img class="mobile-cover" src="res/intro-cover/mobile-intro.jpeg" alt="intro-img">
+  <div class="desktop-cover">
+    
+  </div>
   <h4 class="cover-title">Muhib Photography</h4>
   <a href="#category" class="intro-link"> <i id="arrow-down" class="fa-2x fas fa-chevron-down"></i></a>
 </section>
 <!--Intro END-->   
 
 
-<!-- Carousel START -->
+
+<!--Carousel START--> 
 <section class="carousel-section">
-  <div class="section-title">
-    <h3 class="component-title"><i class="fas fa-images"></i> Photography Slides</h3>
-    <hr class="dotted-hr">
-  </div>
+  <div class="carousel" id="carousel">
+    <div class="container-fluid text-white " id="photography-slides">
+
+      <section id="feedback">
   
-  <div class="carousel">
-    
+        <div class="section-title">
+            <h3 class="component-title"><i class="fas fa-images"></i> Photography Slides</h3>
+            <hr class="dotted-hr">
+        </div>
   
-    <button class="prev carousel-btn"><i class="fa-solid fa-angle-left fa-2x"></i></button>
-    <div class="carousel-images">
-      <!-- Add your images here -->
-      
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/1.jpeg" alt="image">
+                            <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/1.jpeg" alt="image">
+                            <h6></h6><!--caption-->
+                        </div>
+  
+                        <div class="carousel-item">
+                            <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/2.jpeg" alt="image">
+                            <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/2.jpeg" alt="image">
+                            <h6></h6>
+                        </div>
+  
+                        <div class="carousel-item">
+                            <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/3.jpeg" alt="image">
+                            <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/3.jpeg" alt="image">
+                            <h6></h6>
+                        </div>
+  
+                        <div class="carousel-item">
+                            <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/4.jpeg" alt="image">
+                            <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/4.jpeg" alt="image">
+                            <h6></h6>
+                        </div>
+  
+                        <div class="carousel-item">
+                            <img class="feedback-image mb-3" id="carousel-image-mobile" src="index-res/carousel-image/mobile/5.jpeg" alt="image">
+                            <img class="feedback-image mb-3" id="carousel-image-pc" src="index-res/carousel-image/pc/5.jpeg" alt="image">
+                            <h6></h6>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+      </section>
     </div>
-    <button class="next carousel-btn"><i class="fa-solid fa-angle-right fa-2x"></i></button>
   </div>
 </section>
-<!-- Carousel END -->
+  <!--Carousel END-->
+
 
 
 <!--Category STARTS  -->
@@ -159,7 +213,7 @@
   <div class="footer-container">
 
     <div class="footer-menu">
-      <a href="https://muhib68442.github.io/Muhib-Photography"><button id="footer-btn" class="footer-btn"> <i class="fa-solid fa-toggle-on"></i> Switch to Static  </button></a>
+      <a href="https://muhib68442.github.io/Muhib-Photography-D"><button id="footer-btn" class="footer-btn"> <i class="fa-solid fa-toggle-on"></i> Switch to Dynamic </button></a>
       <a href="pages/site-info/site-info.html"><button id="footer-btn" class="footer-btn"> <i class="fas fa-info-circle"></i>  Site Info </button></a>
     </div>
 
@@ -178,23 +232,26 @@
 
 
 
+
 <!--jQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!--Loading-->
 <script src="js/loader.js"></script>
 
-<!-- Cover  -->
-<script src="js/cover-array.js"></script>
-<script src="js/cover.js"></script>
-
-<!-- JS - Carousel (Array) -->
-<script src="js/carousel-array.js"></script>
-<script src="js/carousel.js"></script>
-
 <!--Java-Script (index)-->
 <script src="js/script.js"></script> 
 
+<!-- JS - Carousel (Array) -->
+<script src="js/carouselArray.js"></script>
+<script src="js/carousel.js"></script>
 
+
+<script src="img-data/aes-array.js"></script>
+<script src="img-data/city-array.js"></script>
+<script src="img-data/flower-array.js"></script>
+<script src="img-data/nature-array.js"></script>
+<script src="img-data/game-array.js"></script>
+<!-- JS - Carousel -->
 </body>
 </html>

@@ -18,30 +18,25 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        background-image: url('../res/intro-cover/desktop/2.jpeg');
         animation: fade 120s forwards infinite;
         transition: background 1s ease-in-out; 
     }
 
+
     .cover-title{
-        /* text-shadow: 0px 0px 20px #cfcfcf !important;  */
         font-size: 40px;
-        font-weight: 800;
         font-family: Font0;
-        color: var(--text);
         display: block;
         position: absolute;
         top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
-
-        background-color: #17171737;
-        padding: 10px 15px;
-        border-radius: 10px;
-        
-    }
+        animation: colorC 120s infinite forwards;
+     }
 
     .intro-link i{
-        color: var(--dim-text) !important;
+        color: var(--bg);
         display: block;
         position: absolute;
         top: 85%;
@@ -49,60 +44,23 @@
         transform: translate(-50%, -50%);
     }
 
-    /******* CAROUSEL START *******/
+    /******* CAROUSEL *******/
     .carousel-section{
-        /* display: none; */
-        padding: 20px 10px;
-        background-color: var(--bg);
-        padding-top: 40px;
+        display: none;
     }
     
-    .carousel {
-        background-color: var(--bg);
-        display: flex;
-        align-items: center;
-    }
-    
-    .carousel-images {
-      display: flex;
-      overflow: hidden;
-      border-radius: 10%;
-    }
-    
-    .carousel-images img {
-      width:20%;
-      /* border: 2px solid var(--dim); */
-      margin: 30px;
-      border-radius: 8px;
-      transition: transform 0.5s ease-in-out;
-    }
-    .carousel-images img:hover{
-        border: 2px solid var(--theme);
-        transition: 0.5s;
-    }
-    
-    
-    .carousel-btn{
-        margin: 0px 10px;
-        padding: 10px;
-        background-color: transparent;
-        border: none;
-    }
-    .fa-2x{
-        color: var(--dim-text) !important;
-    }
-    /******* CAROUSEL END *******/
+  
 
-
-
-    /******* CATEGORY START *******/
+    /******* CATEGORY *******/
     .category{
         padding : 15px 0px;
         background-color: var(--bg);
     }
     .category-cover-link{
         text-decoration: none;
+        
     }
+
     .category-cover-image{
         border: 2px solid var(--dim);
         transition: 0.2s;
@@ -136,12 +94,11 @@
         border-left: 3px solid var(--theme);
         padding-left: 20px;
     }
-    /******* CATEGORY END*******/
     
 
 
 
-    /******* CARD START*******/
+    /******* CARD *******/
     .card-section{
         background-color: var(--bg);
     }
@@ -185,7 +142,6 @@
         font-family: Font0;
         font-size: 17px;
     }
-    /******* CARD END *******/
 
 
 

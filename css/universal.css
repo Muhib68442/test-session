@@ -85,7 +85,6 @@ header {
     background-color: var(--bg);
 }
 .back-button a{
-
     padding: 10px;
     text-decoration: none;
     color: var(--text);
@@ -95,8 +94,6 @@ header {
 }
 .back-button a i{
     background-color: transparent;
-    color: var(--text);
-
 }
 .back-button:hover{
     transition: 0.2s;

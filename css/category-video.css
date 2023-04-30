@@ -64,7 +64,12 @@
         border: 2px solid var(--theme);
         padding: 8px 18px;
     }
- 
+    .btn{
+        border: none !important;
+        border-bottom: 2px solid var(--theme) !important;
+        font-size: 18px;
+    }
+
 }
 
 

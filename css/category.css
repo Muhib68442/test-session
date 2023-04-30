@@ -1,94 +1,120 @@
 /********** PC SCREEN **********/
 @media screen and (min-width:992px) {
    
-    .content-container-section {
+    .content-container-section{
         background-color: var(--bg);
-    }
-    .content-container {
-        width: 88%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between; /* add some space between items */
+        
     }
 
-    .content {
-        width: calc(33.33% - 20px); /* subtracting 20px for margin */
-        margin-bottom: 20px;
-        padding: 10px;
-    }
-    
-    .content-image {
-        width: 100%;
-        display: block;
-        border-radius: 10px;
-    }
+    #page-title{
+        text-align: center;
+        font-size: 23px;
+        font-family: Font0;
+        color: white;
+        padding-top: 10px;
+        transition: 0.2s;
 
-    .content-text{
-        display: none;
     }
-    
-    .content-caption {
-        margin-top: 10px;
-        padding: 0px;
-        font-size: 22px;
-        margin-left: 10px;
-        font-family: Font0;
-        color: var(--text);
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.25s ease-in-out;
-    }
-   
-    .content-caption.show {
-        max-height: 500px;
-    }
-    
-    .content-details {
-        font-size: 20px;
-        font-family: Font0;
-        margin-left: 20px;
-        color: var(--text);
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.25s ease-in-out;
-    }
-    
-    .content-details.show {
-        max-height: 500px;
-    }
-    
- 
-    /* For Video */
-    .content-video{
-        width: calc(33.33% - 20px); /* subtracting 20px for margin */
-        margin-bottom: 20px;
-        padding: 10px;
-        /* height: 58vh !important; */
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-    .content-title{
-        text-align: center;
-        color: var(--text);
-        font-size: 25px;
-        font-family: Font0;
-        margin: 10px;
-    }
-    .content-link{
-        text-decoration: none;
-        font-size: 20px;
-        text-align: center;
-        font-family: Font0;
+    #page-title:hover{
         color: var(--theme);
-        border: 2px solid var(--theme);
-        padding: 8px 18px;
-        width: 28%;
-        margin: 0 auto;
-        display: block;
+        transition: 0.2s;
     }
+
+    .container{
+        width: 98% !important;
+    }
+    .file{
+        text-align: center;
+        margin: 20px 0px;
+        padding: 10px 10px;
+
+        /* background-color: #202020; */
+        /* border-radius: 10px; */
+        /* border: 2px solid var(--theme); */
+    }
+    #image{
+        width: 95%;
+        border-radius: 10px;
+        border: 1px solid var(--dim);
+        transition: 0.1s;
+    }
+    #image:hover{
+        border: 1px solid var(--theme);
+        transition: 0.1s;
+    }
+    #caption{
+        display: none;
+        color: white;
+    }
+
+
+    .image-details{
+        font-size: 22px;
+        font-weight: 700;
+        font-family: Font0;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .details-caption{
+        color: azure;    
+        text-align: left;
+        margin-left: 20px;
+    }
+    .details-text{
+        font-size: 20px;
+        font-family: Font0;    
+        text-align: left;
+        margin-left: 20px;
+    }
+    .origin-image-link-btn{
+        text-decoration: none;
+        font-size: 16px;
+        color: var(--theme);
+        font-family: Font0;
+        font-weight: 700;
+        border: 2px solid var(--theme);
+        /* border-radius: 100px; */
+        padding: 8px 18px;
+        transition: 0.2s;
+
+    }
+    .origin-image-link-btn:hover{
+        background-color: var(--theme);
+        border: 2px solid var(--dim);
+        color: var(--dim);
+        transition: 0.2s;
+    }
+    .origin-image-link-btn i{
+        margin: 0px 8px;
+    }
+    
+    
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********** MOBILE SCREEN **********/
