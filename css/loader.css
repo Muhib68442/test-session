@@ -1,4 +1,4 @@
-.muhib{
+.main{
     display: none;
 }
 
@@ -38,11 +38,12 @@
     left: 0px;
     right: 0px;
     width: auto;
-    background-color:;
+    
     
 }
 .loader>.message>h4{
     color: white;
     text-align: center;
+    font-family: Font0;
 
 }
