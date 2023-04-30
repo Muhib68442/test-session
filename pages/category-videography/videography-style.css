@@ -1,20 +1,9 @@
 
-/*font
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
-
 /*Mobile STYLE*/
 *{
     background-color: #171717;
 }
-.dotted-hr{
-    border: 6px dotted white;
-    border-bottom: none;
-    margin: 20px auto;
-    width: 70px;
-}
+
 .content{
     background-color: #171717;
 }

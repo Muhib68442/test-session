@@ -23,10 +23,31 @@
         left: 48%;
         transform: translate(-50%, -50%);
     }
-    .category-cover-image{
-        width: 100%;
+    .category-cover-text{
+
     }
-    
+    .category-cover-text:hover{
+        transition: 0.2s;
+        color: var(--theme);
+    }
+    .category-cover-image{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        opacity: 70%;
+        transition: 0.2s;
+    }
+    .category-cover-image:hover{
+        opacity: 100%;
+        transition: 0.2s;
+        border: 2px solid var(--theme);
+        transition: 0.2s;
+    }
+
+    .component-title{
+        font-family: Font0 !important;
+        color: var(--theme) !important; 
+    }
 
 
     /******* CAROUSEL START *******/
@@ -102,15 +123,6 @@
     }
 
     /******* CAROUSEL END *******/
-
-
-
-
-
-
-
-
-
 
 
     /***** CATEGORY *****/
