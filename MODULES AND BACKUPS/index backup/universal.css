@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/******* Fonts *******/
+@font-face {
+    font-family: Font1;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: Font2;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+/******* Colors *******/
+/* Followed Theme : #1176ff */
+
+
+ :root {
+    --theme: #1176ff; 
+    --theme-d: #00419c; 
+    --bg   : #171717; 
+    --text : #eeeeee; 
+    --dim  : #aaaaaa;
+    --bgh: #222222;
+} 
+
+
+
+
+
+
+
+/******* ScrollBar *******/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #5f5f5f;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--theme);
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #313131;
+}
+
+/******* Back Button *******/
+.back-button{
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--theme);
+    border-radius: 0px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.2s;
+    background-color: var(--bg);
+}
+.back-button a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--text);
+    font-family: Font1;
+    font-weight: 600;
+    background-color: transparent;
+}
+.back-button a i{
+    background-color: transparent;
+}
+.back-button:hover{
+    transition: 0.2s;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 3px solid var(--theme);
+    background-color: #313131;
+}
+.back-button a:hover{
+    color: var(--theme);
+}
+
+/* a:visited{
+    color: ;
+} */
+
+header{
+    background-color: var(--bg);
+}
+.header-text{
+    color: var(--text);
+    font-family: Font1;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    transition: 0.2s;
+}
+.dotted-hr{
+    border: 6px dotted white;
+    border-bottom: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100px;
+}
+
+@media screen and (max-width: 1280px) and (max-height: 720px)
+{
+    .header-text{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:992px){
+    header{
+        padding: 20px 0px;
+    }
+    .header-text{
+        color: var(--text);
+        font-family: Font1;
+        display: block;
+        width: 70%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 25px;
+        transition: 0.2s;
+        padding-top: 0px;
+    }
+    .dotted-hr{
+        border: 6px dotted white;
+        border-bottom: none;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .back-button{
+        display: none;
+    }
+}
+
+
+
+

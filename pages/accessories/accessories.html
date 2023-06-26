@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Accessories | Utility Toolkit</title>
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="accessories.css">
+    <link rel="stylesheet" href="../../css/universal.css">
+
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <div class="back-button">
+            <a href="../../index.html"><i class="far fa-arrow-alt-circle-left"></i></a><!--Back-->
+        </div>
+
+        <p class="header-text">Buy Accessories</p>
+        <hr class="dotted-hr">
+    </header>
+
+    <section class="softwares">
+        <div class="search-section">
+            <div class="search-container">
+                
+                <input type="text" placeholder="Search..." class="search-input" onkeydown="handleEnterKey(event)">
+                <a href="#" class="close-btn" onclick="closeFunction()"><i class="fa-solid fa-xmark"></i></a>
+                <a href="#" class="search-btn" onclick="searchFunction()"><i class="fa-solid fa-magnifying-glass"></i></a>
+                
+            </div>
+        </div>
+
+        <section class="accessories-main">
+           
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/cables.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Cables</h3>
+                        <p class="bcard-desc">Cables are wires that connect devices or components together, allowing them to communicate or exchange power. There are different types of cables for different purposes, such as USB cables, HDMI cables, Ethernet cables, audio cables, etc. Cables vary in length, shape, and connector type.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/accessories/converter-and-cable" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=cables&_keyori=ss&from=input&spm=a2a0e.searchlistcategory.search.go.14eb2259QyIUKb" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/Cables-Interconnects-Computer-Accessories-Supplies/b?ie=UTF8&node=172463" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/ram.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">RAM</h3>
+                        <p class="bcard-desc">RAM stands for random access memory, and it is a type of memory that stores data temporarily while your computer or device is running. RAM allows your computer or device to access and process data faster and more efficiently. RAM is usually installed on the motherboard of your computer or device in the form of modules or chips.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=RAM" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=Ram&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.1f4f1d96wsYfe8" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=RAM&crid=M0MOA0PH8SU7&sprefix=ram%2Caps%2C554&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/hdd.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Hard Disk Drives</h3>
+                        <p class="bcard-desc"> HDD stands for hard disk drive, and it is a type of storage device that stores data permanently using magnetic disks. HDDs have high storage capacity and low cost per gigabyte, but they are also slower and more prone to damage than other types of storage devices. HDDs are usually installed inside your computer or device in the form of disks or drives.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=HDD" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=HDD&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.6c1b4db8ySnjA4" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=HDD&crid=1PD1JQ2STYEUN&sprefix=ram%2Caps%2C447&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/ssd.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">SSD</h3>
+                        <p class="bcard-desc">SSD stands for solid state drive, and it is a type of storage device that stores data permanently using flash memory chips. SSDs have lower storage capacity and higher cost per gigabyte than HDDs, but they are also faster and more reliable than HDDs. SSDs are usually installed inside your computer or device in the form of disks or drives, or externally in the form of USB drives or cards.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=SSD" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=SSD&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.51af31e3c96CYs" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=SSD&crid=GHGDDKQOH202&sprefix=ssd%2Caps%2C354&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/flashdrive.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Flash Drive</h3>
+                        <p class="bcard-desc">flash drive is a small and portable device that stores data using flash memory technology, allowing you to transfer files between computers or devices. Flash drives are also known as USB drives, thumb drives, or pen drives. They have a USB connector that plugs into a USB port on your computer or device.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=flash%20drive" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=flash+drive&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.5f4f3c93hPxgpX" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=flash+drive&crid=3FKYIZ6HD2N2D&sprefix=flash+drive%2Caps%2C444&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/hub.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Hub</h3>
+                        <p class="bcard-desc">USB hub is a device that expands a single USB port into several ports, allowing you to connect multiple USB devices to your computer or laptop. Some USB hubs also provide power to charge your devices or transfer data faster</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=usb%20hub" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=usb+hub&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.247a4cc1bIVt68" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=usb+hub&crid=26KS12NPRUAX3&sprefix=usb+h%2Caps%2C514&ref=nb_sb_noss_2" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/converter.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Converter</h3>
+                        <p class="bcard-desc">A converter is a device that changes the format or signal of one type of input to another type of output, allowing you to use devices that are not compatible with each other. For example, a USB-C to HDMI converter allows you to connect a device with a USB-C port to a monitor with an HDMI port.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=converter" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=converter&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.58653e6bN3MOMS" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=converter&crid=3FDEK89T9HRG6&sprefix=conver%2Caps%2C524&ref=nb_sb_noss_2" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/headset.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Headset</h3>
+                        <p class="bcard-desc">headset is a device that combines a pair of headphones and a microphone, allowing you to listen and speak at the same time. Headsets are commonly used for gaming, communication, or entertainment purposes. Some headsets are wired and can be connected to a USB port or an audio jack, while others are wireless and use Bluetooth or Wi-Fi technology.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=headset" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=headset&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.44bf26fcrJpEYH" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=headset&crid=1D5YK2GK0RAXV&sprefix=headse%2Caps%2C366&ref=nb_sb_noss_2" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/mic.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Microphone</h3>
+                        <p class="bcard-desc">Wireless kb and mouse are keyboard and mouse devices that use wireless technology to connect to your computer or laptop without any cables or wires. Wireless kb and mouse can offer more convenience and mobility than wired ones, and they can be used on different surfaces or distances. Wireless kb and mouse usually use batteries or rechargeable power sources, and they can be connected via Bluetooth, Wi-Fi, or USB receivers.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=microphone" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=microphone&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.70b71519PopYeB" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=microphone&crid=33XK8N0WJSATA&sprefix=headset%2Caps%2C482&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/networkadapter.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Network Adapters</h3>
+                        <p class="bcard-desc"> A network card is a device that allows your computer or device to connect to a network, such as the Internet or a local area network (LAN). Network cards can be internal or external, and they use different protocols and standards, such as Ethernet, Wi-Fi, Bluetooth, etc. Network cards have ports or slots where you can plug in cables or adapters.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=network%20adapter" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=network+adapters&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.404571b6irMTUr" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=network+adapters&crid=2GXFWOJHQ6JYX&sprefix=flash+drive%2Caps%2C389&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/dongle.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Dongle & Receiver</h3>
+                        <p class="bcard-desc">A Wi-Fi dongle or receiver is a device that enables your computer or device to access wireless networks, such as Wi-Fi hotspots or routers. Wi-Fi dongles or receivers are usually plugged into a USB port on your computer or device, and they can enhance the signal strength or range of your wireless connection.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=Dongle" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=Dongle+%26+Receiver&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.9b7b529dlMz8zG" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=Dongle+%26+Receiver&crid=DI0KEMF2YB98&sprefix=dongle+%26+receiver%2Caps%2C424&ref=nb_sb_noss_2" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/webcam.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Webcam</h3>
+                        <p class="bcard-desc">A webcam is a device that captures video and images from your surroundings and sends them to your computer or device. Webcams are often used for video conferencing, streaming, recording, or surveillance purposes. Some webcams are built-in to your devices, while others are external and can be attached to your monitor or stand-alone. Webcams usually have a USB connector that plugs into a USB port on your computer or device.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=Webcam" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=Webcam&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.51b940a4C7V41W" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=Webcam&crid=QS3STAT1U84D&sprefix=dongle+%26+receiver%2Caps%2C342&ref=nb_sb_noss_2" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/btspeaker.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Bluetooth Speakers</h3>
+                        <p class="bcard-desc">Bluetooth speakers are wireless speakers that use Bluetooth technology to connect to your devices, such as laptops, phones, tablets, or TVs. Bluetooth speakers can stream audio from your devices without any cables or wires, and they can be placed anywhere within the Bluetooth range. Some Bluetooth speakers also have features like voice control, stereo pairing, water resistance, or LED lights</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=Bluetooth%20Speakers" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=Bluetooth+Speakers&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.6d356babdQnr4x" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=Bluetooth+Speakers&crid=2NWDIFMOE41KA&sprefix=bluetooth+speakers%2Caps%2C594&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/laptopcooler.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Laptop Cooler</h3>
+                        <p class="bcard-desc">A laptop cooler is a device that helps to reduce the heat generated by your laptop, especially when it is running intensive tasks or programs. Laptop coolers can improve the performance and lifespan of your laptop by preventing overheating and damage. Laptop coolers usually have fans or vents that blow air to cool down your laptop, and they can be powered by USB ports or batteries.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=Laptop%20Cooler" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=Laptop+Cooler&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.391928e8SRyBn4" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=Laptop+Cooler&crid=36NOPJK18WDTF&sprefix=bluetooth+speakers%2Caps%2C352&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/lsticker.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Laptop Sticker</h3>
+                        <p class="bcard-desc">A laptop sticker is a decorative sticker that you can stick on your laptop to personalize it or express your style. Laptop stickers can have various designs, colors, shapes, or messages, and they can be easily applied or removed without leaving any residue. Laptop stickers can also protect your laptop from scratches or dust.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="#" onclick="alert('Not Available !')" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=Laptop+Sticker&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.55af728c7ruGzW" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=Laptop+Sticker&crid=1E0I8B8XMEUA5&sprefix=laptop+cooler%2Caps%2C362&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bcard-container">
+                <div class="image-wrapper">
+                    <img src="../../res/accessories-thumbs/wkbms.jpg" alt="logo" class="bcard-img">
+                </div>
+                <div class="title-wrapper">
+                    <div class="bcard-text-wrapper">
+                        <h3 class="bcard-title">Wireless Keyboard & Mouse</h3>
+                        <p class="bcard-desc">Wireless kb and mouse are keyboard and mouse devices that use wireless technology to connect to your computer or laptop without any cables or wires. Wireless kb and mouse can offer more convenience and mobility than wired ones, and they can be used on different surfaces or distances. Wireless kb and mouse usually use batteries or rechargeable power sources, and they can be connected via Bluetooth, Wi-Fi, or USB receivers.</p>
+                    </div>
+                    <div class="link-wrapper">
+                        <a href="https://www.startech.com.bd/product/search?search=Wireless%20Keyboard%20%26%20Mouse" class="bcard-link" target="_blank">Startek</a>
+                        <a href="https://www.daraz.com.bd/catalog/?q=Wireless+Keyboard+%26+Mouse&_keyori=ss&from=input&spm=a2a0e.searchlist.search.go.65de7959ExUaAF" class="bcard-link" target="_blank">Daraz</a>
+                        <a href="https://www.amazon.com/s?k=Wireless+Keyboard+%26+Mouse&crid=31A86FTXZ0IHB&sprefix=laptop+sticker%2Caps%2C357&ref=nb_sb_noss_1" class="bcard-link" target="_blank">Amazon</a>
+                    </div>
+                </div>
+            </div>
+
+        
+          </section>
+
+        </div>
+    </section>
+    
+    <script src="../../js/script.js"></script>
+
+</body>
+
+</html>

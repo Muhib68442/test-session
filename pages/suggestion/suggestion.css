@@ -1,0 +1,68 @@
+.suggessions-main{
+    background-color: var(--bg);
+    padding-bottom: 20px;
+    width: 100% ;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.bcard-container{
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bgh);
+}
+.image-wrapper{
+    /* padding: 10px; */
+    width: 25%;
+}
+.bcard-img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+.title-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.bcard-title{
+    color: var(--theme);
+    font-weight: 700;
+    font-family: Font1;
+    font-size: 30px;
+}
+.bcard-desc{
+    font-size: 20px;
+    color: var(--text);
+    font-family: Font1;
+}
+
+.bcard-link{
+    width: 18%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 18px;
+    border: 2px solid var(--theme);
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.bcard-link:hover{
+    color: var(--text);
+    transition: 0.2s;
+    background-color: var(--theme-d);
+}
+.bcard-about{
+    color: var(--dim);
+    font-family: Font1;
+    font-size: 24px;
+    text-align: left;
+}

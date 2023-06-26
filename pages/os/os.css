@@ -1,0 +1,211 @@
+@media screen and (min-width : 992px){
+
+    .main{
+        padding: 20px;
+        padding-top: 20px;
+        background-color: var(--bg);
+    }
+    
+    /*TEXT SECTION*/
+    .text{
+        width: 95%;
+        margin:  0 auto;
+    }
+    .p-intro{
+        font-family: Font1;
+        font-size: 25px;
+        padding: 10px;
+        color: var(--theme);
+    }
+    .p-intro-alert{
+        color: #f65050;
+        line-height: 28px;
+        font-size: 16px;
+        font-family: Font2;
+        margin-left: 10px;
+    }
+    
+    .h{
+        padding-top: 20px;
+        font-family: Font1;
+        font-size: 25px;
+        color: var(--theme);
+        margin-left: 20px;
+    }
+    .p-step{
+        font-size: 18px;
+        padding: 5px;
+        line-height: 28px;
+        font-family: Font2;
+        color: var(--text);
+        margin-left: 40px;
+    }
+    .p-decide{
+        font-family: Font1;
+        font-size: 18px;
+        padding-left: 15px;
+        color: rgb(255, 187, 85);
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+    .p-intro-general{
+        padding: 15px;
+        color: var(--text);
+        font-family: Font1;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+
+    
+    /****** Online-Help *******/
+    .online-help-container{
+        display: flex;
+        justify-content: space-between;
+        width:90%;
+        margin: 0 auto;
+        padding: 10px 0px 80px 0px;
+    }
+
+    .online-help-section-title{
+        color: var(--theme);
+        text-align: center;
+        margin-top: 40px;
+        font-family: Font1;
+        font-size: 28px;
+    }
+    .online-help{
+        width: 40%;
+        padding: 0px;
+        margin: 18px;
+    }
+    .online-help iframe{
+        border: 2px solid var(--theme);
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .online-help-video-title{
+        padding-top: 10px;
+        color: var(--text);
+        text-align: center;
+        font-family: Font2;
+        font-size: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px){
+    .main{
+        padding: 10px;
+        padding-top: 20px;
+        background-color: var(--bg);
+    }
+    
+    /*TEXT SECTION*/
+    .text{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .p-intro{
+        font-family: Font1;
+        font-size: 20px;
+        padding: 10px;
+        color: var(--theme);
+    }
+    .p-intro-alert{
+        color: #f65050;
+        line-height: 28px;
+        font-size: 16px;
+        font-family: Font2;
+        margin-left: 10px;
+    }
+    
+    .h{
+        padding-top: 20px;
+        font-family: Font1;
+        font-size: 22px;
+        color: var(--theme);
+        margin-left: 20px;
+    }
+    .p-step{
+        font-size: 18px;
+        padding: 5px;
+        line-height: 28px;
+        font-family: Font1;
+        color: var(--text);
+        margin-left: 15px;
+    }
+    .p-decide{
+        font-family: Font1;
+        font-size: 18px;
+        padding-left: 15px;
+        color: rgb(255, 187, 85);
+        font-weight: bolder;
+        margin: 10px;
+    }
+    .p-intro-general{
+        padding: 15px;
+        color: var(--text);
+        font-family: Font1;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+
+    
+    /****** Online-Help *******/
+    .online-help-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:90%;
+        margin: 0 auto;
+        padding: 10px 0px 20px 0px;
+    }
+
+    .online-help-section-title{
+        color: var(--theme);
+        text-align: center;
+        margin-top: 40px;
+        font-family: Font1;
+        font-size: 28px;
+    }
+    .online-help{
+        width: 90%;
+        margin: 18px auto;
+        padding: 0px;
+    }
+    .online-help iframe{
+        border: 2px solid var(--theme);
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .online-help-video-title{
+        padding-top: 10px;
+        color: var(--text);
+        text-align: center;
+        font-family: Font2;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,173 @@
+
+.primary-tips{
+    background-color: var(--bg);
+}
+.advance-tips{
+    background-color: var(--bg);
+}
+.container{
+    background-color: var(--bg) !important;
+    margin-bottom: 0px !important;
+    padding: 10px 0px;
+}
+
+/******* Writings *******/
+li::marker{
+    color: var(--theme);
+}
+.title{
+    color: var(--theme);
+    font-family: Font1;
+    font-size: 20px;
+    padding: 20px 0px;
+
+}
+.centered{
+    text-align: center;
+}
+.tips{
+    color: var(--text);
+}
+.tips-to-do{
+    color: var(--text);
+    font-family: Font1;
+    font-size: 20px;
+}
+.tips-to-do-code{
+    font-size: 15px;
+    background-color: #333333;
+    display: inline-block;
+    transition: 0.1s;
+    text-align: center;
+    padding: 5px 10px;
+    color: var(--dim);
+    cursor: pointer;
+    font-family: monospace;
+}
+.tips-to-do-code:hover{
+    color: rgb(44, 44, 255);
+    transition: 0.1s;
+}
+.tips-command{
+    color: var(--text);
+    font-family: monospace;
+}
+.ttdc{
+    margin: 20px;
+}
+abbr{
+    color: var(--theme);
+    font-weight: bolder;
+}
+.tips-heading{
+    text-align: center;
+    font-size: 26px;
+    font-family: Font2;
+    font-weight: 700;
+    color: var(--theme);
+}
+
+/******* Essential Tools Section *******/
+.etools{
+    background-color: var(--bg);
+    padding: 30px 10px;
+}
+.essential-tools-title{
+    color: var(--theme);
+    font-weight: 700;
+    text-align: center;
+    font-family: Font2;
+    padding: 20px;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: var(--bg);
+}
+.card{
+    justify-content: space-between;
+    padding: 20px !important;
+    width: 24% !important;
+    margin: 20px !important;
+    background-color: var(--bg) !important;
+    height: 43vh !important;
+    border: 2px solid var(--theme) !important;
+}
+.card-logo{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+.card-name{
+    color: var(--text);
+    font-size: 27px;
+    font-family: Font1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-desc{
+    color: var(--dim);
+    font-family: Font2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-download-link{
+    border: 1px solid var(--theme);
+    text-decoration: none;
+    font-family: Font2;
+    color: var(--text);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    padding: 10px 20px;
+    transition: 0.2s !important;
+}
+.card:hover{
+    background-color: #000000;
+    border: 3px solid var(--theme);
+    box-shadow: 0px 0px 10px 5px var(--theme);
+    transition: 0.1s;
+}
+.card:hover .card-name{
+    color: var(--theme);
+    transition: 0.1s;
+}
+.card:hover .card-download-link{
+    background-color: var(--theme);
+    border: 2px solid ;
+    color: #000000;
+    font-weight: 700;
+    transition: 0.1s;
+}
+.card-download-link:hover{
+    border: none !important;
+    border-bottom: 3px solid var(--theme) !important;
+    background-color: var(--bg) !important;
+    color: var(--theme) !important;
+    transition: 0.2s !important;
+}
+
+
+@media screen and (max-width:992px){
+    .etools{
+        display: none;
+    }
+    abbr{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+

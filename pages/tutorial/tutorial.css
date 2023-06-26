@@ -1,0 +1,64 @@
+.suggessions-main{
+    background-color: var(--bg);
+    padding-bottom: 20px;
+    width: 100% ;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.bcard-container{
+    width: 80%;
+    margin: 40px auto;
+    /* border: 2px solid var(--theme); */
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bgh);
+    /* background: rgb(23,23,23);
+    background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(17,118,255,1) 25%, rgba(23,23,23,1) 100%); */
+}
+.image-wrapper{
+    /* padding: 10px; */
+    width: 30%;
+}
+.bcard-img{
+    width: 70%;
+    border-radius: 10px;
+}
+.title-wrapper{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 70%; 
+   
+}
+.bcard-title{
+    color: var(--theme);
+    font-weight: 700;
+    font-family: Font1;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.bcard-desc{
+    font-size: 20px;
+    color: var(--text);
+    font-family: Font1;
+}
+
+.bcard-link{
+    width: 18%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 18px;
+    border: 2px solid var(--theme);
+    transition: 0.2s;
+    margin-left: auto;
+}
+.bcard-link:hover{
+    background-color: var(--theme-d);
+    color: var(--text);
+    transition: 0.2s;
+}

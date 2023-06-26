@@ -1,0 +1,184 @@
+.content-section {
+    display: none;
+}
+
+.switcher-div a {
+    border-bottom: 2px solid var(--dim);
+}
+
+.active {
+    border-bottom: 2px solid var(--theme) !important;
+}
+
+.body{
+    background-color: var(--bg);
+}
+.switcher-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    /* border-bottom: 1px solid var(--dim); */
+}
+.switcher-div a{
+    font-family: Font1;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--theme);
+    background-color: ;
+    padding: 10px;
+    width: 48%;
+}
+
+.icon-switch{
+    text-align: right;
+
+}
+.wallpaper-switch{
+
+}
+
+.wallpaper-container, .icon-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.wallpaper-card, .wallpaper-card-all{
+    /* border: 2px solid var(--theme); */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+.wallpaper-card-all{
+    border: none;
+}
+.wallpaper{
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+}
+.wallpaper-details{
+    color: var(--text);
+    font-family: Font1;
+    font-size: 20px;
+}
+.wallpaper-download{
+    text-decoration: none;
+    color: var(--theme);
+    border-bottom: 2px solid var(--theme);
+    padding: 8px 18px;
+    transition: 0.2s;
+}
+
+
+/*Icon Section*/
+
+.icon-card{
+    /* border: 2px solid var(--theme); */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;    
+}
+.icon-details{
+    color: var(--text);
+    font-family: Font1;
+    font-size: 20px;
+}
+.icon-download{
+    padding: 8px 18px;
+    color: var(--theme);
+    border-bottom: 2px solid var(--theme);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+/*icon cover*/
+.icon-intro{
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.icon-intro-cover{
+    opacity: 60%;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.icon-cover-title{
+    color: var(--theme);
+    font-family: Font1;
+    font-size: 25px;
+    padding-top : 20px;
+    text-align: center;
+}
+.icon-cover-link{
+    text-align: center;
+    text-decoration: ;
+    margin:  0 auto;
+    display: block;
+}
+
+.get-all-title{
+    color: var(--theme);
+    font-family: Font1;
+
+}
+.get-all-p{
+    text-decoration: none;
+    color: var(--dim);
+}
+
+
+
+
+/* Default */
+.default-banner{
+    width: 55%;
+    margin:  0 auto;
+    display: block;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.default-heading{
+    color: var(--theme);
+    font-size: 30px;
+    font-family: Font1;
+    text-align: center;
+}
+.default-p{
+    color: var(--text);
+    font-size: 20px;
+    font-family: Font1;
+    text-align: center;
+}
+
+
+.wallpaper-download:hover{
+    border: 2px solid var(--theme);
+    color: var(--text);
+    background-color: var(--theme-d);
+    transition: 0.2s;
+}
+.icon-download:hover{
+    border: 2px solid var(--theme);
+    color: var(--text);
+    background-color: var(--theme-d);
+    transition: 0.2s;
+}

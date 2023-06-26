@@ -1,0 +1,323 @@
+@media screen and (min-width : 992px){
+    /*******PC SCREEN CSS*******/
+    .intro{
+        margin: 0;
+        padding: 0px 0px 10px 0px;
+        background-color: var(--bg);
+    }
+    .intro-text{
+        color: #777888;
+        opacity: 50% !important;
+        font-size: 28px;
+        font-family: Font2;
+        /* text-shadow: 0px 0px 10px #ffffff !important; */
+        margin: 0;
+
+        position: absolute;
+        top: 42%;
+        left: 25%;
+        
+        padding: 8px 18px;
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin:  0 auto;
+    }
+    .forward-text{
+        display: none;
+    }
+    .main-cover{
+        width: 100%;
+    }
+    .mobile-cover{
+        display: none;
+    }
+
+    
+
+
+
+    /******* Option *******/
+    .option-section{
+        background-color: var(--bg);
+        padding: 10px 0px 40px 0px;
+    }
+
+    .option-wrapper{
+        /* position: absolute;
+        bottom: 15px; */
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 96%;      
+        padding: 10px 0px;  
+    }
+    
+    .option{
+        border-bottom: 4px solid var(--bg);
+        margin: 0px 13px;
+        padding: 8px;
+        height: auto;
+        width: 27%;
+        transition: 0.1s;
+        background-color: var(--bgh);
+        border-radius: 10px;
+    }
+    .option-logo-svg{
+        padding: 0px;
+        display: block;
+        margin: 20px auto;
+        fill: var(--theme);
+    }
+
+    .option-name{
+        text-align: center !important;
+        color: var(--text);
+        margin-top: 10px;
+        font-size: 22px;
+        transition: 0.2s;
+        font-family: Font2;
+    }
+    .option-desc{
+        text-align: center !important;
+        color: var(--dim);
+        font-size: 17px;
+        transition: 0.2s;
+    }
+    .option-link{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .option:hover{
+        background-color: var(--bghh);
+        border: none;
+        /* border-bottom: 4px solid var(--theme); */
+        transition: 0.2s;
+        box-shadow: var(--shadow);
+
+    }
+    .option:hover .option-logo-svg{
+        fill: var(--theme);
+        /* stroke: var(--theme); */
+        transition: 0.1s;
+    }
+    .option:hover .option-name{
+        color:var(--theme);
+        font-weight: 800;
+        font-size: 24px;
+        transition: 0.2s;
+    }
+    .option:hover .option-desc{
+        color: var(--text);
+        transition: 0.2s;
+    }
+
+
+
+
+    .wrapper-r2{
+
+    }
+
+    .c-link{
+        flex-direction: row;
+        padding: 10px 20px;
+    }
+
+    .c1, .c2, .c3{
+        /* height: 17vh; */
+    }
+
+    .c1-logo, .c2-logo, .c3-logo{
+        margin: 0;
+        padding: 10px;
+        fill: var(--theme);
+    }
+
+
+
+    /**** LOGO SECTION ****/
+    .esoft-logo         {width: 22%;}
+    .opt-logo           {width: 22%;}
+    .os-logo            {width: 27%;padding-top: 0;margin-top: 14px;}
+    .tips-logo          {width: 22%;}
+
+    .c1-logo            {width: 15%;}
+    .c2-logo            {width: 16%;}
+    .c3-logo            {width: 38%;}
+
+    .accessories a svg  {width: 20%;}
+    .customize a svg    {width: 15%;}
+    /* .tutorial a svg     {width: 25%; padding-top:0px;margin-top:34px;} */
+    .tutorial a svg     {width: 25%;padding-bottom:15px;}
+    .suggession a svg   {width: 20%;}
+
+
+
+    
+    .righty{
+        text-align: right !important;
+    }
+
+    .c1{
+        width: 45%;
+    }
+    .c2{
+        width: 35%;
+    }
+    .c3{
+        width: 20%;
+    }
+
+    .wrapper3{
+        /* padding-top: 25px; */
+        padding-bottom: 10px;
+        /* height: 30vh; */
+        /* background-color: red; */
+    }
+    .wrapper3 div{
+        /* height: 26vh; */
+        /* background-color: blue; */
+
+    }
+
+    .accessories{
+        width: 20%;
+    }
+    .customize{
+        width: 30%;
+    }
+    .tutorial{
+        width: 20%;
+    }
+    .suggession{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 1280px) and (max-height: 720px) {
+    .intro-text{
+        font-size: 28px;
+        top: 40%;
+        left: 32%;
+    }
+    .option{
+        height: auto;
+    }
+
+
+    .accessories{
+        width: 20%;
+        height: vh;
+
+    }
+    .suggession{
+        width: 25%;
+        height: vh;
+
+    }
+    .tutorial{
+        width: 20%;
+        height: vh;
+
+    }
+    .customize{
+        width: 35%;
+        height: vh;
+    }
+}
+@media screen and (max-width: 1280px) and (max-height: 1024px){
+    .intro-text{
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+    .wrapper3{
+        padding: 0px;
+        height: 25vh;
+    }
+
+    .accessories{
+        width: 20%;
+        height: 20vh;
+
+    }
+    .suggession{
+        width: 25%;
+        height: 20vh;
+
+    }
+    .tutorial{
+        width: 20%;
+        height: 20vh;
+
+    }
+    .customize{
+        width: 35%;
+        height: 20vh;
+    }
+
+    
+
+}
+
+/**** SWITCH *****/
+
+
+/* SWITCH */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:focus {
+    outline: 0;
+  }
+  
+  .toggle {
+    height: 32px;
+    width: 53px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    border: 2px solid var(--theme);
+    background: linear-gradient(180deg, #2D2F39 0%, #1F2027 100%);
+    transition: all .2s ease;
+  }
+  
+  .toggle:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--inverse);
+    box-shadow: 0 1px 2px rgba(44,44,44,.2);
+    transition: all .2s cubic-bezier(.5,.1,.75,1.35);
+  }
+  
+  .toggle:checked {
+    border-color: var(--theme);
+    background: var(--theme);
+  }
+  .toggle:not(:checked) {
+    border-color: var(--theme);
+    background: var(--bg);
+  }
+  
+
+  .toggle:checked::after {
+      transform: translatex(20px);
+  }
+  
