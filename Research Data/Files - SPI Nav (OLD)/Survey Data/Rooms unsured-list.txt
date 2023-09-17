@@ -1,0 +1,21 @@
+Office: 
+
+CMT
+ElectronicsT
+ElectromedicalT
+ElectricalT
+MechanicalT
+PowerT
+CivilT
+Non-TechT
+
+Conference Room
+Common Room
+Academic Section
+General Store
+Cash Section
+Account Section
+Security Section
+Principal's Room
+Exam Control Room
+Teachers Room (x2)

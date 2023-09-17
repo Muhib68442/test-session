@@ -1,0 +1,18 @@
+1stFloor
+[NOTE : DEPARTMENT DATA ARE NOT CORRECT. NO LIMITATION TO DEPARTMENT FOR THE SHOPS]
+
+Machine Shop	[Mechanical Dept.]
+Foundry Shop 	[Mechanical Dept.]
+Metal Shop	[Mechanical Dept.]
+Welding Shop	[Mechanical Dept.]
+General Store
+Soil Shop		[Civil Dept.]
+Wood Shop	[Civil Dept.]
+Heat Treatment and Testing LAB
+Caretaker
+Washroom (Male)
+Plumbing and Masonary Shop
+RA Shop		[Power Dept.]
+Heat Engine LAB	[Power Dept.]
+Hydraulic LAB	[Power Dept.]
+Auto Diesel Shop	[Power Dept.]

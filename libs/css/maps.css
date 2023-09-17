@@ -1,0 +1,44 @@
+body{
+    background: #e1e1e1;
+    /* overflow: hidden; */
+}
+
+/* ----------SearchBox Part---------- */
+
+.mapSearch{
+    margin-top: 15px;
+}
+
+.searchBar form{
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.searchBar input{
+    border-bottom: none;
+}
+
+/* ----------Main Navigation Part---------- */
+
+.mapImgWrap{
+    margin: 20px auto;
+    overflow:scroll !important;
+    border: 2px solid #333;
+    border-radius: 20px;
+   
+}
+.mapImgWrap img{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    
+}
+.mapImgWrap::-webkit-scrollbar{
+    display: none;
+}
+
+.imgText p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,13 @@
+│
+├───files
+│   │   view.html
+│   │
+│   ├───list
+│   │       classroomList.html
+│   │       labList.html
+│   │       misc.html
+│   │       officeList.html
+│   │       othersList.html
+│   │       washroomList.html
+│   │       workshopList.html
+│   │

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../libs/css/style.css">
+    <link rel="stylesheet" href="../libs/css/maps.css">
+    <title>Room View</title>
+</head>
+
+<!-- ---------------Body Part--------------- -->
+
+<body>
+
+<!-- ---------------Header Part--------------- -->
+
+    <header class="header">
+        <div class="container">
+            <nav class="navWrap">
+                <div class="iconText">
+                    <a href="./../index.html"><i class="fa-solid fa-map-location"></i></a>
+                    <h1 id="roomTitle " class="roomname"></h1>
+                </div>
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<!-- ---------------Map Search Part--------------- -->
+
+<section class="mapSearch">
+    <div class="container">
+        <div class="searchBar">
+            <form>
+                <i class="fas fa-search"></i>
+                <input autocomplete="off" type="text" name="" id="searchBox"
+                    placeholder="ex : software lab, 1008, machine shop..." class="searchBox">
+            </form>
+        </div>
+        <div class="classList">
+            <ul class="ulList">
+                <!-- Replace this with dynamically generated room links -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ---------------Map Main Image--------------- -->
+    <!-- Room Name -->
+
+    <!-- Room Image (highlighted) -->
+    <section class="mapImg">
+        <div class="container">
+            <div class="mapImgWrap">
+                <img id="map-h" src="" alt="Room Image">
+            </div>
+        </div>
+
+        <!-- Additional Text -->
+        <div class="container">
+            <div class="imgText">
+                <p class="desc"></p>
+                <p class="floor"></p>
+                <p class="bldg"></p>
+            </div>
+        </div>
+
+        <!-- Floor View
+        <div class="container">
+            <div class="mapImgWrap">
+                <img id="map-f" src="" alt="Floor Image">
+            </div>
+            <p class="subtitle"></p>
+        </div>
+
+        Building View
+        <div class="container">
+            <div class="mapImgWrap">
+                <img id="map-b" src="" alt="Building Image">
+            </div>
+            <p class="subtitle bldg"></p>
+        </div> -->
+
+    </section>
+
+    <section class="gallery">
+        <!-- <h4 class="">Gallery</h4> -->
+        <!-- Thumbnail Image -->
+        <div class="container">
+            <div class="mapImgWrap">
+                <img id="img-1" src="" alt="Room Image">
+            </div>
+        </div>
+
+        <!-- Focus View -->
+        <div class="container">
+            <div class="mapImgWrap">
+                <img id="img-2" src="" alt="Room Focus Image">
+            </div>
+        </div>
+
+        <!-- Outside View -->
+        <div class="container">
+            <div class="mapImgWrap">
+                <img id="img-out" src="" alt="Outside Image">
+            </div>
+        </div>
+    </section>
+
+
+<!-- ---------------js Linking Part--------------- -->
+
+  
+<script type="module" src="js/array.js"></script>
+<script type="module" src="js/exearray.js"></script>
+
+
+</body>
+
+</html>
