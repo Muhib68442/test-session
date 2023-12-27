@@ -1,0 +1,282 @@
+/*
+Md. Muhibbur Rahman  
+CSS 3.0
+Framework Ver: 1.0.0
+Last Updated :
+Designed by Muhib
+
+PROJECT : Landing Page
+*/
+
+
+/********** ROOT **********/
+:root{
+    --bg: #212121;
+    --bg-x: #1b1b1b;
+    --bg-a: #ffe0c0;
+    --theme : #6e6e6e;
+    /* --theme : #323232; */
+
+    --theme-exp : #6e6e6e;
+
+
+    --text-t : var(--theme);
+    --text-b : #180202;
+    --text-l : #cdcdcd;
+    --text-w : #FFFFFF;
+    --danger : #dc3545;
+    --blue : #007bff;
+    --red : #dc3545;
+    --green : #28a745;
+    --orange : #fd7e14;
+
+    --inverse : ;
+    --dim : ;
+
+    --border: ;
+    --radiusA : ;
+    --box-shadow : var(--theme) 0px 0px 6px 0px;;
+}
+
+[data-theme="light"] {
+    --bg: #1C1C1C;
+    --bg-x: #2A2A2A;
+    --bg-a: #3A3A3A;
+    --theme: #FF6D4D;
+    --theme-h: #FFD9B382;
+    --theme-d: #E5B894;
+    --text-t: var(--theme);
+    --text-b: #EAEAEA;
+    --text-l: #6C6C6C;
+    --text-w: #FFFFFF;
+}
+
+
+/********** FONT **********/
+@font-face {
+    font-family: fontM;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: fontSB;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: fontB;
+    src: url(../font/Poppins-Bold.ttf);
+}
+
+
+/********** GENERAL **********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-b);
+    transition: 0.1s;
+}
+a:hover{
+    text-decoration: none;
+    color: var(--text-t);
+    transition: 0.1s;
+}
+
+img{
+    width: 100%;
+    border-radius: var(--radiusA);
+}
+input{
+    outline: none;
+    border: var(--border);
+    border-radius: var(--radiusA);
+    background-color: transparent;
+}
+textarea{
+    outline: none;
+    border: none;
+    border-radius: var(--radiusA);
+    background-color: transparent;
+    resize: none;
+}
+
+
+
+
+
+/********** CLASS **********/
+section{
+    background-color: var(--bg);
+    border: none;
+    padding-bottom: 15px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: var(--radiusA);
+    overflow: hidden;
+    transition: 0.2s;
+}
+.section{
+    /* background-color: var(--bg-x); */
+    width: 98%;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapperX{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapperY{
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: var(--radiusA);
+    /* background-color: var(--bg-x); */
+    padding: 20px;
+}
+
+
+.dotted-hr{
+    border: 6px dotted var(--theme);
+    border-bottom: none;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 70px;
+}
+
+
+
+/********** BUTTON **********/
+.btn{
+    background-color: var(--theme);
+    border: 2px solid var(--theme);
+    color: var(--text-w);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: fontSB;
+    transition: 0.1s;
+}
+.btn:hover{
+    background-color: var(--bg-x);
+    color: var(--text-t);
+    border: 2px solid var(--theme);
+    transition: 0.1s;
+}
+.btnX{
+    border: 2px solid var(--theme);
+    border-radius: 5px;
+    color: var(--theme);
+    font: 16px fontSB;
+    padding: 10px 20px;
+    transition: 0.1s;
+    background-color: transparent;
+}
+.btnX:hover{
+    background-color: var(--theme);
+    color: var(--text-w);
+    border: 2px solid var(--theme);
+    transition: 0.1s;
+}
+button[type="reset"]{
+    cursor: pointer;
+  }
+button[type="submit"]{
+    cursor: pointer;
+}
+
+/********** TEXT **********/
+.heading-text{
+    text-align: center;
+    font-size: 34px;
+    color: var(--text-t);
+    font-family: fontB;
+}
+.text{
+    font-size: 16px;
+    color: var(--text-b);
+    font-family: fontM;
+}
+.text-h{
+    font-size: 24px;
+    color: var(--text-t);
+    font-family: fontSB;
+}
+.text-n{
+    font-size: 20px;
+    color: var(--text-t);
+    font-family: fontSB;
+}
+.text-p{
+    font-size: 18px;
+    color: var(--text-l);
+    font-family: fontM;
+}
+.tc{
+    text-align: center;
+}
+.text-hl{
+    font-size: 18px;
+    color: var(--text-t);
+    font-family: fontB;
+}
+.disable-select {
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+  }
+  
+/* Remove blue background on Chrome autofill */
+input:-webkit-autofill {
+    -webkit-box-shadow: none !important; /* Remove any background color */
+    -webkit-text-fill-color: var(--text-t) !important; /* Set the text color you want */
+}
+/* Remove blue background on Edge autofill */
+input:-ms-input-placeholder {
+    background-color: transparent !important; /* Remove any background color */
+    color: var(--text-t) !important; /* Set the text color you want */
+}
+
+
+
+
+
+
+
+/********** SCROLLBAR **********/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--bg-x);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--theme);
+    border-radius: 10px;
+    border: 2px solid var(--bg);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--theme-d);
+  }
+
