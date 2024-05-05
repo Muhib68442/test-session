@@ -3,342 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Meta (Info) -->
-    <meta name="author" content="Md. Muhibur Rahman">
-    <meta name="keywords" content="Md. Muhibur Rahman, Muhib, Portfolio">
-    <meta name="description" content="Portfolio & Project Showcase of Md. Muhibbur Rahman">
-    <link rel="shortcut icon" href="res/img/micon.png" type="image/x-icon">
-
-    <!-- Meta (Open Graph - Social Sharing) -->
-    <meta property="og:title" content="">
-    <meta property="og:description" content="Portfolio of Md. Muhibbur Rahman">
-    <meta property="og:url" content="https://muhib68442.github.io/Portfolio/">
-    <meta property="og:image" content="path/to/og-image.jpg">
-    <meta property="og:type" content="website">
-
-    <link rel="icon" href="res/img/micon.png" type="image/x-icon">
-    <title>Md. Muhibur Rahman | Portfolio</title>
-    <meta name="theme-color" content="#171717">
+    <title>Weather</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="res/css/mcss.css">
-    <link rel="stylesheet" href="res/css/main.css">
-    <link rel="stylesheet" href="res/css/mobile.css" media="only screen and (max-width: 767px)">
+    <link rel="stylesheet" href="res/main.css">
+
 </head>
 <body>
-    
-    <!-- BG -->
-    <section class="home" id="home"></section>
-        
-    <div class="page-content scrollable">
 
-        <!-- Header -->
-        <header>
-            <div class="branding-section">
-                <div class="header-logo">
-                    <img src="res/img/micon.png" alt="M-Icon">
+    <img src="res/bg1.jpg" alt="" class="bg-img">
+
+    <div class="weather-info-card">
+        <div class="wrapperX">
+            <div class="temp-section">
+                <svg class="weather-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve">
+                    <g id="Base" display="none">
+                    </g>
+                    <g id="Dibujo">
+                        <g>
+                            <path d="M69.24,40.488C72.173,37.886,74,34.094,74,30c0-1.104-0.896-2-2-2c-5.514,0-10-4.486-10-10c0-1.104-0.896-2-2-2
+                                c-7.078,0-12.931,5.284-13.857,12.111c-6.848,0.737-12.533,5.488-14.454,12.072C31.112,40.079,30.507,40,30,40
+                                c-6.065,0-11,4.935-11,11s4.935,11,11,11h36c6.065,0,11-4.935,11-11C77,46.062,73.728,41.875,69.24,40.488z M58.168,20.168
+                                c0.934,5.985,5.675,10.728,11.66,11.664c-0.615,3.246-2.84,6.006-5.862,7.326c-2.154-5.948-7.447-10.206-13.792-11.008
+                                C50.933,24.111,54.126,20.92,58.168,20.168z M66,58H30c-3.859,0-7-3.141-7-7s3.141-7,7-7c0.277,0,0.724,0.068,1.194,0.162V46
+                                c0,1.104,0.896,2,2,2s2-0.896,2-2v-3.224C36.269,36.525,41.631,32,48,32c6.372,0,11.736,4.53,12.808,10.787V46
+                                c0,1.104,0.896,2,2,2s2-0.896,2-2v-1.837C65.278,44.069,65.726,44,66,44c3.859,0,7,3.141,7,7S69.859,58,66,58z"/>
+                        </g>
+                    </g>
+                </svg>
+                <h3 class="temp"> °C</h3>
+            </div>
+            <div class="location-section">
+                <a href="menu.html" class="text-p"><</a>
+                <h3 class="location">Sylhet, Bangladesh</h3>
+            </div>
+            <div class="more-section-container">
+                <div class="more-section">
+                    <h4 class="feels-like-value" id="feelsLike"> °C</h4>
+                    <p class="more-text" >Feels Like</p>
                 </div>
-                <div class="header-title">
-                    <h1>Md. Muhibur Rahman</h1>
+
+                <div class="more-section">
+                    <h4 class="feels-like-value" id="humidity"> %</h4>
+                    <p class="more-text" >Humidity</p>
+                </div>
+
+                <div class="more-section">
+                    <h4 class="feels-like-value" id="windSpeed"> m/s</h4>
+                    <p class="more-text" >Wind</p>
+                </div>
+
+                <div class="more-section">
+                    <h4 class="feels-like-value" id="sunrise"> PM</h4>
+                    <p class="more-text">Sunrise</p>
                 </div>
             </div>
-    
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-    
-            <div class="header-btn-container">
-                <!-- <a href="#" class="btnX"></a> -->
-            </div>
-        </header>
-        
-
-        <!-- Intro -->
-        <section class="intro-container">
-            <h3>Hi</h3>
-            <h3>I'm <span>Md. Muhibbur Rahman</span></h3>
-            <p>CSE Student | Web Developer | Learner</p>
-            <div class="">
-                <a href="#about" class="btn">About Me</a>
-                <a href="#about" class="btnX">CV</a>
-            </div>
-        </section>
-
-        <hr class="distance">
-
-        <!-- About Me -->
-        <section class="about-container" id="about">
-            <h3 class="about-heading g-heading">About Me</h3>
-           
-            <div class="about-wrapper">
-                <img src="res/img/profile-muhib.jpeg" alt="profile-muhib">
-                <div class="about-text-container">
-                    <h3 class="name">Md. Muhibbur Rahman</h3>
-                    <p class="name-line text-p">CSE Student | Web Developer | Learner</p>
-                    
-                    <p class="text-p desc">Hello ! Myself Muhib. I'm not that professional web developer, but I love coding. So I like to try something new with programming languages. And I've gained much knowledge about it. It looks very interesting ! I'm Excited ! I would inspire if you like my builds and created projects. Thanks.</p>
-
-                    <div class="twoline-container">
-
-                        <div class="twoline-box">
-                            <p class="title">Experience of</p>
-                            <p class="subtitle">4 Years</p>
-                        </div>
-    
-                        <div class="twoline-box">
-                            <p class="title">Currently on</p>
-                            <p class="subtitle">Studying CSE</p>
-                        </div>
-
-                        <div class="twoline-box">
-                            <p class="title">Wish to be</p>
-                            <p class="subtitle">A Developer</p>
-                        </div>
-                    </div>
-                    <div class="btn-container">
-                        <!-- <a href="#" class="btnX">Download CV</a> -->
-                    </div>
-                </div>
-            </div>
-           
-        </section>
-
-        <hr class="distance">
-
-        <!-- Projects -->
-        <section class="project-container" id="project">
-            <h3 class="g-heading">Projects</h3>
-            <div class="projects" id="projectsContainer">
-                
-                <!-- Projects Dynamically Loads Here -->
-
-            </div>
-
-            <!-- POPUP  -->
-            <div class="project-popup">
-                <div class="close-btn" id="closePopupBtn" onclick="closeProjectPopup()">
-                    <svg width="40" height="40" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="64" height="64" fill="url(#pattern0)"/><defs><pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1"><use xlink:href="#image0_41_3" transform="scale(0.015625)"/></pattern><image id="image0_41_3" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAKLAAACiwHSfnZ4AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAADZQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARy+jrgAAABF0Uk5TAAELGB89XZKYpLzI1dfw8/7mDYvIAAABFklEQVRYw+2XSRKDMBADxb6ZRf//bA6pbASDJrrGtxTTXeDAeAQARTukdeobyKvppzUNbXH/VY8kSW5dqeFlt92JsQaAeuFjpUrhq/QElhooRr7WLBiq+Q0YC7RkyPDBky0Ghgw7ngMSI4Y9z4SVAcMXzxUTdcM3zwk9ZcMBzx7NphqO+K0BOmqGI54dgDJJhkM+ldlLe8NpkWC4KLk0uAXuLbqbJPEnZSKfLZT5nEHnM4YArxpiDSPGK4Zo04zyV4bwwfEDf2bQ+LxB5XMGnbcF7iO4m+j+je6L5L7K7sfkfs5uQ3FbmttU3bbuHizu0fafH7xNssc8d9C0R1172LbHfTtw2JHHDl127LODpx19/fBtxv8b7zCP1WO9MwQAAAAASUVORK5CYII="/></defs></svg>
-                </div>
-                <div class="popup-container">
-                    <img src="" class="proj-img" alt="project-thumbnail">
-    
-                    <div class="popup-text-container">
-                        <div class="">
-                            <div class="logo-text">
-                                <img class="proj-logo" src="" alt="project-logo">
-                                <h3 class="proj-name text-h "></h3>
-                            </div>
-                            <p class="text-p proj-created"></p>
-                            
-                            <p class="text-p proj-desc"></p>
-                        </div>
-    
-                        <a href="" target="_blank" class="project-link proj-link-text"></a>
-                        <div class="btn-container">
-                            <a href="#" target="_blank" class="btn proj-link-btn">Live Link</a>
-                        </div>
-                        <br>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <hr class="distance">
-
-        <!-- <section id="skill" class="skill-container">
-            <div class="skill-card">
-                <h3 class="s-heading">Web Development</h3>
-                <h3 class="s-heading">Frontend</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                </ul>
-                <h3 class="s-heading">Backend</h3>
-                <ul>
-                    <li>PHP</li>
-                    <li>MySQL</li>
-                </ul>
-            </div>
-            <div class="skill-card">
-                <h3 class="s-heading">Programming</h3>
-                <ul>
-                    <li>C</li>
-                    <li>C#</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-            <div class="skill-card">
-                <h3 class="s-heading">Also Skilled at</h3>
-                <ul>
-                    <li>Powerpoint Presentation</li>
-                    <li>UI/UX Design</li>
-                    <li>Figma</li>
-                </ul>
-            </div>
-        </section> -->
-
-        <!-- SKILL -->
-        <section id="skill" class="skill-container">
-            <h3 class="g-heading">Skilled at : </h3>
-            <div class="skill-box-container">
-                <div class="skill-box">
-                    <img src="res/logo/skills/html.svg" alt="skill">
-                    <p class="skill-name">HTML</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/css.svg" alt="skill">
-                    <p class="skill-name">CSS</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/js.svg" alt="skill">
-                    <p class="skill-name">JS</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/php.svg" alt="skill">
-                    <p class="skill-name">PHP</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/mysql.svg" alt="skill">
-                    <p class="skill-name">MySQL</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/c.svg" alt="skill">
-                    <p class="skill-name">C</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/csharp.svg" alt="skill">
-                    <p class="skill-name">C#</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/java.svg" alt="skill">
-                    <p class="skill-name">Java</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/python.svg" alt="skill">
-                    <p class="skill-name">Python</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/pptx.svg" alt="skill">
-                    <p class="skill-name">PPTX</p>
-                </div>
-    
-                <div class="skill-box">
-                    <img src="res/logo/skills/figma.svg" alt="skill">
-                    <p class="skill-name">Figma</p>
-                </div>
-            </div>
-        </section>
-
-        <hr class="distance">
-
-        <!-- Contact -->
-        <section id="contact" class="contact-container">
             
-            <form action="mailto:muhib2929@gmail.com" method="post" autocomplete="off"  target="_blank" enctype="text/plain">
-                <h3 class="g-heading">Contact Me</h3>
-                <div class="inputX">
-                    <input type="text" name="Name" id="name" placeholder="Name" required>
-                </div>
-                <div class="inputX">
-                    <input type="email" name="Email" id="email" placeholder="Email" required>
-                </div>
-                <div class="inputX">
-                    <textarea name="message" id="Message" cols="30" rows="10" placeholder="Message..." required></textarea>
-                </div>
-                <div class="btn-container">
-                    <input type="submit" value="Send" class="btn">
-                    <input type="reset" value="Clear" class="btnX">
-                </div>
-            </form>
-
-            
-            <div class="links-container">
-
-                <a href="mailto:muhib2929@gmail.com" target="_blank" class="link">
-                    <img src="res/logo/social/Email.svg" alt="social">
-                    <div class="link-text-wrapper">
-                        <p>Email</p>
-                        <p class="inner-link">muhib2929@gmail.com</p>
-                    </div>
-                </a>
-
-                <a href="tel:+8801717109550" target="_blank" class="link">
-                    <img src="res/logo/social/Smartphone Call.svg" alt="social">
-                    <div class="link-text-wrapper">
-                        <p>Phone</p>
-                        <p class="inner-link">+880 1717 109 550</p>
-                    </div>
-                </a>
-
-                <a href="https://www.facebook.com/m.muhib.68442/" target="_blank" class="link">
-                    <img src="res/logo/social/Facebook.svg" alt="social">
-                    <div class="link-text-wrapper">
-                        <p>Facebook</p>
-                        <p class="inner-link">facebook.com/m.muhib.68442/</p>
-                    </div>
-                </a>
-
-                <a href="tel:+8801717109550" target="_blank" class="link">
-                    <img src="res/logo/social/Whatsapp.svg" alt="social">
-                    <div class="link-text-wrapper">
-                        <p>Whatsapp</p>
-                        <p class="inner-link">+880 1717 109 550</p>
-                    </div>
-                </a>
-
-                <a href="https://github.com/muhib68442" target="_blank" class="link">
-                    <img src="res/logo/social/github.svg" alt="social">
-                    <div class="link-text-wrapper">
-                        <p>Github</p>
-                        <p class="inner-link">github.com/muhib68442</p>
-                    </div>
-                </a> 
-
-                <a href="https://www.linkedin.com/in/md-muhibbur-rahman-9624642a1/" target="_blank" class="link">
-                    <img src="res/logo/social/Linkedin.svg" alt="social">
-                    <div class="link-text-wrapper">
-                        <p>LinkedIn</p>
-                        <p class="inner-link">Md. Muhibbur Rahman</p>
-                    </div>
-                </a>
-
-            </div>
-
-        </section>
-
-        <hr class="distance">
-
-        <!-- Footer -->
-        <footer>
-            <p>Copyright <span> &copy; Md. Muhibbur Rahman </span> <br> 2024 All Rights Reserved</p>
-        </footer>
-
-
+        </div>
     </div>
 
 
+    <div class="search-city-card">
+        <h3 class="title-text">Enter City</h3>
 
-
-
-    <!-- JS -->
-    <script src="res/js/main.js"></script>
+        <form class="city-form">
+            <input class="city-input" type="text" name="city">
+            <button class="city-searchbtn">
+                <img src="res/logo/search.svg" alt="search">
+            </button>
+        </form>
+    </div>
+    
+    <script src="main.js"></script>
 </body>
 </html>
